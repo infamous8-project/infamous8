@@ -112,10 +112,10 @@ notarized
 
 CubismSdkForNative-4-*.zip
 
-/game/audio
-/game/bgs
-/game/cache
-/game/CG
-/game/old sprite
-/game/sprite
-/game/sprite old
+/Fragmentia/game/audio
+/Fragmentia/game/bgs
+/Fragmentia/game/cache
+/Fragmentia/game/CG
+/Fragmentia/game/old sprite
+/Fragmentia/game/sprite
+/Fragmentia/game/sprite old
