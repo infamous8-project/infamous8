@@ -26,7 +26,7 @@ init python:
 define gui.accent_color = '#cc0000'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = '#888888'
+define gui.idle_color = '#FFFFFF'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
@@ -55,13 +55,13 @@ define gui.interface_text_color = '#ffffff'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.default_font = "DejaVuSans.ttf"
+define gui.default_font = "Exo-Regular.otf"
 
 ## The font used for character names.
-define gui.name_font = "DejaVuSans.ttf"
+define gui.name_font = "Exo-Bold.otf"
 
 ## The font used for out-of-game text.
-define gui.interface_font = "DejaVuSans.ttf"
+define gui.interface_font = "Exo-Light.otf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 22
@@ -70,7 +70,7 @@ define gui.text_size = 22
 define gui.name_text_size = 30
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 24
+define gui.interface_text_size = 28
 
 ## The size of labels in the game's user interface.
 define gui.label_text_size = 28
@@ -79,20 +79,20 @@ define gui.label_text_size = 28
 define gui.notify_text_size = 16
 
 ## The size of the game's title.
-define gui.title_text_size = 50
+define gui.title_text_size = 20
 
 
 ## Main and Game Menus #########################################################
 
 ## The images used for the main and game menus.
-define gui.main_menu_background = "gui/Infamous8m.jpg"
+define gui.main_menu_background = "gui/home-screen.jpg"
 define gui.game_menu_background = "gui/Infamous28.jpg"
 #define gui.main_menu_background = "gui/main_menu.png"
 #define gui.game_menu_background = "gui/game_menu.png"
 
 
 ## Should we show the name and version of the game?
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## Dialogue ####################################################################
@@ -250,7 +250,11 @@ define gui.file_slot_rows = 2
 
 ## The position of the left side of the navigation buttons, relative to the left
 ## side of the screen.
-define gui.navigation_xpos = 40
+define gui.navigation_xpos = 150
+
+## The position of the left side of the navigation buttons, relative to the right
+## side of the screen.
+define gui.navigation_ypos = 480
 
 ## The vertical position of the skip indicator.
 define gui.skip_ypos = 10
@@ -458,6 +462,3 @@ init python:
 
         ## Quick buttons.
         gui.quick_button_text_size = 20
-
-
-
