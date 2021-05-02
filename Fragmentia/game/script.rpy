@@ -6088,7 +6088,11 @@ label start:
         
         p"\"No.\""
         
-        "I deflect her attack with an averted gaze."
+        "I deflect her attack with an averted gaze but she circles around."
+        
+        j"\"Are you ignoring mwe?\""
+        
+        "I turn my body away."
         
         show J 2YSad_Pout at PCC1 with slowd
         
@@ -9645,7 +9649,7 @@ label start:
         
         #flashback
         
-        "I tried to kiss her... {w}she rejected me..." #with slowd
+        "{i}I tried to kiss her... {w}she rejected me...{/i}" #with slowd
         
         t"Then why'd she kiss me to begin with?" with slowd
         
@@ -9688,7 +9692,7 @@ label start:
         
         "My phone's screen lights up suggesting I've missed a call and I take it from my bedside table."
         
-        "Three missed calls and a message, \"Im on mi way.\""
+        "Three missed calls and a message, \"Im on me way!\""
         
         "That was five minutes ago—"
         
@@ -9704,7 +9708,9 @@ label start:
         
         j"\"You're not, you're ready. Let's go!\""
         
-        "I get the feeling the only thing that'd matter to her if she walked in on me naked, is the fact I wasn't ready when she arrived."
+        #"I get the feeling the only thing that'd matter to her if she walked in on me naked, is the fact I wasn't ready when she arrived."
+        
+        "If I had been naked, I get the feeling the only thing that would matter is I wasn't ready in time."
         
         #restaraunt.
         
@@ -9799,7 +9805,7 @@ label start:
         
         j"\"This is war!\""
         
-        "She forks a piece of bacon before I can block her with my fork."
+        "She forks a piece of bacon before I can block her with mine."
         
         p"\"Not the bacon!\""
         
@@ -9807,7 +9813,7 @@ label start:
         
         
         
-        q"\"Can you please calm down. You're disturbing our other patrons.\""
+        w"\"Can you please calm down. You're disturbing our other patrons.\""
         
         show J 2DMellow_Smile at PCM1 with slowd
         
@@ -9833,7 +9839,7 @@ label start:
         
         "He accepts our apology and resumes a neutral countenance."
         
-        q"\"No problem. Can I get you anything else?\""
+        w"\"No problem. Can I get you anything else?\""
         
         show J 2YUpturned_Grin at PCM1 with slowd
         
@@ -9841,7 +9847,7 @@ label start:
         
         j"\"We'll take two Sicilian lemon ciders.\""
         
-        q"\"Certainly.\""
+        w"\"Certainly.\""
         
         "The waiter writers it down and strides to the bar."
         
@@ -9853,7 +9859,7 @@ label start:
         
         j"\"The cure is from the hair of the dog that bit you.\""
         
-        "I shoot my confused brow at her."
+        "I shoot a confused brow at her."
         
         p"\"And?\""
         
@@ -9908,7 +9914,7 @@ label start:
         scene restaurant03_day with slowf
         
         
-        "This goes down too easy."
+        "This goes down way too easy."
         
         "Despite how ill I felt this morning. I'm climbing back on top of the world."
         
