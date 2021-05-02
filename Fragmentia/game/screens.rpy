@@ -558,6 +558,10 @@ screen about():
 
         vbox:
 
+            xalign 0.0
+            xpos 80
+            ypos 50
+
             label "[config.name!t]"
             text _("Version [config.version!t]\n")
 
@@ -728,6 +732,9 @@ screen preferences():
     use game_menu(_("Preferences"), scroll="viewport"):
 
         vbox:
+            xalign 0.0
+            xpos 80
+            ypos 30
 
             hbox:
                 box_wrap True
