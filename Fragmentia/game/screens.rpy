@@ -524,8 +524,8 @@ style game_menu_side:
     spacing 10
 
 style game_menu_label:
-    xpos 50
-    ysize 120
+    xpos 375
+    ysize 200
 
 style game_menu_label_text:
     size gui.title_text_size
@@ -559,7 +559,7 @@ screen about():
         vbox:
 
             xalign 0.0
-            xpos 80
+            xpos 50
             ypos 50
 
             label "[config.name!t]"
@@ -733,7 +733,7 @@ screen preferences():
 
         vbox:
             xalign 0.0
-            xpos 80
+            xpos 50
             ypos 30
 
             hbox:
