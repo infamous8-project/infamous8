@@ -742,6 +742,10 @@ image church11_night_dark = "bgs/graveyard/church11_night_dark by vestman.jpg"
 
 # NVL cofig:
 
+transform JCG:
+    zoom 0.5
+    xalign 0.0 yalign 0.0
+
 transform PM1:
     zoom 0.25
     xalign 0.5 yalign 0.0

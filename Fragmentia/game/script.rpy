@@ -3354,17 +3354,23 @@ label start:
     
     #stop music fadeout 3.0
     
-    "I find myself swallowing them when she dives into the pool, resurfacing on the other end with a devilish grin." 
+    "I find myself swallowing them when she dives into the pool..." #resurfacing on the other end with a devilish grin." 
     
     
-    "I'd be lying if I said I wasn't impressed."
+    #"I'd be lying if I said I wasn't impressed."
     
     #"She climbs out, with little attempt to catch her breath."
     
     #show J mnormals with slowd
     
     #"She strides over, still sporting her grin."         
-    "She climbs out and strides over, sporting a grin."
+    #"She climbs out and strides over, sporting a grin."
+    
+    scene Jennifer CG at JCG
+    show J1 YUpturned_Grin at JCG
+    with slowd
+    
+    "She resurfaces befoere me. I'd be lying if I said I wasn't impressed."
     
     
     j "\"Go on, I bet you can't reach half way.\""
@@ -3376,7 +3382,7 @@ label start:
     
     "I'm not sure, but my pride isn't about to let me back down." 
     stop music fadeout 3.0
-    hide J mnormals with slowd
+    #ide J mnormals with slowd
     
     #"I stand at the edge of the pool, readying myself with a deep breath."
     "I ready myself at the edge of the pool and take a deep breath."
@@ -3408,8 +3414,9 @@ label start:
     stop music fadeout 2.5
     #scene school15_day with slowd
     play environment4 "audio/sfx/heartbeat.mp3" fadein 3.0
-    scene school15_day2 with longd
-    scene school15_day with longd
+    #scene school15_day2 with longd
+    #scene school15_day with longd
+    scene Pool CG at JCG with longd
     stop environment4 fadeout 2.0
     
     "An image of reaching out to the doctor flashes through my mind."
@@ -3424,6 +3431,10 @@ label start:
     "She approaches as I cough and spit out water."
      
     # gape sprite in swimsuit here
+    
+    scene Jennifer CG at JCG
+    show J1 YSad_Sad at JCG
+    with slowd
     
     j"\"Are you OK?\""
     
@@ -3443,7 +3454,9 @@ label start:
     
     play music "audio/music/bensound-memories.mp3" fadein 6.0
     
-    
+    show J1 YHappy_Smile at JCG
+    with slowd
+        
     "Her concern melts into a grin."
     
     #j"\"But...\""
@@ -3456,9 +3469,17 @@ label start:
     #"The vestigial adrenaline manifests in sarcasm."
     "The residing adrenaline results in a jibe."
     
+    show J1 YSad_Pout at JCG
+    with slowd
+    
+
+    
     #"The adrenaline leaves me snappy."
     #feeling
     "She makes a movement as if she's going to jab my arm, but retracts her hand."
+    
+    show J1 YHappy_Smile at JCG
+    with slowd
     
     j"\"Silly! Anyway, have you swam before?\""
     
@@ -3487,11 +3508,19 @@ label start:
     
     j "\"It's best for me to train in this as I'll have to perform in it.\""
     
+    p"\"So that's why you asked about dancing?\""
+    
+    j"\"You catch on quickly!\""
+    
+    "She flashes a wink."
+    
     j "\"Anyway, I have my routine to attend to. You should find a rhythm and go from there.\""
     
     p "\"Thanks, I'll give it a go.\""
     
-    hide J mnormals with slowd
+    scene Pool CG at JCG with slowd
+    
+    #hide J mnormals with slowd
     
     "This time I brace myself for the cold, easing myself into the pool and finding a relaxed rhythm." 
     
@@ -3525,13 +3554,20 @@ label start:
     window hide 
     nvl clear 
     
-    "I avert my gaze." with slowd #Though it's obvious I was watching, I don't want to give the wrong impression."
+    "I avert my gaze as she swims over." with slowd #Though it's obvious I was watching, I don't want to give the wrong impression."
+    
+    scene Jennifer CG at JCG
+    show J1 YHappy_OpenSmile at JCG
+    with slowd
     
     j"\"It's OK. You can watch!\""
     
     "Her presumptuous statement—with my previous line of thought—brings a burning to my cheeks." # rise in
     
-    "She swims over, her expression growing curious."
+    show J1 DMellow_Sad at JCG
+    with slowd
+    
+    "Her expression grows curious."
     
     #I can't help but find it a little misleading. I turn away to hide the burning in my cheeks as she swims over."
     
@@ -3542,22 +3578,34 @@ label start:
     
     "It's a knee-jerk response." 
     
-    "There's no way I can tell her about the metal rod in my leg, or the impurity of my thoughts."
+    "There's no way I can tell her about the metal rod in my leg, or the potential impurity of my thoughts."
     #She measures me for a moment,
     
     "She measures my unnatural position and expression."
     
     "A questioning tilt lines her brow."
     
+    show J1 YHappy_Grin at JCG
+    with slowd
+    
     j"\"Are you about to fart?\""
     
     p"\"No!\""
     
-    "She giggles at my reaction."
+    show J1 CHappy_OpenSmile at JCG
+    with slowd
     
-    j"\"I'm done for today, you ready to head in?\""
+    "She laughs at my reaction."
+    
+    
+    show J1 CHappy_Smile at JCG
+    with slowd
+    
+    j"\"I'm done for today, ready to head in?\""
     
     p"\"Sure.\""
+    
+    scene school15_day with slowd
     
     "Happy to drop the subject, I rise with a wince. She misses it as she climbs out."
     
@@ -5301,7 +5349,7 @@ label start:
         
         p"\"Are you sure?\""
         
-        show J mGGCs with slowd
+        #show J mGGCs with slowd
         
         #"She points to the changing rooms."
         
@@ -5324,7 +5372,6 @@ label start:
         
         scene school15_day with slowf
         
-        show J mnormals with slowd
         
         "We're greeted by a lesson in progress."
         
@@ -5336,13 +5383,21 @@ label start:
         
         "The few on the sidelines are huddled around the instructor."
         
+        scene Jennifer CG at JCG
+        show J1 YHappy_Sad at JCG
+        with slowd
+        
+        
+        j"\"Come on!\""
+        
         #choreography
         
         "A girl approaches, sharing a wave with Jennifer."
         
-        show J mnormals at left with move 
-        
-        show c mswim at right with slowd
+        scene Jennifer Casey CG at JCG
+        show J1 YHappy_Smile at JCG
+        show C1 YGentle_Smile at JCG
+        with slowd
         
         "She pulls up and examines me."
         
@@ -5354,7 +5409,7 @@ label start:
         
         "It's not that I hadn't considered an ulterior motive; I just didn't want there to be."
         
-        "But... why else would she talk to me?"
+        "But... why else would she talk to someone like me?"
         
         cc"\"It's nice to meet you. I'm Casey.\""
         
@@ -5368,9 +5423,12 @@ label start:
         
         p"\"I never agreed to water dance.\""
         
-        j"\"It's not water dancing; it's synchronised swimming!\""
+        j"\"It's not water dancing, it's synchronised swimming!\""
         
         p"\"I didn't agree to that either.\""
+        
+        show J1 YSad_Pout at JCG 
+        with slowd
         
         j"\"Aw.\""
         
@@ -5380,23 +5438,34 @@ label start:
         
         p"\"I... I'll think about it. OK?\""
         
+        show J1 YHappy_Smile at JCG 
+        with slowd
+        
         j"\"Yay! Come on, you can at least try it today.\""
         
         #"What choice do I have?"
-        "{i}Not like I have much choice...{/i}"
+        "{i}Not like I have much choice now...{/i}"
         
         #"Not exactly, you've just got a few things to learn. We'll be doing the dancing."
         
         #Have Casey ask about the scars in front of Jennifer? 
         #Jennifer is uneasy around negative emotions. She tries to push them away. 
         
-        show J mnormals at left with move 
+        "Casey amused by our interaction speaks up."
         
-        hide c cswim at right with slowd
+        cc"\"Later, guys.\""
+        
+        j"\"I'll see you later!\""
+        
+        p"\"Bye.\""
+        
+        scene Jennifer CG at JCG
+        show J1 YHappy_Smile at JCG 
+        with slowd
         
         #teacher
         
-        "We approach the rest of the team and the teacher sets his sights on me."
+        "After address the other students, the teacher sets his sights on me."
         
         q"\"It's nice to see a new face. Are you joining the team?\""
         
@@ -5422,7 +5491,6 @@ label start:
         
         mp"\"Once each duo has it mastered, we'll start synchronising as a whole.\""
         
-        show J mnormals at center with move 
         
         "The whole thing makes me nervous. I can barely swim, let alone dance."
         #novice swimmer
@@ -5437,9 +5505,8 @@ label start:
         
         j"\"You won't have much to learn. You'll be helping me perform a few moves.\""
         
-        hide J mnormals at centre with slowd
         
-        "We slide into the pool."
+        #"We slide into the pool."
         
         
         p"\"At least the pool isn't as cold today.\""
@@ -5456,7 +5523,7 @@ label start:
         
         j"\"You just need to hold me up.\""
         
-        "I lift her by her thigh and her abdomen. They tense in my palms." #They're taut in my palms."
+        "I lift her by her thigh and her abdomen, they tense in my palms." #They're taut in my palms."
         
         "Her weight tenfolds as her body submerges from the water."
         
@@ -5468,13 +5535,12 @@ label start:
         
         j"\"Hold it.\""
         
-        "My arms begin to shake under the weight. It's embarrassing." 
+        "My arms begin to shake under the weight. {i}It's embarrassing.{/i}" 
         
         j"\"Release.\""
         
         "I lower her back into the water in relief."
         
-        show J snormals with slowd
         
         j"\"See, that wasn't so bad.\""
         
@@ -5486,6 +5552,9 @@ label start:
         
         p"\"You're heavy.\""
         
+        show J1 YUpturned_AngryPout 
+        with slowd
+        
         "This earns me a swat on the shoulder."
         
         j"\"You cheeky sod!\""
@@ -5494,9 +5563,13 @@ label start:
         
         p"\"I didn't say you were fat. Muscle has more weight.\""
         
-        show J sfists with slowd
+        #show J1 YUpturned_Pout 
+        #with slowd
         
         "She waves her fist at me but her lips pull in the corners."
+        
+        show J1 YUpturned_Smile
+        with slowd
         
         j"\"Good. You better not be!\""
         
@@ -7234,24 +7307,24 @@ label start:
         scene black with longd
         play music "audio/music/bensound-memories.mp3" fadein 2.0
         
-        scene school15_evening with slowf
+        scene school15_day with slowf
         
         
         "I stretch, releasing a yawn." 
         
         p"\"Moon's still out. Great start to the day.\""
         
-        show J mnormals with slowd
+        #show J mnormals with slowd
         
         "My tone loaded with sarcasm."
         
-        j"\"I'm not going in the morning.\""
+        j"\"{i}I'm not going in the morning.{/i}\""
         
         "She imitates me in her high-pitched voice. I can only grimace."
         
         p"\"I'll go back to bed then.\""
         
-        hide J mnormals with slowd
+        #hide J mnormals with slowd
         
         "I turn back and she latches herself around my arm."
         
@@ -7261,6 +7334,7 @@ label start:
         
         "I sigh and allow her to lead me to the poolside."
         
+        
         #"But I can't say her warmth and willingness to keep me around is unpleasant."
         
         "At least her warmth and willingness to keep me around isn't unpleasant."
@@ -7269,7 +7343,7 @@ label start:
         
         "{i}Her personality on the other hand...{/i}"
         
-        show J msmiles with slowd
+        #show J msmiles with slowd
         
         #j"\"Right, we'll need to do a different warm up for this move.\""
         
@@ -7294,13 +7368,13 @@ label start:
         
         p"\"You'll obviously win.\""
         
-        show J mnormals with slowd
+        #show J mnormals with slowd
         
         j"\"But how else will you stay fit?\""
         
         p "\"I thought I {i}just{/i} had to lift you a few times.\""
         
-        show J sfists with slowd
+        #show J sfists with slowd
         
         j"\"What are you trying to say?\""
         
@@ -7334,11 +7408,11 @@ label start:
         play environment "audio/background/underwater.ogg" fadein 4.0
         scene underwater with longd
         stop environment fadeout 2.5
-        scene school15_evening with longd
+        scene school15_day with longd
         
         p"\"You…\""
         
-        "The word seethe from my lips. I mange to subdue profanities."
+        "The word seethes from my lips. I mange to subdue profanities."
         
         j"\"Ahahahaha!\""
         
@@ -7346,7 +7420,7 @@ label start:
         
         #j"\"You’re cute when you’re angry.\""
         
-        j"\"You’re ... cute when ... you’re angry.\""
+        j"\"You’re... cute when... you’re angry.\""
         
         "Laughter interspersed between her words."
         
@@ -7355,9 +7429,20 @@ label start:
         
         "{i}She's done me again...{/i}"
         
+        play sound "audio/sfx/Splash2.mp3"
+        play environment "audio/background/underwater.ogg" fadein 4.0
+        scene underwater with longd
+        stop environment fadeout 2.5
+        scene Jennifer CG at JCG
+        show J1 YHappy_Smile at JCG
+        with longd
+        
         "I cannonball into the water beside her and rush to the surface with a smile."
         
-        show J snormals with slowd
+        #show J snormals with slowd
+        
+        show J1 YUpturned_Grin 
+        with slowd
         
         j"\"Why would I care? I'm already wet.\""
         
@@ -7367,21 +7452,30 @@ label start:
         
         #Timeskip (next lesson)
         
+        
+        
+        
         scene school15_day with longf
         
         "We're a little late but the coach just ushers us to get started."
         
         "Jennifer turns to face me with her back to the pool."
         
-        show J mGGCs with slowd
+        #show J mGGCs with slowd
         
         j"\"C'mon! We're already late.\""
         
         "{i}Now’s my chance!{/i}" #...
         
-        hide J mGGCs with fastd
+        #hide J mGGCs with fastd
         
         play sound "audio/sfx/Splash.mp3"
+        
+        scene Pool CG at JCG
+        with slowd
+        scene Jennifer CG at JCG
+        show J1 YUpturned_AngryPout at JCG
+        with slowd
         
         p"\"Gotcha!\""
         
@@ -7399,7 +7493,9 @@ label start:
         
         #(Time skip)
         
-        scene school15_day with slowf
+        scene Jennifer CG at JCG
+        show J1 YUpturned_Pout at JCG
+        with slowf
         
         p"\"I’m sorry, Sir. It won’t happen again.\""
         
@@ -7417,13 +7513,15 @@ label start:
         
         j"\"Peter!\""
         
-        "Jennifer climbs out and waves me over."
+        #"Jennifer climbs out and waves me over."
         
-        "Casey approaches as I climb out."
+        #"Casey approaches as I climb out."
         
-        show J mnormals at left
+        scene Jennifer Casey CG at JCG
+        show J1 YHappy_Smile at JCG
+        with slowd
         
-        show c mswim at right
+        "Jennifer approaches as I'm about to climb out. Casey just behind her."
         
         j"\"Casey!\""
         
@@ -7435,15 +7533,28 @@ label start:
         
         j"\"Have you convinced Dean to join yet?\""
         
+        show C1 YGentle_Sad at JCG
+        with slowd
+        
         cc"\"No... I'm doing fine with Matthew.\""
         
-        "She focuses on her shifting foot."
+        "She focuses on her hand trailing through the water."
+        
+        show C1 SAwkward_Sad at JCG
+        with slowd
         
         cc"\"I don't think he'd ever join anyway...\""
         
         "Her voice sinks into an indescernible mumble."
         
+        show J1 YHappy_OpenSmile at JCG
+        with slowd
+        
         j"\"Don't say that! You just need to pester him!\""
+        
+        show J1 YHappy_Smile at JCG
+        show C1 YGentle_Sad at JCG
+        with slowd
         
         "Casey shrugs."
         
@@ -7455,13 +7566,17 @@ label start:
         
         p"\"From my own free will!\""
         
-        show J msmiles with slowd
+        show J1 YHappy_OpenSmile at JCG
+        with slowd
         
-        j"\"But I planted the seed.\""
+        j"\"But I planted the seed!\""
         
         "The whole thing just gives me mixed feelings." 
         
         "I enoy spending time with Jennifer, but it only seems to confirm my doubt when she says something like that."
+        
+        show J1 YHappy_Smile at JCG
+        with slowd
         
         j"\"Let's get changed!\""
         
@@ -8557,7 +8672,9 @@ label start:
         #
         q"\"Casey, Claire, Matthew, Marcus, Jennifer...\""
         
-        show J snormals with slowd
+        #show J snormals with slowd
+        
+        show J 2YHappy_Smile at PCM1 with slowd
         
         "She wraps me in a hug."
         
@@ -8581,9 +8698,9 @@ label start:
         
         #Dream prelude:
         
-        scene black with longf
+        #scene black with longf
         
-        centered "Jennifer Act 2"
+        #centered "Jennifer Act 2"
         
         
         
@@ -9953,6 +10070,80 @@ label start:
         "I couldn't defeat this smile if I tried."
         
         
+        scene black with longf
+        
+        centered "Jennifer Act 2"
+        
+        scene room_kitchen06_day with longf
+        
+        "I put my all day breakfast meal in the microwave. And wait..."
+        
+        "And wait..."
+        
+        "My phone doesn't provide much distraction as Jennifer still hasn't responded to the text I sent earlier."
+        
+        "I'm not exactly sure--"
+        
+        j"\"Peter!\""
+        
+        show J 1CHappy_OpenSmile at PCM1 with slowd
+        
+        p"\"Oh, hey! I texted you earlier.\""
+        
+        show J 2YHappy_Smile at PCM1 with slowd
+        
+        j"\"Sorry! I've just been so busy this morning.\""
+        
+        "The microwave dings."
+        
+        j"\"Oooo, what have you made me? I'm starving!\""
+        
+        p"\"You're not having any of this.\""
+        
+        "I pull out the meal and her eyes judge me."
+        
+        j"\"Not that I want to. Look at it! It's so processed.\""
+        
+        p"\"There's nothing wrong with it.\""
+        
+        j"\"That meat is just processed arseholes and eyelids.\""
+        
+        j"\"And that sauce! It's artificial tomato sauce with extra salt.\""
+        
+        p"\"Fine, it's not that nice. But it sustains me.\""
+        
+        j"\"We'll have to teach you how to make something, won't we!\""
+        
+        p"\"I'm still eating this.\""
+        
+        j"\"Ew.\""
+        
+        p"\"Enough judging me, what do you want?\""
+        
+        j"\"We need to hang out later! But first I have a few things to take care of.\""
+        
+        p"\"You could've just text me y'know?\""
+        
+        show J 2YUpturned_Grin at PCM1 with slowd
+        
+        j"\"That's no fun, I can't bully you then!\""
+        
+        "I poke her in the side, pulling a giggle from her."
+        
+        p"\"Oh yeah, ticklish are we?\""
+        
+        "I move in to poke her side again but she swings round and pokes me in mine."
+        
+        "I release a chuckle and lunge in again."
+        
+        hide J 2YUpturned_Grin with slowd
+        
+        "She runs off, her words trail off into the distance."
+        
+        j"\"You'll have to get me back later!\""
+        
+        "Damn that girl..."
+        
         
         #p"\"stop\""
         
@@ -9960,8 +10151,61 @@ label start:
         
         #p"\" \""
         
-
+        scene street001_day
+        with slowf
         
+        "I'm low on a few things, and it might be better to stock up on some spices for when Jennifer comes later."
+        
+        "{i}Processed arseholes and eyelids.{/i} I chuckle to myself."
+        
+        q"\"What're you smilin' about?\""
+        
+        "I startle to that teacher from the staffroom."
+        
+        p"\"Hi, Sir.\""
+        
+        mb"\"Mr Brent.\""
+        
+        "{i}That's his name.{/i}"
+        
+        "I have no idea what to say to him. Awkard silence passes..."
+        
+        mb"\"Settling in?\""
+        
+        p"\"Yeah, I've made a few friends. I know where the shops are.\""
+        
+        mb"\"Is that one of your friends?\""
+        
+        "I look over to see Jennifer; Dean pulls her into an embrace and pecks her on the cheek."
+        
+        p"\"...Yeah.\""
+        
+        mb "\"Maybe you should be a bit more discreet next time you scale the wall drunk at two am.\""
+        
+        "My mouth remains open as the realisation sets in."
+        
+        mb"\"Don't worry. I can overlook it this time. Just be more dicreet if you're going to do this in the future.\""
+        
+        "Relief washes over me."
+        
+        p"\"Thank you, sir.\""
+        
+        "I check for Jennifer and Dean but they're gone."
+        
+        scene room_boy16_day 
+        with slowf
+        
+        "What relationship do they have?"
+        
+        "How do I even approach her about it?"
+        
+        "\"Why wouldn't you kiss me back the other night? Because you're going off with Dean behind our backs?\""
+        
+        "Casey's words replay in my mind. She likes Dean, but apparently he likes Jennifer."
+        
+        "I don't know what to do."
+        
+        "None of it's made easier by the fact I can still smell her on my sheets..."
         
         
         #They seemed so close in class, but that tear a symbol of how far apart they've drifted.
@@ -16770,9 +17014,6 @@ init:
     
     
     
-    #She tickles my back, goosebumps descend from my neck to my wrists. 
-    
-    #She tickles my back and I shiver, evoking goosebumps. 
     
     #She strokes the hairs on my back. Goosebumps descend down my arms. 
     #A shiver sends goosebumps down my arms. 
@@ -16855,4 +17096,4 @@ init:
     #Technically I could've started school again. But I seem to have nuggets of knowledge stored away. 
     
     # em dash — 
-    #I think the world might implode if you don't speak soon.
+

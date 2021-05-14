@@ -489,6 +489,115 @@ image JX Tears = "sprite/jennifer/JX Tears.png"
 
 
 
+#Jennifer CG
+
+
+image Pool CG = "CG/Jennifer CG/CG J1 BG.png"
+
+image Jennifer CG = "CG/Jennifer CG/CG J1.png"
+
+
+
+image J1 CHappy_AngryPout = "CG/Jennifer CG/CG J1-CHappy_AngryPout.png"
+
+image J1 CHappy_Grin = "CG/Jennifer CG/CG J1-CHappy_Grin.png"
+
+image J1 CHappy_OpenSmile = "CG/Jennifer CG/CG J1-CHappy_OpenSmile.png"
+
+image J1 CHappy_Pout = "CG/Jennifer CG/CG J1-CHappy_Pout.png"
+
+image J1 CHappy_Sad = "CG/Jennifer CG/CG J1-CHappy_Sad.png"
+
+image J1 CHappy_Smile = "CG/Jennifer CG/CG J1-CHappy_Smile.png"
+
+image J1 CHappy_Tongue = "CG/Jennifer CG/CG J1-CHappy_Tongue.png"
+
+image J1 DMellow_AngryPout = "CG/Jennifer CG/CG J1-DMellow_AngryPout.png"
+
+image J1 DMellow_Grin = "CG/Jennifer CG/CG J1-DMellow_Grin.png"
+
+image J1 DMellow_OpenSmile = "CG/Jennifer CG/CG J1-DMellow_OpenSmile.png"
+
+image J1 DMellow_Pout = "CG/Jennifer CG/CG J1-DMellow_Pout.png"
+
+image J1 DMellow_Sad = "CG/Jennifer CG/CG J1-DMellow_Sad.png"
+
+image J1 DMellow_Smile = "CG/Jennifer CG/CG J1-DMellow_Smile.png"
+
+image J1 DMellow_Tongue = "CG/Jennifer CG/CG J1-DMellow_Tongue.png"
+
+image J1 YHappy_AngryPout = "CG/Jennifer CG/CG J1-YHappy_AngryPout.png"
+
+image J1 YHappy_Grin = "CG/Jennifer CG/CG J1-YHappy_Grin.png"
+
+image J1 YHappy_OpenSmile = "CG/Jennifer CG/CG J1-YHappy_OpenSmile.png"
+
+image J1 YHappy_Pout = "CG/Jennifer CG/CG J1-YHappy_Pout.png"
+
+image J1 YHappy_Sad = "CG/Jennifer CG/CG J1-YHappy_Sad.png"
+
+image J1 YHappy_Smile = "CG/Jennifer CG/CG J1-YHappy_Smile.png"
+
+image J1 YHappy_Tongue = "CG/Jennifer CG/CG J1-YHappy_Tongue.png"
+
+image J1 YSad_AngryPout = "CG/Jennifer CG/CG J1-YSad_AngryPout.png"
+
+image J1 YSad_Grin = "CG/Jennifer CG/CG J1-YSad_Grin.png"
+
+image J1 YSad_OpenSmile = "CG/Jennifer CG/CG J1-YSad_OpenSmile.png"
+
+image J1 YSad_Pout = "CG/Jennifer CG/CG J1-YSad_Pout.png"
+
+image J1 YSad_Sad = "CG/Jennifer CG/CG J1-YSad_Sad.png"
+
+image J1 YSad_Smile = "CG/Jennifer CG/CG J1-YSad_Smile.png"
+
+image J1 YSad_Tongue = "CG/Jennifer CG/CG J1-YSad_Tongue.png"
+
+image J1 YUpturned_AngryPout = "CG/Jennifer CG/CG J1-YUpturned_AngryPout.png"
+
+image J1 YUpturned_Grin = "CG/Jennifer CG/CG J1-YUpturned_Grin.png"
+
+image J1 YUpturned_OpenSmile = "CG/Jennifer CG/CG J1-YUpturned_OpenSmile.png"
+
+image J1 YUpturned_Pout = "CG/Jennifer CG/CG J1-YUpturned_Pout.png"
+
+image J1 YUpturned_Sad = "CG/Jennifer CG/CG J1-YUpturned_Sad.png"
+
+image J1 YUpturned_Smile = "CG/Jennifer CG/CG J1-YUpturned_Smile.png"
+
+image J1 YUpturned_Tongue = "CG/Jennifer CG/CG J1-YUpturned_Tongue.png"
+
+
+
+#Casey CG
+
+image Jennifer Casey CG = "CG/Jennifer CG/CG J1 C1.png"
+
+
+
+image C1 SAwkward_Grin = "CG/Jennifer CG/CG C1-SAwkward_Grin.png"
+
+image C1 SAwkward_Sad = "CG/Jennifer CG/CG C1-SAwkward_Sad.png"
+
+image C1 SAwkward_Smile = "CG/Jennifer CG/CG C1-SAwkward_Smile.png"
+
+image C1 YGentle_Grin = "CG/Jennifer CG/CG C1-YGentle_Grin.png"
+
+image C1 YGentle_Sad = "CG/Jennifer CG/CG C1-YGentle_Sad.png"
+
+image C1 YGentle_Smile = "CG/Jennifer CG/CG C1-YGentle_Smile.png"
+
+image C1 YSad_Grin = "CG/Jennifer CG/CG C1-YSad_Grin.png"
+
+image C1 YSad_Sad = "CG/Jennifer CG/CG C1-YSad_Sad.png"
+
+image C1 YSad_Smile = "CG/Jennifer CG/CG C1-YSad_Smile.png"
+
+
+
+
+
 #####Danielle pose1
 
 
