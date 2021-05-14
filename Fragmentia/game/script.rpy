@@ -1595,7 +1595,7 @@ label start:
     
     "I've finished most of the questions, despite them being hard to answer."
     
-    "But unease rises at the thought of killing time over dinner."
+    "But unease rises at the thought of killing time over lunch."
     
     "Maybe I'll head back to my room."
     
@@ -1611,7 +1611,7 @@ label start:
     show D 1YSerious_Flat at PCL1
     with slowd
     
-    j"\"Hey, wanna have dinner with us?\""
+    j"\"Hey, wanna have lunch with us?\""
     
     #"I'm grateful for the offer. I intended to ask but hadn't mustered the courage to do so."
     
@@ -4570,6 +4570,8 @@ label start:
     "Though the ground finds me, my stomach remains in vertigo."
     
     "I flail on the floor, groping the fabric of the carpet and the panel on the desk." 
+    
+    "{i}Nothing feels real.{/i}"
     
     "Panic wells into my heart..."
     
@@ -15482,15 +15484,74 @@ label start:
         
         p"\"Well, after all, beating you is something I'd enjoy.\""
         
-        d"\"I'd enjoy—\""
+        d"\"I'd enjoy watching you fail.\""
+        
+        "She plucks a strawberry and crushes it between her teeth."
+        
+        "After all my talk, I realise I'm going to be that strawberry."
+        
+        "I could still put with her company with her calling me noob. I've done it so far, right?"
+        
+        p"\"Your confidence will be your weakness.\""
+        
+        d"\"If you don't me to go easy on you, then keep talking.\""
+        
+        "Her smirk grows with my silence."
+        
+        p"\"Weather's nice though today, eh?\""
+        
+        d"\"Add another five percent difficulty.\""
+        
+        p"\"I wasn't even talking about the fight!\""
+        
+        d"\"The terms were that if you talked. I didn't say what about.\""
+        
+        p"\"Then am I supposed to be quiet until the fight?\""
+        
+        d"\"Although that would be amusing, I do have some sense of fair play.\""
+        
+        d"\"Until the end of our lunch. Oh, and that's another ten percent difficulty.\""
+        
+        "So much for {i}fair play.{/i}"
+        
+        "She chuckles at the scowl I shoot at her."
+        
+        #show D 1YSerious_Flat with slowd
+        
+        "She inspects her phone."
+        
+        d"\"Eat up, I'm heading back soon.\""
+        
         
         scene restaurant03_day 
+        
+        show D 1YGentle_Flat at PC1
+        
+        with slowf
+        
+        "We finish eating and I wait until we've left the table until I speak."
+        
+        p"\"So much for fair play.\""
+        
+        show D 1YGentle_Smile at PC1 with slowd
+        
+        d"\"I didn't extend it to the fight, did I?\""
+        
+        p"\"But the terms were too vague!\"" 
+        
+        p"\"If I'd asked now without the additional rules you've added since, then I'd still have the additional five percent difficulty.\""
+        
+        show D 1YGentle_Smirk at PC1 with slowd
+        
+        d"\"You have a point. I guess if you're going to cry about it, I can let it slide.\""
+        
+        p"\"Fine, keep your—\""
         
         show J 2YHappy_Grin at PCR1
         
         show D 1YGentle_Flat at PCL1
         
-        with slowd
+        with move
         
         j"\"What are you guys doing here together?!\""
         
@@ -15555,11 +15616,6 @@ label start:
         
         d"\"Believe me, you'd know.\""
         
-        show D 1YSerious_Flat with slowd
-        
-        "She inspects her phone."
-        
-        d"\"Eat up, I'm heading back soon.\""
         
         #p"\"I'll come with.\""
         
