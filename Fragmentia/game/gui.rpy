@@ -23,7 +23,7 @@ init python:
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#cc0000'
+define gui.accent_color = '#E7E9EB'
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = '#FFFFFF'
@@ -70,10 +70,10 @@ define gui.text_size = 22
 define gui.name_text_size = 30
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 28
+define gui.interface_text_size = 24
 
 ## The size of labels in the game's user interface.
-define gui.label_text_size = 28
+define gui.label_text_size = 26
 
 ## The size of text on the notify screen.
 define gui.notify_text_size = 16
@@ -101,7 +101,7 @@ define gui.show_name = False
 ## time.
 
 ## The height of the textbox containing dialogue.
-define gui.textbox_height = 185
+define gui.textbox_height = 205
 
 ## The placement of the textbox vertically on the screen. 0.0 is the top, 0.5 is
 ## center, and 1.0 is the bottom.
