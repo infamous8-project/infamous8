@@ -1200,7 +1200,7 @@ image ghost angel scream2 = "sprite old/ghost angel scream2.png"
 # characters:
 
 define D = Character('Dean', color="#475947")
-define d = Character('Danielle', color="#6a7353")  ##69e5df ##FFFF00
+define d = Character('Danielle', color="#6a7b3d")  ##69e5df ##FFFF00
 define p = Character('Peter', color="#424270") ##6666FF
 define s = Character('Sarah', color="#723030") ##960f03
 define q = Character('???', color="373737")
