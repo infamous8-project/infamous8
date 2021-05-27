@@ -15012,13 +15012,13 @@ label start:
 
         #"I follow a tunnel and end up back where I started," I won't be long.
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Wait up. I'm just messaging my friend.\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Wait up. I'm just messaging my friend.\""
 
-        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"I'm already inside.\""
+        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"I'm already inside.\""
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"I know. Don't die.\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"I know. Don't die.\""
 
-        #tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"I'll be fine.\""
+        #tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"I'll be fine.\""
 
         #FFS!
 
@@ -15091,13 +15091,13 @@ label start:
 
         #p"\"Let's do it.\""
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Ready?\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Ready?\""
 
-        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"What for?\""
+        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"What for?\""
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"There's a boss in the next room.\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"There's a boss in the next room.\""
 
-        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"We got this.\""
+        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"We got this.\""
 
         window hide
         nvl clear
@@ -15113,7 +15113,7 @@ label start:
 
         t"...An empty cavern."
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Keep your health high.\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Keep your health high.\""
 
 
         #myuu - it's not over yet
@@ -15138,9 +15138,9 @@ label start:
         #d"\"You take the left; I'll go right.\""
 
         #nvl names
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Take the left, I'll go right.\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Take the left, I'll go right.\""
 
-        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"On it.\""
+        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"On it.\""
 
 
         t"It lunges at Danielle so I take the opportunity to strike its rear."
@@ -15158,9 +15158,9 @@ label start:
 
         #p"\"This isn't too bad.\"" # or "This is easy."
 
-        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"This isn't too bad.\""
+        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"This isn't too bad.\""
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Don't die.\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Don't die.\""
 
         t"My blow lowers it below half health."
 
@@ -15177,17 +15177,17 @@ label start:
         window hide
         nvl clear
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"But seriously, don't.\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"But seriously, don't.\""
 
 
         t"I flee, spamming apples." #health potions." # in panic
 
-        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"No pressure.\""
+        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"No pressure.\""
 
         #"I can't heal fast enough."
         #t"I can't eat them fast enough."
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Attack it!\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Attack it!\""
 
         t"Danielle's cornered. I strike it in the nick of time."
         #at the critical moment
@@ -15199,29 +15199,29 @@ label start:
         window hide
         nvl clear
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Run! The agro's switched.\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Run! The agro's switched.\""
 
 
         t"I sprint, again spamclicking my apples. I can't eat them fast enough" #spamming health potions."
 
 
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"What food are you using?\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"What food are you using?\""
 
-        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Apples.\""
+        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Apples.\""
 
         #"I hear her release a sigh."
 
         t"I hear a sigh behind me."
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Keep it busy until I'm charged and run past me.\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Keep it busy until I'm charged and run past me.\""
 
         window hide
         nvl clear
 
         t"I trail it along the walls."
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Now!\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Now!\""
 
         t"I lure it past Danielle and she unleashes a barrage of blows into its side."
 
@@ -15274,17 +15274,17 @@ label start:
 
         #td"\"Here.\""
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Oh wow, I got a rare sword.\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Oh wow, I got a rare sword.\""
 
-        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Is it good?\""
+        tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Is it good?\""
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"No. Well yes, at this level.\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"No. Well yes, at this level.\""
 
         t"She sends a trade request."
 
-        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Here.\""
+        td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Here.\""
 
-        #tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"We've got this.\""
+        #tp" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"We've got this.\""
 
 
 
@@ -16436,7 +16436,7 @@ label start:
 
         t"Lag freezes time for a moment; my blow slips through her defence and strikes a critical."
 
-        td " \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Mother...\""
+        td " \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Mother...\""
 
         t"Her health bar goes red. I lunge in and she parrys my strike and I stumble."
 
