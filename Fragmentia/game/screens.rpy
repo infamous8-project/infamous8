@@ -28,6 +28,11 @@ style gui_text:
     color gui.interface_text_color
     size gui.interface_text_size
 
+style gui_text_small:
+    font gui.interface_font
+    color gui.interface_text_color
+    size gui.interface_text_small
+
 
 style button:
     properties gui.button_properties("button")
@@ -139,17 +144,17 @@ style window:
     background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
 
 style namebox:
-    xpos gui.name_xpos
+    xpos gui.name_xpos -16
     xanchor gui.name_xalign
     xsize gui.namebox_width
-    ypos gui.name_ypos
+    ypos gui.name_ypos -22
     ysize gui.namebox_height
 
     background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
     padding gui.namebox_borders.padding
 
 style say_label:
-    color gui.accent_color
+    color gui.muted_color
     font gui.name_font
     size gui.name_text_size
     xalign gui.name_xalign
@@ -936,7 +941,7 @@ style history_name is gui_label
 style history_name_text is gui_label_text
 style history_text is gui_text
 
-style history_text is gui_text
+style history_text is gui_text_small
 
 style history_label is gui_label
 style history_label_text is gui_label_text

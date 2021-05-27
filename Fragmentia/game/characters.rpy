@@ -896,7 +896,7 @@ image DCG 2Serious_Flat = "CG/Danielle CG/DCG 2Serious_Flat.jpg"
 image DCG 2Serious_Flat_Blush = "CG/Danielle CG/DCG 2Serious_Flat_Blush.jpg"
 
 
-#####Casey 
+#####Casey
 
 image C SAwkward_Grin = "sprite/casey/C SAwkward_Grin.png"
 
@@ -1012,49 +1012,49 @@ image De 2YStern_WideGrin = "sprite/dean/De 2YStern_WideGrin.png"
 #Jennifer
 
 image J cwave = "sprite old/jennifer/J cwave.png"
-image J cgape = "sprite old/jennifer/J cgape.png"  
-image J cfist = "sprite old/jennifer/J cfist.png"  
-image J cfist2 = "sprite old/jennifer/J cfist2.png"  
+image J cgape = "sprite old/jennifer/J cgape.png"
+image J cfist = "sprite old/jennifer/J cfist.png"
+image J cfist2 = "sprite old/jennifer/J cfist2.png"
 image J cupturned= "sprite old/jennifer/J cupturned.png"
-image J cfist3 = "sprite old/jennifer/J cfist3.png"  
-image J cnormal = "sprite old/jennifer/J cnormal.png"  
-image J cworried = "sprite old/jennifer/J cworried.png"  
-image j cwave = "sprite old/jennifer/j cwave.png"  
-image J cflat = "sprite old/jennifer/J cflat.png" 
+image J cfist3 = "sprite old/jennifer/J cfist3.png"
+image J cnormal = "sprite old/jennifer/J cnormal.png"
+image J cworried = "sprite old/jennifer/J cworried.png"
+image j cwave = "sprite old/jennifer/j cwave.png"
+image J cflat = "sprite old/jennifer/J cflat.png"
 
 image J mwave= "sprite old/jennifer/J mwave.png"
 image J mCwave= "sprite old/jennifer/J mCwave.png"
-image J mnormal = "sprite old/jennifer/J mnormal.png"  
+image J mnormal = "sprite old/jennifer/J mnormal.png"
 
 
 
 #Jennifer coat
 
 image J cupturnedc= "sprite old/jennifer/J cupturnedc.png"
-image J cnormalc = "sprite old/jennifer/J cnormalc.png"  
+image J cnormalc = "sprite old/jennifer/J cnormalc.png"
 image J cfistc= "sprite old/jennifer/J cfistc.png"
-image J cfistc2 = "sprite old/jennifer/J cfistc2.png"  
-image J cwavec = "sprite old/jennifer/J cwavec.png" 
-image J cflatc = "sprite old/jennifer/J cflatc.png" 
+image J cfistc2 = "sprite old/jennifer/J cfistc2.png"
+image J cwavec = "sprite old/jennifer/J cwavec.png"
+image J cflatc = "sprite old/jennifer/J cflatc.png"
 
-image J mwavec= "sprite old/jennifer/J mwavec.png"                    
-image J mwavec2 = "sprite old/jennifer/J mwavec2.png"  
-image J mwavecs = "sprite old/jennifer/J mwavecs.png"  
-image J mnormalc = "sprite old/jennifer/J mnormalc.png"  
-image J mflatc = "sprite old/jennifer/J mflatc.png"  
+image J mwavec= "sprite old/jennifer/J mwavec.png"
+image J mwavec2 = "sprite old/jennifer/J mwavec2.png"
+image J mwavecs = "sprite old/jennifer/J mwavecs.png"
+image J mnormalc = "sprite old/jennifer/J mnormalc.png"
+image J mflatc = "sprite old/jennifer/J mflatc.png"
 
 
 #normal mcoat needed
 
-#Jennifer swim 
+#Jennifer swim
 
-image J ctongues = "sprite old/jennifer/J ctongues.png"  
+image J ctongues = "sprite old/jennifer/J ctongues.png"
 
-image J mtongues = "sprite old/jennifer/J mtongues.png"  
-image J mnormals = "sprite old/jennifer/J mnormals.png"  
-image J msmiles = "sprite old/jennifer/J msmiles.png"  
-image J mvforv = "sprite old/jennifer/J mvforv.png"  
-image J mGGCs = "sprite old/jennifer/J mGGCs.png"  
+image J mtongues = "sprite old/jennifer/J mtongues.png"
+image J mnormals = "sprite old/jennifer/J mnormals.png"
+image J msmiles = "sprite old/jennifer/J msmiles.png"
+image J mvforv = "sprite old/jennifer/J mvforv.png"
+image J mGGCs = "sprite old/jennifer/J mGGCs.png"
 
 
 
@@ -1063,8 +1063,8 @@ image J mGGCs = "sprite old/jennifer/J mGGCs.png"
 #Jennifer swim close
 
 
-image J sfists = "sprite old/jennifer/J sfists.png"  
-image J snormals = "sprite old/jennifer/J snormals.png"  
+image J sfists = "sprite old/jennifer/J sfists.png"
+image J snormals = "sprite old/jennifer/J snormals.png"
 
 
 
@@ -1078,25 +1078,25 @@ image J snormals = "sprite old/jennifer/J snormals.png"
 
 
 image S cnormal = "sprite old/sarah/S cnormal.png"
-image S cnormal2 = "sprite old/sarah/S cnormal2.png"   
+image S cnormal2 = "sprite old/sarah/S cnormal2.png"
 image S cNsmile = "sprite old/sarah/S cNsmile.png"
 image S cFsmileHBH = "sprite old/sarah/S cFsmileHBH.png"
-image S cshock = "sprite old/sarah/S cshock.png"   
+image S cshock = "sprite old/sarah/S cshock.png"
 image S cHBH = "sprite old/sarah/S cHBH.png"
-image S cFsmile = "sprite old/sarah/S cFsmile.png"   
+image S cFsmile = "sprite old/sarah/S cFsmile.png"
 image S cSsmile = "sprite old/sarah/S cSsmile.png"
 image S cHBBS = "sprite old/sarah/S cHBBS.png"
-image S cHBB = "sprite old/sarah/S cHBB.png"   
+image S cHBB = "sprite old/sarah/S cHBB.png"
 
 image S mnormal = "sprite old/sarah/S mnormal.png"
-image S mnormal2 = "sprite old/sarah/S mnormal2.png"   
+image S mnormal2 = "sprite old/sarah/S mnormal2.png"
 image S mNsmile = "sprite old/sarah/S cNmmile.png"
-image S mFsmileHBH = "sprite old/sarah/S mFsmileHBH.png"   
-image S msmileHBH = "sprite old/sarah/S msmileHBH.png"  
-image S mshock = "sprite old/sarah/S mshock.png"   
+image S mFsmileHBH = "sprite old/sarah/S mFsmileHBH.png"
+image S msmileHBH = "sprite old/sarah/S msmileHBH.png"
+image S mshock = "sprite old/sarah/S mshock.png"
 image S mHBH = "sprite old/sarah/S mHBH.png"
-image S mFsmile = "sprite old/sarah/S mFsmile.png"   
-image S mFsmile2 = "sprite old/sarah/S mFsmile2.png"   
+image S mFsmile = "sprite old/sarah/S mFsmile.png"
+image S mFsmile2 = "sprite old/sarah/S mFsmile2.png"
 image S mSsmile = "sprite old/sarah/S mSsmile.png"
 
 
@@ -1107,31 +1107,31 @@ image s test2 = "sprite old/S Test2.png"
 
 #Sarah sat:
 
-image S slook = "sprite old/sarah/S slook.png"   
+image S slook = "sprite old/sarah/S slook.png"
 image S sdrawing = "sprite old/sarah/S sdrawing.png"
 
 
 
-#Danielle 
-                                                      
+#Danielle
+
 image D csmirk = "sprite old/danielle/D csmirk.png"
-image D cnarrow = "sprite old/danielle/D cnarrow.png"   
+image D cnarrow = "sprite old/danielle/D cnarrow.png"
 image D cexasperated = "sprite old/danielle/D cexasperated.png"
 image D cER = "sprite old/danielle/D cER.png"
 image D cSER = "sprite old/danielle/D cSER.png"
 image D cnormal = "sprite old/danielle/D cnormal.png"
-image D cAC = "sprite old/danielle/D cAC.png"          
+image D cAC = "sprite old/danielle/D cAC.png"
 
 image D msmirk = "sprite old/danielle/D msmirk.png"
-image D mnarrow = "sprite old/danielle/D mnarrow.png"   
+image D mnarrow = "sprite old/danielle/D mnarrow.png"
 image D mexasperated = "sprite old/danielle/D mexasperated.png"
 image D mER = "sprite old/danielle/D mER.png"
 image D mnormal = "sprite old/danielle/D mnormal.png"
-image D mAC = "sprite old/danielle/D mAC.png"   
+image D mAC = "sprite old/danielle/D mAC.png"
 
 
 
-                      
+
 
 #Dean
 
@@ -1143,7 +1143,7 @@ image d msmile = "sprite old/dean/d msmile.png"
 image d mcall = "sprite old/dean/d mcall.png"
 
 
-#Casey                 
+#Casey
 
 image c cnorm = "sprite old/casey/c cnorm.png"
 image c cnorma = "sprite old/casey/c cnorma.png"
@@ -1156,7 +1156,7 @@ image c msmile = "sprite old/casey/c msmile.png"
 
 image c cswim = "sprite old/casey/c cswim.png"
 
-image c mswim = "sprite old/casey/c mswim.png" 
+image c mswim = "sprite old/casey/c mswim.png"
 
 
 
@@ -1199,44 +1199,44 @@ image ghost angel scream2 = "sprite old/ghost angel scream2.png"
 
 # characters:
 
-define D = Character('Dean', color="#c8ffc8")
-define d = Character('Danielle', color="#FFFF00")  #69e5df
-define p = Character('Peter', color="6666FF")
-define s = Character('Sarah', color="#960f03")
-define q = Character('???', color="FFFFFF")
-define b = Character('Uncle Benjiro', color="FFFFFF")
-define m = Character('Mrs. Brown', color="FFFFFF")
-define j = Character('Jennifer', color = "FE67EB") ##B05F3C
-define pj = Character('Principal Johnson', color="FFFFFF")
-define g = Character('Guard', color="FFFFFF")
-define sh = Character('Sharon', color="FFFFFF")
-define tv = Character('Anchorwoman', color="FFFFFF")
-define wv = Character('Woman\'s voice', color="FFFFFF")
-define a = Character('Mr Adams', color="FFFFFF")
-define C = Character('Cashier', color="FFFFFF")
-define T = Character('Teacher', color="FFFFFF")
-define mb = Character('Mr Brent', color="FFFFFF")
-define cc = Character('Casey', color="FFFFFF")
-define mp = Character('Mr Palmer', color="FFFFFF")
-define w = Character('Waiter', color="FFFFFF")
-define B = Character('Bartender', color="FFFFFF")
+define D = Character('Dean', color="#475947")
+define d = Character('Danielle', color="#6a7353")  ##69e5df ##FFFF00
+define p = Character('Peter', color="#424270") ##6666FF
+define s = Character('Sarah', color="#723030") ##960f03
+define q = Character('???', color="373737")
+define b = Character('Uncle Benjiro', color="373737")
+define m = Character('Mrs. Brown', color="373737")
+define j = Character('Jennifer', color = "644169") ##FE67EB ##B05F3C
+define pj = Character('Principal Johnson', color="373737")
+define g = Character('Guard', color="373737")
+define sh = Character('Sharon', color="373737")
+define tv = Character('Anchorwoman', color="373737")
+define wv = Character('Woman\'s voice', color="373737")
+define a = Character('Mr Adams', color="373737")
+define C = Character('Cashier', color="373737")
+define T = Character('Teacher', color="373737")
+define mb = Character('Mr Brent', color="373737")
+define cc = Character('Casey', color="373737")
+define mp = Character('Mr Palmer', color="373737")
+define w = Character('Waiter', color="373737")
+define B = Character('Bartender', color="373737")
 
-define mrt = Character('Mr Thatcher', color="FFFFFF")      
-define pp = Character('Guy', color="FFFFFF")
-define po = Character('Guy2', color="FFFFFF")
-define pl = Character('Girl', color="FFFFFF")
+define mrt = Character('Mr Thatcher', color="373737")
+define pp = Character('Guy', color="373737")
+define po = Character('Guy2', color="373737")
+define pl = Character('Girl', color="373737")
 
 
-define mm = Character('Me', color="FFFFFF")
+define mm = Character('Me', color="373737")
 
-define dg = Character('Doctor Gerald', color="FFFFFF")
-define dd = Character('Doctor', color="FFFFFF")
+define dg = Character('Doctor Gerald', color="373737")
+define dd = Character('Doctor', color="373737")
 
-define ry = Character('Ryan', color="FFFFFF")
-define rr = Character('Rachel', color="FFFFFF")
+define ry = Character('Ryan', color="373737")
+define rr = Character('Rachel', color="373737")
 
-define pm = Character('Mum', color="FFFFFF")
-define pd = Character ('Dad', color="FFFFFF")
+define pm = Character('Mum', color="373737")
+define pd = Character ('Dad', color="373737")
 
 
 #define narrator = Character(None, kind=nvl)
@@ -1245,12 +1245,3 @@ define t = Character(None, kind=nvl)
 
 define td = Character('Danielle', color="#FFFF00", kind=nvl)
 define tp = Character('Peter', color="6666FF", kind=nvl)
-
-
-
-
-
-
-
-
-

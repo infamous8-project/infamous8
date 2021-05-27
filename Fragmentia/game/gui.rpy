@@ -25,6 +25,10 @@ init python:
 ## An accent color used throughout the interface to label and highlight text.
 define gui.accent_color = '#E7E9EB'
 
+## An accent color used throughout the interface to label and highlight text
+## -- Dark Edition.
+define gui.accent_dark = '#373737'
+
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = '#FFFFFF'
 
@@ -71,6 +75,9 @@ define gui.name_text_size = 30
 
 ## The size of text in the game's user interface.
 define gui.interface_text_size = 24
+
+## The size of text in the game's user interface -- small version.
+define gui.interface_text_small = 18
 
 ## The size of labels in the game's user interface.
 define gui.label_text_size = 26
@@ -119,12 +126,12 @@ define gui.name_xalign = 0.0
 
 ## The width, height, and borders of the box containing the character's name, or
 ## None to automatically size it.
-define gui.namebox_width = None
-define gui.namebox_height = None
+define gui.namebox_width = 215
+define gui.namebox_height = 57
 
 ## The borders of the box containing the character's name, in left, top, right,
 ## bottom order.
-define gui.namebox_borders = Borders(5, 5, 5, 5)
+define gui.namebox_borders = Borders(28, 5, 5, 5)
 
 ## If True, the background of the namebox will be tiled, if False, the
 ## background if the namebox will be scaled.
@@ -424,6 +431,7 @@ init python:
         gui.interface_text_size = 36
         gui.button_text_size = 34
         gui.label_text_size = 36
+        gui.interface_text_small = 24
 
         ## Adjust the location of the textbox.
         gui.textbox_height = 240
