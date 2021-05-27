@@ -1210,7 +1210,7 @@ define j = Character('Jennifer', color = "644169") ##FE67EB ##B05F3C
 define pj = Character('Principal Johnson', color="373737")
 define g = Character('Guard', color="373737")
 define sh = Character('Sharon', color="373737")
-define tv = Character('Anchorwoman', color="373737")
+define tv = Character('Anchorlady', color="373737")
 define wv = Character('Woman\'s voice', color="373737")
 define a = Character('Mr Adams', color="373737")
 define C = Character('Cashier', color="373737")
@@ -1229,7 +1229,7 @@ define pl = Character('Girl', color="373737")
 
 define mm = Character('Me', color="373737")
 
-define dg = Character('Doctor Gerald', color="373737")
+define dg = Character('Dr Gerald', color="373737")
 define dd = Character('Doctor', color="373737")
 
 define ry = Character('Ryan', color="373737")
