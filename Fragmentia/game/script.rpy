@@ -1237,7 +1237,7 @@ label start:
 
     #faux pas
 
-    
+
     #Wake up before your alarm and can't sleep? This is when you have ypur first shower? And you look into the mirror?
     scene black with longd
     play sound "audio/sfx/Alarm.mp3" fadein 0.8
@@ -1525,6 +1525,8 @@ label start:
     #show D cER at left with fastd
     #show D cnormal at left with fastd
 
+    show D 1YSerious_Open with fastd
+
     "Danielle rolls her eyes. The first emotive gesture I've seen from her."
 
     j"\"Didn't you do anythin' at your old school?\""
@@ -1702,18 +1704,22 @@ label start:
 
     p"\"E-erm... I guess I could try it.\""
 
+    show J 3CHappy_OpenSmile with fastd
     j"\"Really? Yay!\""
 
     "She sticks her tongue out at Danielle."
 
+    show J 3YUpturned_Tongue with fastd
     j"\"See, people do like swimming.\""
 
+    show D 1Closed_Open with fastd
     d"\"Yeah. People who have nothing else to do.\""
 
     "Ouch."
 
     "Jennifer isn't offended in the slightest."
 
+    show J 2CHappy_Grin with fastd
     j"\"Aw, don't be so mean! He's just moved here.\""
 
     "She says after calling me lazy earlier."
@@ -1725,22 +1731,27 @@ label start:
 
     #"I retreat from the conversation, extracting my pre-prepared lunch: ham and cheese sandwiches."
     #happy to drop the topic
+    show D 1Closed_Flat
     "Thankfully, they drop the topic."
 
     "An aroma wafts from Jennifer's lunchbox; I find myself peering over for a better view."
 
     "She notices and catches my gaze."
 
+    show J 1YUpturned_Grin with fastd
     j"\"Like what you smell?\""
 
     p"\"Y-yeah...\""
 
     "She lifts out a wrap and displays it in her palm."
 
+    show J 3DMellow_OpenSmile with fastd
     j"\"My chicken wraps are fit for a god. I have my own secret recipe.\""
 
+    show D 1YSerious_Open
     d"\"They're not that good.\""
 
+    show J 3YAnnoyed_Pout
     j"\"Hush, you can't cook.\""
 
     d"\"Don't need to be a chef to know a good steak.\""
@@ -1749,6 +1760,7 @@ label start:
 
     p"\"I must say the smell's amazing.\""
 
+    show J 3YAnnoyed_Grin
     j"\"Maybe you'll be privileged enough to try them someday.\""
 
     "She gives a wink and gulps down a hefty chunk."
@@ -1775,6 +1787,7 @@ label start:
 
     p"\"But I need the wi-fi code, do you know where I can get it?\""
 
+    show D 1YSerious_Open
     d"\"I have it saved as a picture.\""
 
     "She hands me her phone and I connect."
@@ -1783,12 +1796,14 @@ label start:
 
     "I offer a smile as I hand it back, which isn't returned." #reciprocated."
 
+    show D 1Closed_Flat
     d"\"It's OK.\""
 
     j"\"You got FaceAP?\""
     #Whatsface
     p"\"No.\""
 
+    show J 3CHappy_OpenSmile with fastd
     j"\"Get it and add me!\""
 
     "Caught up in excitement, she snatches my phone. {w}Guess I have no choice."
@@ -1797,6 +1812,7 @@ label start:
 
     "I notice her phone buzz as she fiddles with mine, but she doesn't react to it."
 
+    show J 3DMellow_Smile with fastd
     j"\"Make an account, I downloaded it for you.\""
 
     #I also saved my number.\""
@@ -2941,6 +2957,7 @@ label start:
 
     #"Out of all people..."
 
+    show D 1YSerious_Open
     d"\"Have you played Smackdivision's new MMORPG, Magnum Dilon?\""
 
     "Prompted by the unexpected question, my brain lurches a response."
@@ -2949,6 +2966,7 @@ label start:
 
     "{i}How many times am I going to say that...?{/i}"
 
+    show D 1YSerious_Relaxed
     d"\"It's good. It runs on the Ethereal engine.\""
 
     "That engine rings a bell..."
@@ -3000,6 +3018,7 @@ label start:
 
     #"So it's a secret?"
 
+    show D 1Closed_Open at PC1
     d"\"Good.\""
 
     "Unease strikes at the thought of holding it over her."
@@ -3009,6 +3028,7 @@ label start:
 
     #A yawn escapes from my lips.
 
+    show D 1YSerious_Open
     d"\"Yes, I must get going. I altered my schedule to meet you here.\""
 
     "Schedule? Beyond school? My stomach falls at the thought."
@@ -3106,6 +3126,7 @@ label start:
 
     "She takes a glimpse to each side."
 
+    show D 1YSerious_Open
     d"\"Don't you play anything anymore?\""
 
     p"\"No...\""
@@ -3150,6 +3171,8 @@ label start:
 
     "She pokes Danielle in the side, pulling a grimace from her."
 
+    show D 1Closed_Open
+
     d"\"No, thanks.\""
 
     j"\"That's OK, we're still going.\""
@@ -3159,6 +3182,7 @@ label start:
 
     "She nudges me with her shoulder. Another reminder I'll be exposing my scars."
 
+    show D 1YSerious_Frown
     "Danielle inspects her phone."
 
     d"\"Class is starting.\""
