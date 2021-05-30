@@ -175,7 +175,176 @@ image Sarah CG eyes towards smile = "CG/Sarah CG/Sarah CG eyes towards smile.png
 
 
 
-image SN 2AAnxious_Smile = im.MatrixColor("sprite/sarah/S 2AAnxious_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.15))
+image SN 2AAnxious_Smile = im.MatrixColor("sprite/sarah/S 2AAnxious_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image SN 1AAnxious_Flat = im.MatrixColor("sprite/sarah/S 1AAnxious_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image SN 1ACalm_Smile = im.MatrixColor("sprite/sarah/S 1ACalm_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image SN 2ACalm_Flat = im.MatrixColor("sprite/sarah/S 2ACalm_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image SN 2DSad_Smile = im.MatrixColor("sprite/sarah/S 2DSad_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image SN 2YCalm_Smile = im.MatrixColor("sprite/sarah/S 2YCalm_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image SN 1ACalm_Smile = im.MatrixColor("sprite/sarah/S 1ACalm_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+
+
+
+
+
+#image SN 1AAnxious_Awkward = im.MatrixColor("sprite/sarah/S 1AAnxious_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1AAnxious_Flat = im.MatrixColor("sprite/sarah/S 1AAnxious_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1AAnxious_Open = im.MatrixColor("sprite/sarah/S 1AAnxious_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1AAnxious_Sad = im.MatrixColor("sprite/sarah/S 1AAnxious_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1AAnxious_Smile = im.MatrixColor("sprite/sarah/S 1AAnxious_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1ACalm_Awkward = im.MatrixColor("sprite/sarah/S 1ACalm_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1ACalm_Flat = im.MatrixColor("sprite/sarah/S 1ACalm_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1ACalm_Open = im.MatrixColor("sprite/sarah/S 1ACalm_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1ACalm_Sad = im.MatrixColor("sprite/sarah/S 1ACalm_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1ACalm_Smile = im.MatrixColor("sprite/sarah/S 1ACalm_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1CAfraid_Awkward = im.MatrixColor("sprite/sarah/S 1CAfraid_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1CAfraid_Flat = im.MatrixColor("sprite/sarah/S 1CAfraid_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1CAfraid_Open = im.MatrixColor("sprite/sarah/S 1CAfraid_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1CAfraid_Sad = im.MatrixColor("sprite/sarah/S 1CAfraid_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1CAfraid_Smile = im.MatrixColor("sprite/sarah/S 1CAfraid_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1DSad_Awkward = im.MatrixColor("sprite/sarah/S 1DSad_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1DSad_Flat = im.MatrixColor("sprite/sarah/S 1DSad_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1DSad_Open = im.MatrixColor("sprite/sarah/S 1DSad_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1DSad_Sad = im.MatrixColor("sprite/sarah/S 1DSad_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1DSad_Smile = im.MatrixColor("sprite/sarah/S 1DSad_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YAnxious_Awkward = im.MatrixColor("sprite/sarah/S 1YAnxious_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YAnxious_Flat = im.MatrixColor("sprite/sarah/S 1YAnxious_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YAnxious_Open = im.MatrixColor("sprite/sarah/S 1YAnxious_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YAnxious_Sad = im.MatrixColor("sprite/sarah/S 1YAnxious_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YAnxious_Smile = im.MatrixColor("sprite/sarah/S 1YAnxious_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YCalm_Awkward = im.MatrixColor("sprite/sarah/S 1YCalm_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YCalm_Flat = im.MatrixColor("sprite/sarah/S 1YCalm_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YCalm_Open = im.MatrixColor("sprite/sarah/S 1YCalm_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YCalm_Sad = im.MatrixColor("sprite/sarah/S 1YCalm_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YCalm_Smile = im.MatrixColor("sprite/sarah/S 1YCalm_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YSad_Awkward = im.MatrixColor("sprite/sarah/S 1YSad_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YSad_Flat = im.MatrixColor("sprite/sarah/S 1YSad_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YSad_Open = im.MatrixColor("sprite/sarah/S 1YSad_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YSad_Sad = im.MatrixColor("sprite/sarah/S 1YSad_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 1YSad_Smile = im.MatrixColor("sprite/sarah/S 1YSad_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+
+
+
+
+#Sarah pose 2
+
+#image SN 2AAnxious_Awkward = im.MatrixColor("sprite/sarah/S 2AAnxious_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2AAnxious_Flat = im.MatrixColor("sprite/sarah/S 2AAnxious_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2AAnxious_Open = im.MatrixColor("sprite/sarah/S 2AAnxious_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2AAnxious_Sad = im.MatrixColor("sprite/sarah/S 2AAnxious_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2AAnxious_Smile = im.MatrixColor("sprite/sarah/S 2AAnxious_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2ACalm_Awkward = im.MatrixColor("sprite/sarah/S 2ACalm_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2ACalm_Flat = im.MatrixColor("sprite/sarah/S 2ACalm_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2ACalm_Open = im.MatrixColor("sprite/sarah/S 2ACalm_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2ACalm_Sad = im.MatrixColor("sprite/sarah/S 2ACalm_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2ACalm_Smile = im.MatrixColor("sprite/sarah/S 2ACalm_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2CAfraid_Awkward = im.MatrixColor("sprite/sarah/S 2CAfraid_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2CAfraid_Flat = im.MatrixColor("sprite/sarah/S 2CAfraid_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2CAfraid_Open = im.MatrixColor("sprite/sarah/S 2CAfraid_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2CAfraid_Sad = im.MatrixColor("sprite/sarah/S 2CAfraid_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2CAfraid_Smile = im.MatrixColor("sprite/sarah/S 2CAfraid_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2DSad_Awkward = im.MatrixColor("sprite/sarah/S 2DSad_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2DSad_Flat = im.MatrixColor("sprite/sarah/S 2DSad_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2DSad_Open = im.MatrixColor("sprite/sarah/S 2DSad_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2DSad_Sad = im.MatrixColor("sprite/sarah/S 2DSad_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2DSad_Smile = im.MatrixColor("sprite/sarah/S 2DSad_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YAnxious_Awkward = im.MatrixColor("sprite/sarah/S 2YAnxious_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YAnxious_Flat = im.MatrixColor("sprite/sarah/S 2YAnxious_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YAnxious_Open = im.MatrixColor("sprite/sarah/S 2YAnxious_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YAnxious_Sad = im.MatrixColor("sprite/sarah/S 2YAnxious_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YAnxious_Smile = im.MatrixColor("sprite/sarah/S 2YAnxious_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YCalm_Awkward = im.MatrixColor("sprite/sarah/S 2YCalm_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YCalm_Flat = im.MatrixColor("sprite/sarah/S 2YCalm_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YCalm_Open = im.MatrixColor("sprite/sarah/S 2YCalm_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YCalm_Sad = im.MatrixColor("sprite/sarah/S 2YCalm_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YCalm_Smile = im.MatrixColor("sprite/sarah/S 2YCalm_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YSad_Awkward = im.MatrixColor("sprite/sarah/S 2YSad_Awkward.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YSad_Flat = im.MatrixColor("sprite/sarah/S 2YSad_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YSad_Open = im.MatrixColor("sprite/sarah/S 2YSad_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YSad_Sad = im.MatrixColor("sprite/sarah/S 2YSad_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+#image SN 2YSad_Smile = im.MatrixColor("sprite/sarah/S 2YSad_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+
+
+
+
+
 
 
 
@@ -593,6 +762,31 @@ image C1 YSad_Grin = "CG/Jennifer CG/CG C1-YSad_Grin.png"
 image C1 YSad_Sad = "CG/Jennifer CG/CG C1-YSad_Sad.png"
 
 image C1 YSad_Smile = "CG/Jennifer CG/CG C1-YSad_Smile.png"
+
+
+
+
+
+
+
+
+#Jennifer Dark
+
+image JN 2YHappy_Smile = im.MatrixColor("sprite/jennifer/J 2YHappy_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image JN 2YSad_Sad = im.MatrixColor("sprite/jennifer/J 2YSad_Sad.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image JN 2YSad_Grin = im.MatrixColor("sprite/jennifer/J 2YSad_Grin.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image JN 2YSad_Smile = im.MatrixColor("sprite/jennifer/J 2YSad_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image JN 2YHappy_Grin = im.MatrixColor("sprite/jennifer/J 2YHappy_Grin.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image JN 2YUpturned_Grin = im.MatrixColor("sprite/jennifer/J 2YUpturned_Grin.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image JN 2YUpturned_Smile = im.MatrixColor("sprite/jennifer/J 2YUpturned_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+
 
 
 

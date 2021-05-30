@@ -8903,7 +8903,7 @@ label start:
 
         show J 2YHappy_OpenSmile at PC1 with slowd
 
-        j"\"Woooo!\""
+        j"\"Woooooo~!\""
 
         #p"\"Are you—\""
 
@@ -9011,7 +9011,7 @@ label start:
 
         "We park ourselves on a bench and open our bottles; Jennifer got cherry and I got blueberry."
 
-        show J 2YHappy_Smile at PCM1 with slowd
+        show JN 2YHappy_Smile at PCM1 with slowd
 
         j"\"Cheers.\""
 
@@ -9045,7 +9045,7 @@ label start:
 
         j"\"Oh, she's not dead. I just never see her.\""
 
-        show J 2YSad_Sad at PCM1 with slowd
+        show JN 2YSad_Sad at PCM1 with slowd
 
         "She pulls her phone from her bag and stares into it."
 
@@ -9081,7 +9081,7 @@ label start:
 
         p"\"Danielle?\""
 
-        show J 2YSad_Grin at PCM1 with slowd
+        show JN 2YSad_Grin at PCM1 with slowd
 
         j"\"When I found out she was making a fantasy game, I made fun of her.\""
 
@@ -9101,13 +9101,13 @@ label start:
 
         "Her wistful words stab my heart. I don't want to be lonely, either."
 
-        show J 2YSad_Sad at PCC1
+        show JN 2YSad_Sad at PCC1
         show JX Tears at PCC1
         with slowd
 
         "I place my arm around her shoulder. She leans into my side; her warmth flowing into my chest."
 
-        show J 2YSad_Smile at PCC1  with slowd
+        show JN 2YSad_Smile at PCC1  with slowd
 
         j"\"What about you, Peter? You never mention your past.\""
 
@@ -9138,7 +9138,7 @@ label start:
 
         "{i}I never grew up.{/i}"
 
-        show J 2YHappy_Smile at PC1 with slowd
+        show JN 2YHappy_Smile at PC1 with slowd
 
         j"\"We're gonna play a game!\""
 
@@ -9149,7 +9149,7 @@ label start:
         #p"\"I don't think here is the best place to play.\""
         #p"\"I don't think now's the best time to play.\""
 
-        p"\"I don't think now's the best time to play. It's dark, we don't know who's about.\""
+        p"\"I don't think now's the best time to play. It's dark, who knows who's about?\""
 
         #p"\"But anyone could—\""
 
@@ -9233,7 +9233,7 @@ label start:
 
         play music "<from 65.7>audio/music/Fruhlingsblute.mp3" fadein 4.0
 
-        show J 2YHappy_Grin at PC1 with slowd
+        show JN 2YHappy_Grin at PC1 with slowd
 
         j"\"Did you think you'd lost me?\""
 
@@ -9243,7 +9243,7 @@ label start:
 
         "But relief extinguishes it."
 
-        show J 2YUpturned_Grin at PCM1 with slowd
+        show JN 2YUpturned_Grin at PCM1 with slowd
 
         j"\"Would you miss me if you couldn't find me?\""
 
@@ -9253,7 +9253,7 @@ label start:
 
         p"\"I... I'd never forget you.\""
 
-        show J 2YUpturned_Grin at PCC1 with slowd
+        show JN 2YUpturned_Grin at PCC1 with slowd
 
         j"\"Close your eyes.\""
 
@@ -9278,7 +9278,7 @@ label start:
 
         #show J cupturnedc #with slowd
         scene fantasy07_night_dark
-        show J 2YUpturned_Grin at PCM1
+        show JN 2YUpturned_Grin at PCM1
         with slowd
 
 
@@ -9320,18 +9320,22 @@ label start:
         "And my resistence is left a token."
 
         #scene change
+        
+        stop music fadeout 4.0
 
         scene park002_night_light with slowf
 
         "We neck back the remainder of our bottles and put them in a bin on the way out."
 
         #scene change
+        
+        play environment "audio/background/city2.mp3"
 
         scene street001_night_light with slowf
 
         "A wave of euphoria washes over me. I feel on top of the world."
 
-        show J 2YUpturned_Smile at PCM1 with slowd
+        show JN 2YUpturned_Smile at PCM1 with slowd
 
         "I look to Jennifer, who returns a grin."
 
@@ -9343,20 +9347,23 @@ label start:
 
         p"\"Is that why you just...?\""
 
-        show J 2YHappy_Smile at PCM1 with slowd
+        show JN 2YHappy_Smile at PCM1 with slowd
 
         j"\"Don't think about it so much. Just have a good time!\""
 
 
         "If feel more at ease this time around. It's OK to let loose sometimes, right?"
 
-        stop music fadeout 2.0
+        #stop music fadeout 2.0
 
         "My thoughts are stopped by the bouncer asking to check our IDs."
 
         #cold funk
+        
 
-        play music "audio/music/Cold Funk.mp3"
+        play music "audio/music/Cold Funk.mp3" fadein 3.0
+        
+        stop environment
 
         scene Bar with slowf
 
@@ -9525,7 +9532,7 @@ label start:
 
         "She peeks around the corner to see if a guard is stationed at the front gate."
 
-        show J 2YHappy_Smile at PCM1 with slowd
+        show JN 2YHappy_Smile at PCM1 with slowd
 
         "She stumbles back and slants her finger across her lips."
 
@@ -10755,7 +10762,7 @@ label start:
         p"\"It's spitting.\""
 
         #show S slook with slowd
-        show S 2DSad_Flat at PCC1 with slowd
+        show SN 2DSad_Flat at PCC1 with slowd
 
         "She lifts her attention from her sketch for a moment."
 
@@ -10783,7 +10790,7 @@ label start:
 
         p"\"What's that smell?\""
 
-        show S 2DSad_Flat at PCC1 with slowd
+        show SN 2DSad_Flat at PCC1 with slowd
 
         s"\"Petrichor.\""
 
@@ -10792,7 +10799,7 @@ label start:
 
         p"\"Hm? What's that?\""
 
-        show S 2YAnxious_Flat at PCC1 with slowd
+        show SN 2YAnxious_Flat at PCC1 with slowd
 
         "She looks up with widening eyes, as if she's made a faux pas."
 
@@ -10800,8 +10807,8 @@ label start:
 
         p"\"Me too. And I like that you know that.\""
 
-        show S 2YCalm_Smile with fastd
-        hide S 2YCalm_Smile with slowd
+        show SN 2YCalm_Smile with fastd
+        hide SN 2YCalm_Smile with slowd
 
         "A chuckle escapes her lips and she opts to get ready."
 
@@ -10814,7 +10821,7 @@ label start:
 
         #"She gets herself ready and we rise."
 
-        show S 2YCalm_Smile at PM1 with slowd
+        show SN 2YCalm_Smile at PM1 with slowd
 
         s"\"...We should head in.\""
 
@@ -10845,14 +10852,14 @@ label start:
 
         p"\"Hey... Sarah?\""
 
-        show S 2YAnxious_Open at PM1 with slowd
+        show SN 2YAnxious_Open at PM1 with slowd
 
         s"\"Hm?\""
 
         p"\"How come you're not in the club?\""
 
         stop music fadeout 3.0
-        show S 2AAnxious_Flat with slowd
+        show SN 2AAnxious_Flat with slowd
 
         s"\"I... I'm just not.\""
 
@@ -10866,7 +10873,7 @@ label start:
 
         "She stops and musters a breath." #rain trickling from her hair."
 
-        show S 1AAnxious_Flat with slowd
+        show SN 1AAnxious_Flat with slowd
 
         s"\"I had joined before, but...\""
 
@@ -10889,7 +10896,7 @@ label start:
 
         #It reminds me of Jennifer's attempts to recruit me."
 
-        show S 1YAnxious_Open with slowd
+        show SN 1YAnxious_Open with slowd
 
         "She reels back, as suprised as I am."
 
@@ -10905,19 +10912,19 @@ label start:
 
         p"\"Yeah...\""
 
-        show S 1YAnxious_Flat with slowd
+        show SN 1YAnxious_Flat with slowd
 
         "Her tone falls flat."
 
         s"\"Meet me outside the dorms. Tomorrow, after school.\""
 
-        show S 1AAnxious_Flat with slowd
+        show SN 1AAnxious_Flat with slowd
 
         "She lowers her head and steps back."
 
         s"\"I... I need to go.\""
 
-        hide S 1YSad_Flat with slowd
+        hide SN 1YSad_Flat with slowd
 
         #"She shoots off, following the wall of the building."
         "She shoots off, following the perimeter of the school buildings."
@@ -11926,7 +11933,7 @@ label start:
         window hide
         nvl clear
 
-        show S 2ACalm_Flat at PC1
+        show SN 2ACalm_Flat at PC1
         show SX Blush at PC1
         with longd
 
@@ -11937,7 +11944,7 @@ label start:
 
         p"\"Hm?\""
 
-        show S 1AAnxious_Flat with slowd
+        show SN 1AAnxious_Flat with slowd
 
         s"\"Do you think... I'm weird?\""
 
@@ -11949,17 +11956,17 @@ label start:
 
         p"\"But not in a bad way, it's refreshing.\""
 
-        show S 1ACalm_Smile with slowd
+        show SN 1ACalm_Smile with slowd
 
         "She blushes and lowers her head, but I can see the smile tugging on her lips. It's contagious."
 
-        show S 2DSad_Smile with slowd
+        show SN 2DSad_Smile with slowd
 
         "She composes herself with a new air of confidence."
 
         s"\"Would you like... to come for a walk in the forest sometime?\""
 
-        show S 2YCalm_Smile with slowd
+        show SN 2YCalm_Smile with slowd
 
         "She shoots an anxious glance from behind her fringe."
 
@@ -11967,7 +11974,7 @@ label start:
 
         p"\"Sure, sounds good.\""
 
-        show S 1ACalm_Smile with slowd
+        show SN 1ACalm_Smile with slowd
 
         "She releases a sigh, smile beaming on her lips."
 
