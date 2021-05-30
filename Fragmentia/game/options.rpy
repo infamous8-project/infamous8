@@ -11,7 +11,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Fragmentia: Creating Memories")
+define config.name = _("Fragmentia")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -22,7 +22,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "Demo 0.1"
+define config.version = "Demo0.1"
 
 
 ## Text that is placed on the game's about screen. To insert a blank line
@@ -35,7 +35,7 @@ define gui.about = _("")
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Fragmentia: Creating Memories"
+define build.name = "Fragmentia"
 
 
 ## Sounds and music ############################################################
