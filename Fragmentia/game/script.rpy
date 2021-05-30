@@ -11605,8 +11605,8 @@ label start:
         show SN 2AAnxious_Smile at PM1
         
         
-        show SN 2AAnxious_Smile at PMR1
-        show S 2AAnxious_Smile at PML1
+        #show SN 2AAnxious_Smile at PMR1
+        #show S 2AAnxious_Smile at PML1
 
         with slowf
 
