@@ -10637,7 +10637,7 @@ label start:
         "I give up on my drawing."
 
         #sky
-        scene sky003_day with slowd
+        scene sky002_day with slowd
         #nvl
 
         #t"I lie back and clasp blades of grass between my fingers." with longd
@@ -10953,11 +10953,13 @@ label start:
 
         #another thing she's done when I asked. I think she really is afraid to say no.
         #fade into another scene? :p
-
+        
+        
+        stop environment fadeout 2.5
+        
         scene black with longf
         centered "Sarah Act 1"
 
-        stop environment fadeout 2.5
         scene school_out002_day with longf
 
         "After a day in class to think about it, I'm nervous. I have no stake in art."

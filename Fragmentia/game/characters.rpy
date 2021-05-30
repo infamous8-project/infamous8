@@ -186,8 +186,21 @@ image SN 2ACalm_Flat = im.MatrixColor("sprite/sarah/S 2ACalm_Flat.png",im.matrix
 image SN 2DSad_Smile = im.MatrixColor("sprite/sarah/S 2DSad_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
 
 image SN 2YCalm_Smile = im.MatrixColor("sprite/sarah/S 2YCalm_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
-
+                                
 image SN 1ACalm_Smile = im.MatrixColor("sprite/sarah/S 1ACalm_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image SN 2DSad_Flat = im.MatrixColor("sprite/sarah/S 2DSad_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image SN 2YAnxious_Flat = im.MatrixColor("sprite/sarah/S 2YAnxious_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image SN 2YAnxious_Open = im.MatrixColor("sprite/sarah/S 2YAnxious_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image SN 2AAnxious_Flat = im.MatrixColor("sprite/sarah/S 2AAnxious_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image SN 1YAnxious_Open = im.MatrixColor("sprite/sarah/S 1YAnxious_Open.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
+image SN 1YAnxious_Flat = im.MatrixColor("sprite/sarah/S 1YAnxious_Flat.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.1))
+
 
 
 
