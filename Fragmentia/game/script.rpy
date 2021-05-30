@@ -6,10 +6,12 @@ label start:
     #$ bl_game = False
     #default BestEnd = 0
 
-    #window hide
-    #nvl clear
+    window hide
+    nvl clear
 
     #Do an ear ringing sound that fades out as the screen goes from white to the room?
+    
+    stop music fadeout 3.0
 
     scene black with slowf
 
@@ -101,6 +103,8 @@ label start:
     stop environment fadeout 2.0
     stop sound fadeout 2.0
     play music "audio/music/Awkward Meeting.mp3" fadein 2.5
+    
+    window hide
 
     "Blinding light stings my eyes."
 
@@ -139,7 +143,7 @@ label start:
 
     "My lungs collapse to the pain of every breath."
 
-    "I. Can't. Breathe!"
+    "{i}I. Can't. Breathe!{/i}"
 
     #My hands search my throat.
 
@@ -354,7 +358,7 @@ label start:
 
     p"\"To clean up, but I couldn't sleep last night.\""
 
-    "He points a furrowed brow that seems to say, \"{i}can you ever?{/i}\""
+    "He points a furrowed brow that seems to say, {i}\"can you ever?\"{/i}"
 
     b"\"I specified in the morning.\""
 
@@ -762,7 +766,7 @@ label start:
     # a guard approaches."
     # what feels the fifth
 
-    "His smile wrinkles to his eyes lined with age."
+    "His smile wrinkles up to his eyes lined with age."
 
     #"The greying guard approaches the gate as I draw near."
 
@@ -1078,6 +1082,9 @@ label start:
 
 
     #"I rise to my racing thoughts. Flicking the lamp on and pacing my room in an attempt to calm them."
+    
+    #window hide 
+    
     "I rise and flick the lamp on, pacing to tame my racing thoughts."
 
 
@@ -1095,7 +1102,7 @@ label start:
 
     stop music fadeout 3.0
 
-    "...Afternoon."
+    "{i}...Afternoon.{/i}"
 
     "It gives me an objective, something to focus on."
 
@@ -3370,7 +3377,7 @@ label start:
     show J1 YUpturned_Grin at JCG
     with slowd
 
-    "She resurfaces befoere me. I'd be lying if I said I wasn't impressed."
+    "She resurfaces before me. I'd be lying if I said I wasn't impressed."
 
 
     j "\"Go on, I bet you can't reach half way.\""
@@ -4236,13 +4243,15 @@ label start:
     t"Humanity has consumed the majority of the world's resources. People left to starve throughout kingdoms across the world, not deemed worthy of survival. Every country fought for a stake in the resouces, until four remained." with slowd
 
     t"The four remaining races each developed technologies to form super soldiers. Each faction with a part to play in what the people rumour to be \"the end times of Earth.\""
-
+    
     window hide
     nvl clear
-
-    "My eyes come to rest on the price tag. I could afford it and its subscription fee, but it would be a dent in my funds." with slowd
-
+    
+    "My eyes come to rest on the price tag. I could afford it and its subscription fee, but it would be a dent in my funds." #with slowd
+    
+    
     p"\"Damn, this game isn't cheap.\""
+    
 
     show D 1YSerious_Flat at PC1 with slowd
 
@@ -4495,7 +4504,7 @@ label start:
 
     #emits an angelic light
     #t"I'm like a moth drawn to its angelic light."
-
+    window hide
     show ghost angels with slowd
 
     centered "On cue, the door creaks open to reveal two angels." #white phosphorus?
@@ -4522,7 +4531,8 @@ label start:
     centered"That's odd..." with slowd
 
     play music "audio/music/Wounded Strings.ogg" fadein 2.3
-
+    
+    window hide
     #t"The smell of burning rubber invades my nostrils." with slowd #The feeling shifts into nervous curiosity."
     t"The scents of hot iron and burning rubber coil in my nostrils." with slowd
 
@@ -11582,7 +11592,7 @@ label start:
 
         p"\"Hey, we should get a coffee. Pick a place and I'll pay. Sound good?\""
 
-        show S 2AAnxious_Smile at PM1 with slowd
+        show SN 2AAnxious_Smile at PM1 with slowd
 
         "She nods and leads."
 
@@ -11592,7 +11602,11 @@ label start:
 
         scene park008_night_dark
 
-        show S 2AAnxious_Smile at PM1
+        show SN 2AAnxious_Smile at PM1
+        
+        
+        show SN 2AAnxious_Smile at PMR1
+        show S 2AAnxious_Smile at PML1
 
         with slowf
 

@@ -175,7 +175,7 @@ image Sarah CG eyes towards smile = "CG/Sarah CG/Sarah CG eyes towards smile.png
 
 
 
-
+image SN 2AAnxious_Smile = im.MatrixColor("sprite/sarah/S 2AAnxious_Smile.png",im.matrix.saturation(0.8)*im.matrix.tint(.9,.9,0.9)*im.matrix.brightness(-0.15))
 
 
 
@@ -1009,161 +1009,10 @@ image De 2YStern_WideGrin = "sprite/dean/De 2YStern_WideGrin.png"
 
 
 
-#Jennifer
-
-image J cwave = "sprite old/jennifer/J cwave.png"
-image J cgape = "sprite old/jennifer/J cgape.png"
-image J cfist = "sprite old/jennifer/J cfist.png"
-image J cfist2 = "sprite old/jennifer/J cfist2.png"
-image J cupturned= "sprite old/jennifer/J cupturned.png"
-image J cfist3 = "sprite old/jennifer/J cfist3.png"
-image J cnormal = "sprite old/jennifer/J cnormal.png"
-image J cworried = "sprite old/jennifer/J cworried.png"
-image j cwave = "sprite old/jennifer/j cwave.png"
-image J cflat = "sprite old/jennifer/J cflat.png"
-
-image J mwave= "sprite old/jennifer/J mwave.png"
-image J mCwave= "sprite old/jennifer/J mCwave.png"
-image J mnormal = "sprite old/jennifer/J mnormal.png"
-
-
-
-#Jennifer coat
-
-image J cupturnedc= "sprite old/jennifer/J cupturnedc.png"
-image J cnormalc = "sprite old/jennifer/J cnormalc.png"
-image J cfistc= "sprite old/jennifer/J cfistc.png"
-image J cfistc2 = "sprite old/jennifer/J cfistc2.png"
-image J cwavec = "sprite old/jennifer/J cwavec.png"
-image J cflatc = "sprite old/jennifer/J cflatc.png"
-
-image J mwavec= "sprite old/jennifer/J mwavec.png"
-image J mwavec2 = "sprite old/jennifer/J mwavec2.png"
-image J mwavecs = "sprite old/jennifer/J mwavecs.png"
-image J mnormalc = "sprite old/jennifer/J mnormalc.png"
-image J mflatc = "sprite old/jennifer/J mflatc.png"
-
-
-#normal mcoat needed
-
-#Jennifer swim
-
-image J ctongues = "sprite old/jennifer/J ctongues.png"
-
-image J mtongues = "sprite old/jennifer/J mtongues.png"
-image J mnormals = "sprite old/jennifer/J mnormals.png"
-image J msmiles = "sprite old/jennifer/J msmiles.png"
-image J mvforv = "sprite old/jennifer/J mvforv.png"
-image J mGGCs = "sprite old/jennifer/J mGGCs.png"
-
-
-
-
-
-#Jennifer swim close
-
-
-image J sfists = "sprite old/jennifer/J sfists.png"
-image J snormals = "sprite old/jennifer/J snormals.png"
-
-
-
-
-
-
-
-
-
-#Sarah:
-
-
-image S cnormal = "sprite old/sarah/S cnormal.png"
-image S cnormal2 = "sprite old/sarah/S cnormal2.png"
-image S cNsmile = "sprite old/sarah/S cNsmile.png"
-image S cFsmileHBH = "sprite old/sarah/S cFsmileHBH.png"
-image S cshock = "sprite old/sarah/S cshock.png"
-image S cHBH = "sprite old/sarah/S cHBH.png"
-image S cFsmile = "sprite old/sarah/S cFsmile.png"
-image S cSsmile = "sprite old/sarah/S cSsmile.png"
-image S cHBBS = "sprite old/sarah/S cHBBS.png"
-image S cHBB = "sprite old/sarah/S cHBB.png"
-
-image S mnormal = "sprite old/sarah/S mnormal.png"
-image S mnormal2 = "sprite old/sarah/S mnormal2.png"
-image S mNsmile = "sprite old/sarah/S cNmmile.png"
-image S mFsmileHBH = "sprite old/sarah/S mFsmileHBH.png"
-image S msmileHBH = "sprite old/sarah/S msmileHBH.png"
-image S mshock = "sprite old/sarah/S mshock.png"
-image S mHBH = "sprite old/sarah/S mHBH.png"
-image S mFsmile = "sprite old/sarah/S mFsmile.png"
-image S mFsmile2 = "sprite old/sarah/S mFsmile2.png"
-image S mSsmile = "sprite old/sarah/S mSsmile.png"
-
-
-
-
-image s test = "sprite old/S Test.png"
-image s test2 = "sprite old/S Test2.png"
-
-#Sarah sat:
-
-image S slook = "sprite old/sarah/S slook.png"
-image S sdrawing = "sprite old/sarah/S sdrawing.png"
-
-
-
-#Danielle
-
-image D csmirk = "sprite old/danielle/D csmirk.png"
-image D cnarrow = "sprite old/danielle/D cnarrow.png"
-image D cexasperated = "sprite old/danielle/D cexasperated.png"
-image D cER = "sprite old/danielle/D cER.png"
-image D cSER = "sprite old/danielle/D cSER.png"
-image D cnormal = "sprite old/danielle/D cnormal.png"
-image D cAC = "sprite old/danielle/D cAC.png"
-
-image D msmirk = "sprite old/danielle/D msmirk.png"
-image D mnarrow = "sprite old/danielle/D mnarrow.png"
-image D mexasperated = "sprite old/danielle/D mexasperated.png"
-image D mER = "sprite old/danielle/D mER.png"
-image D mnormal = "sprite old/danielle/D mnormal.png"
-image D mAC = "sprite old/danielle/D mAC.png"
-
-
-
-
-
-#Dean
-
-image d csmile = "sprite old/dean/d csmile.png"
-image d cnorm = "sprite old/dean/d cnorm.png"
-
-image d mnorm = "sprite old/dean/d mnorm.png"
-image d msmile = "sprite old/dean/d msmile.png"
-image d mcall = "sprite old/dean/d mcall.png"
-
-
-#Casey
-
-image c cnorm = "sprite old/casey/c cnorm.png"
-image c cnorma = "sprite old/casey/c cnorma.png"
-image c csmile = "sprite old/casey/c csmile.png"
-
-image c mnorma = "sprite old/casey/c mnorma.png"
-image c msmile = "sprite old/casey/c msmile.png"
-
-#Casey swim
-
-image c cswim = "sprite old/casey/c cswim.png"
-
-image c mswim = "sprite old/casey/c mswim.png"
-
-
-
 #ghost angel
-image ghost angels = "sprite old/ghost angels.png"
-image ghost angel scream = "sprite old/ghost angel scream.png"
-image ghost angel scream2 = "sprite old/ghost angel scream2.png"
+image ghost angels = "sprite/ghost angels.png"
+image ghost angel scream = "sprite/ghost angel scream.png"
+image ghost angel scream2 = "sprite/ghost angel scream2.png"
 
 
 
@@ -1210,7 +1059,7 @@ define j = Character('Jennifer', color = "644169") ##FE67EB ##B05F3C
 define pj = Character('Principal Johnson', color="373737")
 define g = Character('Guard', color="373737")
 define sh = Character('Sharon', color="373737")
-define tv = Character('Anchorlady', color="373737")
+define tv = Character('Anchorwoman', color="373737")
 define wv = Character('Woman\'s voice', color="373737")
 define a = Character('Mr Adams', color="373737")
 define C = Character('Cashier', color="373737")

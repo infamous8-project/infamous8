@@ -787,6 +787,9 @@ transform PCL2:
 transform PCR2:
     zoom 0.29
     xalign 1.5 yalign 0.0
+    
+    
+    
 
     
 init python:
