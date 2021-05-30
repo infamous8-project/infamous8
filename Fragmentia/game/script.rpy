@@ -10296,7 +10296,10 @@ label start:
 
         #j"\"...\""
 
-        show J mflatc with slowd
+        #show J mflatc with slowd
+        show J 2YSad_Sad with slowd
+        
+        
 
         #Her bottom lip pulls up into a smile that wavers on her lips."
 
@@ -10312,7 +10315,7 @@ label start:
 
         j"\"I'll see you around.\""
 
-        hide J mflatc with slowd
+        hide J 2YSad_Sad with slowd
 
         p"\"Bye...\""
 
@@ -11647,7 +11650,7 @@ label start:
         "A smile rests on her lips as we park ourselves on a nearby bench."
 
         #show S 2AAnxious_Smile at PC1 with move
-        hide S 2AAnxious_Smile with slowd
+        hide SN 2AAnxious_Smile with slowd
 
         t"With our small amount of force-talk, I'm no longer optimistic about our outing." with slowd
 
