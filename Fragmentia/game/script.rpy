@@ -1449,6 +1449,7 @@ label start:
     #"I realise the girl next to her is her friend."
 
     j"\"Nice to meet you! I'm Jennifer and this is Danielle.\""
+    
     show J 2CHappy_OpenSmile with fastd
 
 
@@ -1859,7 +1860,7 @@ label start:
 
     "After making our way to our desks, we're instructed to reorganise."
 
-    "Jennifer sheds her extra layer as I drag my table back into position."
+    #"Jennifer sheds her extra layer as I drag my table back into position."
 
     "Mrs Brown starts the first lesson of the day: maths."
 
@@ -2098,7 +2099,7 @@ label start:
 
     #"The front building looks renovated, surrounded by older buildings."
 
-    "There's a small court with nets situated between the buildings; a few students are kicking the ball at an unfortunate student's rectum."
+    "There's a small court with nets situated between the buildings; a few students are kicking the ball at an unfortunate student's arse."
     # Where a few students are having a kick about."
 
     "The most appealing part is the view of the distant forest."
@@ -2485,6 +2486,7 @@ label start:
     show S 1DSad_Flat with slowd
 
     "I tap the pad, achieving the opposite of my desired effect—relieving tension."
+    
     #reaction, evoking
     s"\"It's... it's just my art work.\""
 
@@ -2519,11 +2521,12 @@ label start:
     #"The detail is impressive, the constellations are on point."
 
     #"I notice smoke leaks into the male-like silhouette's mouth, wreathing nearby galaxies."
-    "I notice smoke leaks into the male-like silhouette's mouth and wreathes nearby galaxies."
+    "I notice smoke leaks from the male-like silhouette's mouth and wreathes nearby galaxies."
 
     p "\"This is good. Will you show me when you've finished?\""
 
-    show S 1AAnxious_Smile with slowd
+    #show S 2DSad_Smile with slowd
+    #show S 2DSad_Flat at PC1 with slowd
 
     "She remains silent, with an expression and nod that seem to say anything but yes."
 
@@ -2548,7 +2551,8 @@ label start:
     #"By the time I've finished my tea, she's already left."
     "She leaves as I finish off my tea." # the time I finish off mine."
 
-    "She didn't say whether she'd show me, either."
+    #"She didn't say whether she'd show me, either."
+    "She didn't seem keen on showing me, but it seems I've made some ground with her after last time at least."
 
     "I make a sandwich and head back to my room."
 
@@ -2578,7 +2582,7 @@ label start:
     #"The classroom like a gloopy mass of stagnant time."
     #"The classroom is like an alternate dimension where time stagnates."
 
-    "I flop my forehead on my clenched fists, wondering how Im going to make it through today."
+    "I flop my forehead on my clenched fists, wondering how I'm going to make it through today."
 
     #"My stomach free-falling as I wonder how I'll make it through today."
 
@@ -3001,7 +3005,7 @@ label start:
 
     #show D cnormal with slowd
 
-    d"\"Don't tell Jennifer about this, OK.\""
+    d"\"Don't tell Jennifer about this, OK?\""
 
     p"\"Why not?\""
 
@@ -3100,7 +3104,7 @@ label start:
 
     "I roll up my trouser leg to reveal the scar tissue."
 
-    "Two hairless spots of bright pink located above my ankle and below my kneecap, marking the incisions of the metal rod and screws."
+    "Two hairless spots of now darker pink located above my ankle and below my kneecap, marking the incisions of the metal rod and screws."
 
     #"It's not that I'm ashamed of how it looks; I'm avoiding questions I'd rather not answer."
     "I'm not ashamed of how it looks; I'd rather avoid questions I don't want to answer."
@@ -3710,217 +3714,97 @@ label start:
     #conquered my first week in school.
     "I'm beginning to feel this won't be so bad."
 
-    "Though, my food is dwindling."
-
-    "I'll be fine for tonight, but I should head out tomorrow and survey the area."
+    "Though, my food is dwindling. I should head out and survey the area."
 
     "Content with my conclusion, I rinse my dish and rest it to dry."
 
     scene hospital03_day with slowd
-
-    #show S mshock with slowd
-
-    show S 2YAnxious_Open at PM1 with slowd
-
-    "As I exit the kitchen, Sarah appears through the far door."
-
-    #She keeps glancing at door 119? :p
-
-    p"\"Hey, Sarah.\""
-
-    s"\"Hey...\""
-
-    show S 2AAnxious_Flat at PC1 with slowd
-
-    "I approach her and realise I have nothing to say."
-
-    p"\"So... what're you doing?\""
-
-    s"\"Nothing...\""
-
-    "She glimpses to room 119."
-
-    p"\"I see...\""
-
-    "She's not making this easy."
-
-    p"\"I was wondering...\""
-
-    p"\"If you'd help me with the local area? I need to do some shopping.\"" #, I'm running low on food
-
-    "I watch the conflict play out across her face."
-
-    show S 2YAnxious_Smile with slowd
-
-    s"\"S-sure.\""
-
-    "She doesn't seem sure. I'm beginning to question whether she's capable of saying no."
-
-    s"\"I just need to... get my things.\""
-
-    p"\"Me too.\""
-
-    scene hospital03_day with slowf
-
-    #slowf
-    "I head into my room to grab my bag and wallet."
-
-    show S 1AAnxious_Flat at PC1 with slowd
-
-
-
-    "Sarah emerges not long after. So 119 is her room."
-
-    p"\"Ready?\""
-
-    show S 1AAnxious_Smile at PC1 with slowd
-
-    s"\"Y-yeah...\""
-
-    #"I set the pace and she follows reluctantly."
-    "I set the pace and she trails."
-
-
-    #outside of dorms
-
-    scene school_out002_day with slowd
-
-    "She falls in step as we exit the building, pinning her eyes on the ground." #her eyes pinned to the floor."
-
-    "The silence deafening."
-
-    #main building
-
-    scene school_out009_day with slowd
-
-    #show S cnormal at left with move
-
-    #show J mwavec2 at right with slowd
-
-    show S 2ACalm_Flat at PCL1
-    show J 1YHappy_OpenSmile at PMR1
-    with slowd
-
-    "Speaking of deafening..."
-
-    j"\"Hey, Peter! Cara!\""
-
-    #toaster music
-    show J 2YHappy_Smile at PCR1
-    show S 1AAnxious_Flat
-    with slowd
-
-    "Jennifer strides towards us. Sarah shrinks to her presence."
-
-    play music "audio/music/bensound-enigmatic.mp3" fadein 2.0
-
-    #"Wait..."
-
-    "I glance behind us and shoot her a raised brow." #confused look."
-
-    p"\"Cara?\""
-
-    #"An awkward silence lingers as I look from girl to girl.."
-
-    #p"\"Who's Cara?\""
-
-    #"..."
-
-    p"\"...You mean Sarah?\""
-
-    "A hint of red rises in Jennifer's cheeks."
-
-    show SX Blush at PCL1 with slowd
-
-    "I turn to Sarah; her head bowed and cheeks ablaze."
-
-    j"\"Oh my gosh, I'm so sorry!\""
-
-    j"\"I thought you said Cara when we first met! You remind me of someone I used to know...\""
-
-    "I have to stifle a laugh at the situation."
-
-    "But now we're stood in this awkward triangle, I feel responsible for Sarah's discomfort."
-
-    #"One option comes to mind: bail."
-
-    p"\"We need to get going. Right, Sarah?\""
-
-    "Sarah's gaze fixes on the gate. I've made the right choice."
-
-    show J 1YHappy_OpenSmile with slowd
-
-    j"\"Yeah, me too. See ya around, guys!\""
-
-    p"\"Later.\""
-
-    s"\"B-bye.\""
-
-    hide J cwavec with moveoutright
-    show S 1AAnxious_Flat at PC1 with move
-
-    "Is she so shy she'd let someone call her by the wrong name?"
-
-    "It's an amusing thought, but it's cute."
-
-    stop music fadeout 2.0
-
-    #entrance
-
-    #play music "audio/music/Wisps of Whorls.mp3" fadein 3.0
-
-    scene school_out003_day with slowd
-
-
-    "I'm grateful for our saunter, my leg is still aching from swimming."
-
-    show S 2ACalm_Smile at PC1 with slowd
-
-    "Sarah's silent." #staring into the trees by the entrance."
-
-    "I watch her curiosity sweep from the birds in the trees down to insects in the bushes."
-
-    "She's always uneasy, yet unassuming."
-
-    "It's conflicting, I don't know whether to be anxious or relaxed myself."
-
-    #city
-    #sounds
+    
+    "As I pass the doors, I wonder which is Sarah's. Some directions would be welcome."
+    
+    "But I shrug the thought off, I'm not knocking on random doors."
+    
+    
 
     play environment "audio/background/city2.mp3" fadein 3.0
     scene street001_day with slowd
-
-    show S 1AAnxious_Flat at PC1
-
-    "She shrinks in the city. I imagine she's as intimidated by it as me."
-
-    "Her eyes flicker at people walking past, as if they were potential assailants."
-
-    #"I imagine she's as intimidated by it as I am."
-
-    #"Maybe I should say something."
-
-    #"I search my mind for a topic, the poster in class comes to mind."
-
-    #Our silence adds to the unease.
-    "Our silence unsettling; I search for a topic, the poster in class comes to mind."
-    #sprite
+    
+    t"There's something still intimidating to me about the city." with slowd
+    
+    t"About watching people..."
+    
+    t"They all seem to have a sense of purpose."
+    
+    t"And the groups of friends laughing and joking makes me feel like I'm missing out."
+    
+    window hide
+    nvl clear
+    
+    "In my reverie I've walked half way down the long street." with slowd
+    
+    "I turn and head back. A few people give me awkward glances, and it makes me feel self-conscious."
+    
+    "What idiot turns around in the middle of the street after walking so far?"
+    
+    "...What idiot doesn't look up directions while they had wi-fi...?"
+    
+    "I get my phone out and tap at the screen as if it's something important I've forgotten."
+    
+    "As I look up, a familiar person walking towards me takes me off guard."
+    
+    show S 2DSad_Flat at PM1 with slowd
+    
+    "She's staring at the floor. I imagine she finds it as intimidating as I do in town."
+    
+    "I wave my hand to get her attention but she doesn't react."
+    
+    show S 2DSad_Flat at PC1 with slowd
+    
+    p"\"Hey, Sarah. What are you up to?\""
+    
+    show S 2YAnxious_Open at PC1 with slowd
+    
+    "Shock and then realisation play out on her features."
+    
+    show S 2YAnxious_Flat at PC1 with slowd
+    
+    s"\"I need some art supplies...\""
+    
+    p"\"Ah, that's cool.\""
+    
+    "She looks like she's ready to leave."
+    
+    p"\"Erm... I'm just wondering if you can show me to the nearest supermarket?\""
+    
+    "It's a bit much to ask, but it's maybe my chance to make some ground with her."
+    
+    p"\"I'm just new in the area and I'm not sure...\""
+    
+    s"\"O-OK. It's just up the road here.\""
+    
+    "I'm surprised how easily she accepted."
+    
+    "We begin in silence, so I try to break it."
+    
     p"\"So... are you in the art club?\""
-
-    show S 1YAnxious_Smile with slowd
+    
+    show S 1AAnxious_Smile with slowd
 
     s"\"N-no, I just like to... draw.\""
-
-    show S 1AAnxious_Flat with slowd
-
+    
     "Her reluctance palpable. Maybe she wants to join but she's too shy?"
 
     "Damn, I can't think of anything to say."
 
     "It makes me feel bad, for what feels like {i}using{/i} her as a guide."
-
-    #shop
-
+    
+    #Why wouldn't he have just duudled it?
+    
+    
+    
+    #is she already going to the shop?
+    #maybe looking for some art supplies but finds them in the supermarket?
+    
     stop environment fadeout 2.0
     #play environment2 "audio/background/shopping.ogg" fadein 2.0
     scene shop01_day with slowf
@@ -3928,20 +3812,23 @@ label start:
 
     #sprite
     s"\"Here we are.\""
+    
+    "She avoids eye contact with me and everybody around."
 
     p"\"Thanks. What're you getting?\"" #Are you getting anything in particular
     show S 1AAnxious_Smile with slowd
     s"\"I don't... need anything.\""
 
-    p"\"Really? I feel bad for dragging you out now...\""
+    p"\"Really? I feel bad for dragging you here now...\""
 
     #play music "audio/music/Wisps of Whorls.mp3" fadein 3.0
     #play music "audio/music/Kevin_MacLeod_-_Dream_Culture.mp3" fadein 3.0
     show S 1YAnxious_Smile with slowd
-    s"\"It's OK.\""
+    s"\"It's OK. Maybe I can find some art supplies here.\""
+    
     "Her smile and tone genuine enough to put me at ease."
 
-    "Still, I can't help wonder: does she feel a responsibility to help me or does she feel inclined because she's afraid to say no?"
+    "Still, I wonder: does she feel a responsibility to help me or does she feel inclined because she's afraid to say no?"
     hide S cNsmile with slowd
     #"She browses the aisles, her fingers twining in here sleeves."
     t"She leads me down the aisles, twisting her fingers in her sleeves." with slowd
@@ -3971,7 +3858,7 @@ label start:
 
     #"Sarah decides to grab a few things. I note she has two loaves of bread among them."
 
-    "Sarah decides to grab a few loaves and some butter."
+    "Sarah manages to find some supplies, and decides to grab a few loaves and some butter."
 
     "At least it wasn't a complete waste of time for her."
 
@@ -4028,7 +3915,7 @@ label start:
     "The setting sun greets us."
 
     #stop environment2 fadeout 2.0
-    scene street001_evening with slowd
+    scene street001_evening with slowf
 
     "Sarah lingers behind me."
 
@@ -4049,6 +3936,100 @@ label start:
     "These bags are reawakening the ache in my arms, too..."
 
     stop environment fadeout 2.0
+    
+    scene school_out003_day with slowf
+
+
+    "I'm grateful for our saunter, my leg is still aching from swimming."
+
+    show S 2ACalm_Smile at PC1 with slowd
+
+    "Sarah's silent." #staring into the trees by the entrance."
+
+    "I watch her curiosity sweep from the birds in the trees down to insects in the bushes."
+
+    "She's always uneasy, yet unassuming."
+
+    "It's conflicting, I don't know whether to be anxious or relaxed myself."
+    
+    "But our silence is now deafening without the sound of the city."
+    
+    scene school_out009_day with slowd
+
+    #show S cnormal at left with move
+
+    #show J mwavec2 at right with slowd
+
+    show S 2ACalm_Flat at PCL1
+    show J 1YHappy_OpenSmile at PMR1
+    with slowd
+    
+    
+    "Speaking of deafening..."
+
+    j"\"Hey, Peter! Cara!\""
+
+    #toaster music
+    show J 2YHappy_Smile at PCR1
+    show S 1AAnxious_Flat
+    with slowd
+
+    "Jennifer strides towards us. Sarah shrinks to her presence."
+
+    play music "audio/music/bensound-enigmatic.mp3" fadein 2.0
+
+    #"Wait..."
+
+    "I glance behind us and shoot her a raised brow." #confused look."
+
+    p"\"Cara?\""
+
+    #"An awkward silence lingers as I look from girl to girl.."
+
+    #p"\"Who's Cara?\""
+
+    #"..."
+
+    p"\"...You mean Sarah?\""
+
+    "A hint of red rises in Jennifer's cheeks."
+
+    show SX Blush at PCL1 with slowd
+
+    "I turn to Sarah; her head bowed and cheeks ablaze."
+
+    j"\"Oh my gosh, I'm so sorry!\""
+
+    j"\"I thought you said Cara when we first met! You remind me of someone I used to know...\""
+
+    "I have to stifle a laugh at the situation."
+
+    "But now we're stood in this awkward triangle, I feel responsible for Sarah's discomfort."
+
+    #"One option comes to mind: bail."
+
+    p"\"We need to get going. Right, Sarah?\""
+    
+    "I swing my bags to emphasize."
+    
+    "Sarah's gaze fixes on the dorm gates. I've made the right choice."
+
+    show J 1YHappy_OpenSmile with slowd
+
+    j"\"Yeah, me too. See ya around, guys!\""
+
+    p"\"Later.\""
+
+    s"\"B-bye.\""
+
+    hide J cwavec with moveoutright
+    show S 1AAnxious_Flat at PC1 with move
+
+    "Is she so shy she'd let someone call her by the wrong name?"
+
+    "It's an amusing thought, but it's cute."
+
+    stop music fadeout 2.0
 
 
     #back at halls
@@ -4058,7 +4039,17 @@ label start:
     #"I watch her shoulders relax when we make it back."
     #"Her shoulders ease when we make it back."
     "Her shoulders fall slack when we make it back."
-
+    
+    p"\"I'm in room one-one-nine by the way.\""
+    
+    "I say it without thinking. But I am curious to know which room she's in."
+    
+    "She offers a stilted smile."
+    
+    s"\"I'm just across the way.\""
+    
+    "She nods at door 119."
+    
     "We head into the kitchen to deposit our goods."
 
     scene room_kitchen06_evening with slowd
@@ -4405,7 +4396,9 @@ label start:
     scene Computer_Room with slowf
     #scene reset
 
-    "She plucks me out of the air with her sword and slams me into the ground. Dead.{w} Again."
+    #"She plucks me out of the air with her sword and slams me into the ground. Dead.{w} Again."
+    
+    "She impales me midair with her sword and slams me into the ground. Dead.{w} Again."
 
     "I'm sure it's 11-0 to her."
 
@@ -4520,7 +4513,7 @@ label start:
 
     t"To the centre of town. Without fail." with slowd
 
-    t"A wooden shack rests in the middle, glowing through its crevices."
+    t"A wooden shack rests in the middle, light glowing through its crevices."
 
     #t"I jitter towards it, like a moth drawn to its angelic light."
 
@@ -4562,7 +4555,7 @@ label start:
 
     #The smell of burning rubber coils in my nostrils. Shrill screams permeate the air.
 
-    t"She pushes me to arms length and digs her fingers into my shoulders."
+    t"She pushes me to arm's length and digs her fingers into my shoulders."
 
     t"Her shrill scream permeates the air."
 
@@ -4641,7 +4634,7 @@ label start:
 
     "That house, those angels... were where I found peace. But it usually ended in her arms."
 
-    "It's all so vague. I can't help think they're a subconscious portrayal of my parents." #parallel
+    "It's all so vague. I can't help thinking they're a subconscious portrayal of my parents." #parallel
 
     "She shares the same curly hair as my mother."
 
@@ -5251,7 +5244,7 @@ label start:
 
     show J 3YUpturned_Grin with slowd
 
-    j"\"I'll give you something to to \"ow\" about!\""
+    j"\"I'll give you something to \"ow\" about!\""
 
     p"\"I'm joking!\""
 
@@ -5415,7 +5408,7 @@ label start:
 
         #"Couples are scattered across the pool performing out of synch choreography."
 
-        "Male-female duos are scattered across the pool, performing out of sync choreography."
+        "Male-female duos are scattered across the pool, performing out-of-sync choreography."
 
         "The few on the sidelines are huddled around the instructor."
 
@@ -5487,7 +5480,7 @@ label start:
         #Have Casey ask about the scars in front of Jennifer?
         #Jennifer is uneasy around negative emotions. She tries to push them away.
 
-        "Casey amused by our interaction speaks up."
+        "Casey, amused by our interaction speaks up."
 
         cc"\"Later, guys.\""
 
@@ -5561,7 +5554,7 @@ label start:
 
         "I lift her by her thigh and her abdomen, they tense in my palms." #They're taut in my palms."
 
-        "Her weight tenfolds as her body submerges from the water."
+        "Her weight tenfolds as her body emerges from the water."
 
         "She keeps wriggling, trying to get into the right position."
 
@@ -5876,7 +5869,7 @@ label start:
 
         "{i}Why would anyone?{/i}"
 
-        "I checking my phone from time to time for a message or call to save me from myself."
+        "I check my phone from time to time for a message or call to save me from myself."
 
         "I don't even know what time or where."
 
@@ -6222,7 +6215,7 @@ label start:
 
         j"\"Yay! That's good enough for me.\""
 
-        "I can't help smile."
+        "I can only smile."
 
         #"She never fails to draw a smile from me."
 
@@ -6244,7 +6237,7 @@ label start:
 
         show J 3YHappy_OpenSmile at PCM1 with slowd
 
-        j"\"They are. Let's go!\""
+        j"\"They're amazing. Let's go!\""
 
         "She tugs my sleeve and I follow."
 
@@ -6266,7 +6259,7 @@ label start:
         #back to room
         scene room_boy16_day with longf
 
-        "I signed up and Jennifer said she had to go. I can't help but think it's to do with her phone."
+        "I signed up and Jennifer said she had to go. I can't help but think it's who she was messaging."
 
         "Who was she messaging? Or whose message was she waiting for?"
 
@@ -6496,7 +6489,7 @@ label start:
 
         "I reach out to grab it but she turns, and opens it to my picture."
 
-        j"\"No way is that you!\""
+        j"\"No way! Is that you!\""
 
         "I sigh in defeat."
 
@@ -6899,6 +6892,8 @@ label start:
 
         j"\"Is that why you have those scars on your leg?\""
 
+        #"{i}I knew she'd seen them.{/i} I can't deny it at this point."
+        
         "{i}I knew she'd seen them.{/i} I can't deny it at this point."
 
         p"\"Yep.\""
@@ -7033,7 +7028,7 @@ label start:
         nvl clear
         window hide
 
-        "I hold down backspace and watch the characters dissapear." with slowd
+        "I hold down backspace and watch the characters disappear." with slowd
 
         "I stare into the screen until it locks black."
 
@@ -7242,7 +7237,7 @@ label start:
 
         "..."
 
-        p"\"Why does it takes so long?\""
+        p"\"Why does it take so long?\""
 
         j"\"Yeah... Danielle always tells me to pre-prepare.\""
 
@@ -7414,7 +7409,7 @@ label start:
 
         j"\"What are you trying to say?\""
 
-        "I can't help grin."
+        "A smirk perches on my lips."
 
         p"\"I need weight training to lift you, not a race.\""
 
@@ -7448,7 +7443,7 @@ label start:
 
         p"\"You…\""
 
-        "The word seethes from my lips. I mange to subdue profanities."
+        "The word seethes from my lips. I manage to subdue profanities."
 
         j"\"Ahahahaha!\""
 
@@ -7523,7 +7518,7 @@ label start:
 
         "{i}Shit…{/i}"
 
-        q"\"Do you understand how dangerous that is?\""
+        mp"\"Do you understand how dangerous that is?\""
 
         "He lectures me about health and safety…"
 
@@ -7535,7 +7530,7 @@ label start:
 
         p"\"I’m sorry, Sir. It won’t happen again.\""
 
-        q"\"Good.\"" #You’ve got some potential, so keep your nose clean.\""
+        mp"\"Good.\"" #You’ve got some potential, so keep your nose clean.\""
 
         "Even after that whole lecture, all I can think is {i}worth it.{/i}"
 
@@ -7753,7 +7748,7 @@ label start:
         # fist sprite
         show J 3YUpturned_Pout at PCM1 with slowd
 
-        j"\"If I caught you snooping through my drawers on the otherhand...\""
+        j"\"If I caught you snooping through my drawers on the other hand...\""
 
         p"\"Wouldn't happen. What do you take me for?\""
 
@@ -7766,7 +7761,7 @@ label start:
 
         #"Her pensive tone leaves me in thought."
 
-        "It takes a moment to reaise its not an insult."
+        "It takes a moment to realise its not an insult."
 
         p"\"Good. Do my T-shirts instead.\""
 
@@ -7778,7 +7773,7 @@ label start:
 
         show J 2YHappy_OpenSmile at PCM1 with slowd
 
-        j"\"I almost forgot! We need to plan Casey's Birthday!\""
+        j"\"I almost forgot! We need to plan Casey's birthday!\""
 
         show J 2YHappy_Smile at PCM1 with slowd
 
@@ -7814,7 +7809,7 @@ label start:
 
         #p"\"What's that?\""
 
-        j"\"You to ring me and pretend you're lost. I'll meet you near Stop-Shop and we'll leave them to get together.\""
+        j"\"You need to ring me and pretend you're lost. I'll meet you near Stop-Shop and we'll leave them to get together.\""
 
         #j"\"You need to ring me and pretend you're lost. I'll meet you near Stop-Shop and we'll leave them to get together.\""
 
@@ -8139,7 +8134,7 @@ label start:
 
         show C YGentle_Smile at PC1 with move
 
-        cc"\"You like Jennifer, don't you.\"" with slowd
+        cc"\"You like Jennifer, don't you?\"" with slowd
 
         "My mouth opens but my brain freezes."
 
@@ -8220,7 +8215,7 @@ label start:
 
         j"\"Casey's eighteenth!\""
 
-        "We all gives cheers tilt our shots back. The taste of chemicals fills my mouth as the liquid burns down my throat."
+        "We all give cheers and neck our shots back. The taste of chemicals fills my mouth as the liquid burns down my throat."
 
         "They share a laugh as my face contorts and I fail to contain a cough."
 
@@ -8385,7 +8380,7 @@ label start:
 
         j"\"Five teams are chosen but only one couple will be picked to compete against other schools.\""
 
-        j"\"Then the winners then get a chance to complete at a semi-professional level...\""
+        j"\"Then the winners then get a chance to compete at a semi-professional level...\""
 
         #p"\"I promise I'll try my best. We'll train every morning.\""
 
@@ -8744,7 +8739,7 @@ label start:
 
         "I feel deflated after failing to make it. It was naive to think I could..."
 
-        "Sleep doesnt come easy..."
+        "Sleep doesn't come easy..."
 
         #Dream:
 
@@ -8974,7 +8969,7 @@ label start:
 
         p"\"Sorry...\""
 
-        "She take a deep breath and sighs."
+        "She takes a deep breath and sighs."
 
         j"\"No, {i}I'm{/i} sorry. I don't mean to take it out on you.\""
 
@@ -9065,7 +9060,7 @@ label start:
 
         #"With no words I take a drink."
 
-        "She takes a deep drink fom her bottle.\""
+        "She takes a deep drink from her bottle.\""
 
         j"\"It's just something else I fucked up.\""
 
@@ -9087,7 +9082,7 @@ label start:
 
         "She chuckles to herself."
 
-        j"\"She hated it in public, so it just made me do it more...\""
+        j"\"She hated it in public, so it just made me want to do it more...\""
 
         show JX Tears at PCM1 with slowd
 
@@ -9161,7 +9156,7 @@ label start:
 
         j"\"If you find me, you'll get a surprise.\""
 
-        "Her breathe raises the hairs on my neck."
+        "Her breath raises the hairs on my neck."
 
         p"\"Fine.\""
 
@@ -9317,7 +9312,7 @@ label start:
 
         j"\"Let's go!\""
 
-        "And my resistence is left a token."
+        "And my resistance is left a token."
 
         #scene change
         
@@ -9402,7 +9397,7 @@ label start:
         nvl clear
         window hide
 
-        "A group of men laughing on the table beside breaks me from my reverie." with slowd
+        "A group of men laughing at the table beside breaks me from my reverie." with slowd
 
         #"Laughter from a group of men adjacent breaks me from my reverie."
 
@@ -9603,7 +9598,7 @@ label start:
 
         #"She snuggles into the quilts and ignores me."
 
-        "I can't help but take note of her bare leg poking from from under the sheets, and her stockings, skirt, and shirt scattered across the floor..."
+        "I can't help but take note of her bare leg poking from under the sheets, and her stockings, skirt, and shirt scattered across the floor..."
 
         "I put my shorts and a T-shirt on and head to the bathroom."
 
@@ -9621,7 +9616,7 @@ label start:
 
         "I watch the colour drain from my cheeks."
 
-        "My stomach churns, and salivia fills my mouth."
+        "My stomach churns, and saliva fills my mouth."
 
         "{i}I'm gonna throw up.{/i}"
 
@@ -9763,7 +9758,7 @@ label start:
 
         #"I fall in to thought as she leaves. My bed calls me like a gravitational force."
 
-        "My bed calls me like a gravitational force."
+        "My bed calls me like gravitational force."
 
         "I wrap myself in my sheets."
 
@@ -9941,7 +9936,7 @@ label start:
 
         "She eats them on her next slice of toast."
 
-        "It doesn't feel in character to play with her, but I can't  help return her playful nature."
+        "It doesn't feel in character to play with her, but I return her playful nature."
 
         p"\"Look how much you already have! What don't you like?\""
 
@@ -10031,7 +10026,7 @@ label start:
 
         j"\"This is step three!\""
 
-        "I had always noticed my uncle would return smelling of alcohol and women's purfume. I'd begun to despise it."
+        "I had always noticed my uncle would return smelling of alcohol and women's perfume. I'd begun to despise it."
 
         "Yet here I am, already about to drink again after telling myself I wouldn't drink again, for a girl."
 
@@ -10165,7 +10160,7 @@ label start:
 
         j"\"We need to hang out later! But first I have a few things to take care of.\""
 
-        p"\"You could've just text me y'know?\""
+        p"\"You could've just texted me, y'know?\""
 
         show J 2YUpturned_Grin at PCM1 with slowd
 
@@ -10231,7 +10226,7 @@ label start:
 
         "Relief washes over me."
 
-        p"\"Thank you, sir.\""
+        p"\"Thank you, Sir.\""
 
         "I check for Jennifer and Dean but they're gone."
 
@@ -10443,7 +10438,7 @@ label start:
 
         "I wonder what Sarah's doing."
 
-        "She knocked on off her own back to show me that picture. I didn't think she'd acknowledged my question." #I didn't think she had taken me seriously."
+        "She actually knocked on my door to show me that picture. I didn't think she'd acknowledged my question." #I didn't think she had taken me seriously."
 
         "I have an urge to knock on her room."
 
@@ -10827,7 +10822,7 @@ label start:
 
         #"She's already off and I'm left to catch up."
 
-        "A fleeting thought strikes me: I ask Sarah about the art club?"
+        "A fleeting thought strikes me: should I ask Sarah about the art club?"
 
         #"A strange pang strikes me: an urgency to ask Sarah about the art club."
 
@@ -11157,7 +11152,7 @@ label start:
 
         scene school_in004_evening with slowf
 
-        "I can't help but question to myself about the whispers and Mr Thatcher's reaction."
+        "I can't help but question myself about the whispers and Mr Thatcher's reaction."
 
         p"\"So... how come you left the art club?\""
 
@@ -11279,7 +11274,7 @@ label start:
 
         scene room_boy16_evening with slowf
 
-        "I hide behind my door incase they do."
+        "I hide behind my door in case they do."
 
         "{i}Why did I show her?{/i}"
 
@@ -11345,7 +11340,7 @@ label start:
 
         a"\"Sarah is avoidant. She's had more than a few problems because of this in her life, and here is no different.\""
 
-        "How can I be so self obsessed? Of course she has problems. I'm not the only one with a cross to bear."
+        "How can I be so self-obsessed? Of course she has problems. I'm not the only one with a cross to bear."
 
         "I've been ready to drop this whole art club thing."
 
@@ -11705,7 +11700,7 @@ label start:
 
         t"Though her smile is sweet, her eyes glint with melancholy." with slowd
 
-        t"It was what I had come to expect from her. I had gotten used it to the point that it took a smile to make me realise."
+        t"It was what I had come to expect from her. I had gotten used to it to the point that it took a smile to make me realise."
 
         t"She takes her beverage from the holder and gives thanks, cupping it in her hands and taking a sip." #with slowd
 
@@ -11900,7 +11895,7 @@ label start:
 
         "The wind whispers through the tops of the trees."
 
-        "She's still pensive, gazing into the sky—I can't help smile at how relaxed she is."
+        "She's still pensive, gazing into the sky—I can't help but smile at how relaxed she is."
 
         s"\"Wouldn't it have been easier for there to have been nothing?\""
 
@@ -11950,7 +11945,7 @@ label start:
 
         s"\"Do you think... I'm weird?\""
 
-        "I can't help chuckle. I would consider her out of the ordinary, to say the least."
+        "I can't help but chuckle. I would consider her out of the ordinary, to say the least."
 
         p"\"Yeah, a little.\""
 
@@ -11980,9 +11975,9 @@ label start:
 
         "She releases a sigh, smile beaming on her lips."
 
-        "This is the first time Sarah has offered to do something with me, off of her own volition."
+        "This is the first time Sarah has offered to do something with me, of her own volition."
 
-        "The thought leaves a smile on my lips for the journey home."
+        "The thought leaves a smile on my lips for the rest of the journey home."
 
 
 
@@ -12296,7 +12291,7 @@ label start:
 
         p "\"Argh!\""
 
-        s "\"S-stop, moving around so much!\""
+        s "\"S-stop moving around so much!\""
 
         hide sarahsurp with slowd
 
@@ -12421,7 +12416,7 @@ label start:
         scene school_in004_evening with slowf
 
 
-        "The laughter continues; it's the same girls I saw her speaking to after last lesson. Sarah shrinks as they approach."
+        "The laughter continues; it's the same girls I saw her speaking to after the last lesson. Sarah shrinks as they approach."
 
         "The smallest girl meets us. She's blonde with a small frame and a confident strut." # sprite here
 
@@ -12469,7 +12464,7 @@ label start:
 
         #step in front of her?
 
-        "The scorn in her voice matched by sniggers from her friends."
+        "The scorn in her voice is matched by sniggers from her friends."
 
         "Rage wells up my throat." #I'm unable able to tame my tone."
 
@@ -12713,7 +12708,7 @@ label start:
         a"\"How can I help you?\""
 
 
-        "I explain through the details to Mr Adams."
+        "I explain the details to Mr Adams."
 
         scene office10_day with slowf
 
@@ -12725,7 +12720,7 @@ label start:
 
         a"\"I had presumed it was due to Emma leaving...\""
 
-        "His pensive expression insinuates he's thinking aloud as much as tellign me."
+        "His pensive expression insinuates he's thinking aloud as much as telling me."
 
         #"His professional countenance slips with a pensive frown."
 
@@ -12748,7 +12743,7 @@ label start:
 
         "His face stiffens, but eases as he catches my eyes."
 
-        a"\"I know you're upset, but procedures must be followed. I think the best thing you can do right now is to make sure Sarah's OK.\""
+        a"\"I know you're upset, but procedures must be followed. I think the best thing you can do right now is make sure Sarah's OK.\""
 
         #p"\"But...\""
 
@@ -12758,7 +12753,7 @@ label start:
 
         "An easy smile rests on his lips."
 
-        a"\"besides, I've heard you've both spent some time together outside of school.\""
+        a"\"Besides, I've heard you've both spent some time together outside of school.\""
 
         p"\"We have...\""
 
@@ -12780,7 +12775,7 @@ label start:
 
         p"\"Thank you.\""
 
-        "This time, I offer him a handshake and he claps down with both hands."
+        "This time, I offer him a handshake and he clamps down with both hands."
 
         a"\"Believe me, I'm worried about Sarah, too. I'm glad she's found a new friend in you.\""
 
@@ -12850,7 +12845,7 @@ label start:
 
         "It's painful to ask such a stupid question given the sight. I feel stranded and ashamed as I stare at her from across the room."
 
-        "It takes her a few seconds for her response: a nod, and a strained smile that twists my heart."
+        "It takes a few seconds for her response, a nod, and a strained smile that twists my heart."
 
         "I force myself to take the difficult first step, and make my way over to the bed. I sit down gingerly beside her."
 
@@ -12885,7 +12880,7 @@ label start:
 
         t"Her room has clearly been neglected before this happened, none of the plates look fresh."
 
-        t"I can't help think about the apathetic state I was in at my uncles."
+        t"I can't help but think about the apathetic state I was in at my uncles."
 
         t"I didn't care about my surroundings; I would do anything to distract myself."
 
@@ -13121,7 +13116,7 @@ label start:
 
         hide S cSsmile with slowd
 
-        "She gives a satisfied nod as Mr Thatcher Grabs the class's attention."
+        "She gives a satisfied nod as Mr Thatcher grabs the class's attention."
 
         #{i}And I can't miss the chance to spend more time with you.{/i}"
 
@@ -13234,7 +13229,7 @@ label start:
 
         p"\"S-stop, listen!\""
 
-        "He's not listening. I step back and avoid his next swing"
+        "He's not listening. I step back and avoid his next swing."
 
         rr"\"Get off me, bitch!\""
 
@@ -13715,7 +13710,7 @@ label start:
 
         s"\"But how will you stop planning for the future when you don't see the end in sight?\""
 
-        p"\"Then what does it all even matter when we'll die and be replaced?\""
+        p"\"Then why does it all even matter when we'll die and be replaced?\""
 
         s"\"What other meaning is there?\""
 
@@ -13787,8 +13782,8 @@ label start:
 
         s"\"People have told me I'm... unnatural.\""
 
-        p"\"Becuase of Emma?\""
-
+        p"\"Because of Emma?\""
+        
         show S 1AAnxious_Smile at PCM1 with slowd
 
         s"\"Yeah.\""
@@ -13859,9 +13854,9 @@ label start:
 
         s"\"Not really.\""
 
-        "She continues in her work."
+        "She continues her work."
 
-        p"\"There's competitions online and forums where you can post your art.\""
+        p"\"There're competitions online and forums where you can post your art.\""
 
         "She stops for a moment."
 
@@ -13899,9 +13894,9 @@ label start:
 
         centered "As sleep claims my senses, an image surfaces in my mind—a gravestone."
 
-        t"One of thousands scattered under a bleak sky. The clouds merge from grey to black above above one grave." with slowd
+        t"One of thousands scattered under a bleak sky. The clouds merge from grey to black above one grave." with slowd
 
-        t"The grave before me reads, \"Memory.\""
+        t"The grave before me reads, \"Memory.\""                   
 
         t"A spade falls from the air and thumps into the dirt."
 
@@ -14177,7 +14172,7 @@ label start:
 
         #I want to hug her, and let her know it will be OK. Even if I know it won't always be."
 
-        "As her words evaporate on the breeze, an urge rises to hug her."
+        "As her words evaporate on the breeze, an urge to hug her rises."
 
         #Something about her worldview makes me want to hug her.
 
@@ -14343,7 +14338,7 @@ label start:
 
         s"\"Maybe... I know it sounds stupid...\""
 
-        p"\"Even Einstein contested it. A reponse of his to quantum physics, 'is the moon really there when nobody looks?'\""
+        p"\"Even Einstein contested it. A response of his to quantum physics, is the moon really there when nobody looks?'\""
 
         s"\"I just don't see what it is without life to observe it. It might as well be nothing.\""
 
@@ -14410,7 +14405,7 @@ label start:
 
         p"\"It is...\""
 
-        s"\"I last came with Emma.\""
+        s"\"I last came here with Emma.\""
 
         p"\"Don't other people come here?\""
 
@@ -14723,7 +14718,7 @@ label start:
 
         #"I feel like I missed the opportunity to ask her."
 
-        "I feel like an opportunity just slipped through my fingers."
+        "I feel like an opportunity's just slipped through my fingers."
 
         "..."
 
@@ -14955,7 +14950,7 @@ label start:
 
         p"\"Yeah. We're the new guys.\""
 
-        "I fail to mention that he's eccentric or the fact there's a lot of new students even when you disregard the first years."
+        "I fail to mention that he's eccentric or the fact there're a lot of new students even when you disregard the first years."
 
         jump Dan1yy
 
@@ -15127,7 +15122,7 @@ label start:
         window hide
         nvl clear
 
-        t"I make it back and follow Danielle's lead; she assures to not get cornered by enemies." with slowd
+        t"I make it back and follow Danielle's lead; she assures not to get cornered by enemies..." with slowd
 
         #"We defeat the rats with e\ase and move on."
 
@@ -15252,7 +15247,7 @@ label start:
         td" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Run! The agro's switched.\""
 
 
-        t"I sprint, again spamclicking my apples. I can't eat them fast enough" #spamming health potions."
+        t"I sprint, again spamclicking my apples. I can't eat them fast enough." #spamming health potions."
 
 
 
@@ -15314,7 +15309,7 @@ label start:
 
         hide D 1YSerious_Flat with fastd
 
-        t"There's two chests waiting for us, so we loot one each." with slowd
+        t"There are two chests waiting for us, so we loot one each." with slowd
 
         #td"\"Oh wow, I got a rare sword.\""
 
@@ -15357,7 +15352,7 @@ label start:
 
         "We make our way back into town."
 
-        d"\"What posessed you to only bring apples?\""
+        d"\"What possessed you to only bring apples?\""
 
         p"\"They're five gold each and heal twenty HP; the cheapest potions were fifty gold and only healed one-hundred and twenty.\""
 
@@ -15389,7 +15384,7 @@ label start:
 
         "I concede to my stupid death."
 
-        d"\"I'll take you through town before the next.\""
+        d"\"I'll take you through town before the next dungeon.\""
 
         #fade in/out
         scene Computer_Room with slowf
@@ -15405,7 +15400,7 @@ label start:
 
         "Something just irritates me when she calls me noob."
 
-        "But it's nice to actually recieve some praise from her."
+        "But it's nice to actually receive some praise from her."
 
         d"\"I can't deny it was fun, either.\""
 
@@ -15439,11 +15434,11 @@ label start:
 
         scene Internet_Cafe with longf
 
-        t"Everyday after class I've been heading down to this Internet_Cafe I found to train my account." with slowd
+        t"Everyday after class I've been heading down to this internet cafe I found to train my account." with slowd
 
         t"I've found that 4-5pm of Danielle's afterschool schedule consists of raiding with her clanmates."
 
-        t"With my account coming into mid-level, our compatible content has decreased to nothing."
+        t"With my account coming into mid-level, our compatible content has decreased to nothing with her very high level and very low level accounts."
 
         t"I thought I'd get closer by sticking at it, but now it feels so far before I can play with her again."
 
@@ -15476,15 +15471,15 @@ label start:
 
         scene restaurant03_day with longf
 
-        "After some trouble finding the place, I find her at the back alcove with a strawberry and chocolate icecream in a parfait glass."
+        "After some trouble finding the place, I find her at the back alcove with a strawberry and chocolate ice cream in a parfait glass."
 
         scene DCG 1Gentle_Flat with slowd
 
-        p"\"Y'know, I didn't exactly expect you to go for an icecream.\""
+        p"\"Y'know, I didn't exactly expect you to go for an ice cream.\""
 
         #show D cnarrow with slowd
 
-        d"\"If I was alone, then I could eat icecream without being questioned for it.\""
+        d"\"If I was alone, then I could eat ice cream without being questioned for it.\""
 
         p"\"Should I go?\""
 
@@ -15540,11 +15535,11 @@ label start:
 
         "After all my talk, I realise I'm going to be that strawberry."
 
-        "I could still put with her company with her calling me noob. I've done it so far, right?"
+        "Could I still put up with her company with her calling me noob? I've done it so far, right?"
 
         p"\"Your confidence will be your weakness.\""
 
-        d"\"If you don't me to go easy on you, then keep talking.\""
+        d"\"If you don't want me to go easy on you, then keep talking.\""
 
         "Her smirk grows with my silence."
 
@@ -15572,14 +15567,13 @@ label start:
 
         d"\"Eat up, I'm heading back soon.\""
 
-
         scene restaurant03_day
 
         show D 1YGentle_Flat at PC1
 
         with slowf
 
-        "We finish eating and I wait until we've left the table until I speak."
+        "We finish eating and I wait until we've left the table before speaking."
 
         p"\"So much for fair play.\""
 
@@ -15810,7 +15804,9 @@ label start:
 
         #"I'm too tired to focus today, but Danielle's AFKable suggestion is noticeably faster..."
 
-        "After an energy drink, Danielle's focus suggestion is noticeably faster."
+        "After an energy drink, Danielle's focus suggestion at the Bragens is noticeably faster."
+        
+        "Their random stomp attacks mean I have to pay attention and move from the cracking floor but the experience is much better." 
 
         scene room_boy16_evening with longf
 
@@ -15978,7 +15974,7 @@ label start:
 
         d"\"Thanks.\""
 
-        p"\"Wait, if Jennifer didn't know you still game, was she was going to suggest that I could play music with you on my first day?\""
+        p"\"Wait, if Jennifer didn't know you still game, was she going to suggest that I could play music with you on my first day?\""
 
         "Her eyes drop for a moment."
 
@@ -16032,7 +16028,7 @@ label start:
 
         d"\"Good.\""
 
-        p"\"But c'mon, we might aswell do some raids now that I can be useful.\""
+        p"\"But c'mon, we might as well do some raids now that I can be useful.\""
 
         #"A smile breaks her lips."
 
@@ -16143,7 +16139,7 @@ label start:
 
         "I don't want to let her down." with slowd
 
-        "And I'm not sure I'd surive the wrath of both Mrs Brown and Danielle..." #I don't think
+        "And I'm not sure I'd survive the wrath of both Mrs Brown and Danielle..." #I don't think
 
         "Homework looks a little more appealing all of a sudden."
 
@@ -16557,7 +16553,7 @@ label start:
 
         "I try to form a question, but I'm overwhelmed with how much I want to ask."
 
-        p"\"Why would anybody track them? And why would that effect us?\""
+        p"\"Why would anybody track them? And why would that affect us?\""
 
         show D 1YManic_Grit at PCM1 with slowd
 
@@ -16677,7 +16673,7 @@ label start:
 
         "She looks ashamed in herself for it."
 
-        p"\"You couldn't have known. But that doesn't mean that you have to suspect luke.\""
+        p"\"You couldn't have known. But that doesn't mean that you have to suspect Luke.\""
 
         "My mind shoots to her threatening to ring the police when I told her I was here."
 
@@ -16744,7 +16740,7 @@ label start:
 
         #"Would she actually trust me enough to tell me?"
 
-        t"Her paranoia makes me uneasy, but I just can't help feel that it's not the case."
+        t"Her paranoia makes me uneasy, but I just can't help feeling that it's not the case."
 
         t"I just wanted to be there for her. To make her feel comfortable."
 
@@ -16759,7 +16755,7 @@ label start:
 
         t"Does she have a reason to? We've played Club Seal and Magnum Dilon together."
 
-        t"I get the feeling she wouldn't have told me about her music if I hadn't found her."
+        t"I get the feeling she wouldn't have told me about her music if I hadn't found her playing."
 
         t"She doesn't even trust Jennifer enough to tell her about her gaming."
 

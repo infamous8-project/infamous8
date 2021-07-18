@@ -748,7 +748,7 @@ transform JCG:
 
 transform PM1:
     zoom 0.25
-    xalign 0.5 yalign 0.0
+    xalign 0.5 yalign 1.0
     
 transform PC1:
     zoom 0.29
@@ -764,11 +764,11 @@ transform PCM1:
 
 transform PML1:
     zoom 0.25
-    xalign 0.0 yalign 0.0
+    xalign 0.0 yalign 1.0
     
 transform PMR1:
     zoom 0.25
-    xalign 1.0 yalign 0.0
+    xalign 1.0 yalign 1.0
     
 #two
 transform PCL1:
