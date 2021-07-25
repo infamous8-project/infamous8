@@ -5637,6 +5637,8 @@ label start:
         show J 2YSad_Pout at PCM1 with slowd
 
         "She shoots a pout at me."
+        
+        "It's hard to resist, but do I want to get dragged into their circle?"
 
         #Jennifer arc choice
     menu:
@@ -5775,8 +5777,9 @@ label start:
 
         hide J 2YUpturned_Grin with moveoutright
 
-        "My words were hollow, but she seems to have taken it as a challenge or something."
-
+        #"My words were hollow, but she seems to have taken it as a challenge or something."
+        
+        "She sees right through my hollow words."
 
         #classroom
 
@@ -5827,6 +5830,8 @@ label start:
         #t"Peter: Does that mean I get to chop yours off if I do?"
 
         #Mrs Brown
+        
+        t"She watches me read her message and roll my eyes."
 
         t"Jenjen: dont tell n e 1, ok?"
 
@@ -5878,7 +5883,7 @@ label start:
         #vibrate
         play sound "audio/sfx/short vibrate.mp3"
 
-        "{i}Finally...{/i}"
+        "My phone vibrates. {i}Finally...{/i}"
 
         t"Jenjen: we r heading into town, wanna join us?"
 
@@ -5899,7 +5904,7 @@ label start:
 
         show J 2YSad_Pout at PM1
 
-        with slowf
+        with longf
 
         "I arrive to find Jennifer glued to her phone."
 
@@ -5978,7 +5983,7 @@ label start:
 
         "I almost respond with a yes but catch my tongue."
 
-        show J 3YUpturned_AngryPout at PC1 with medd
+        show J 3YUpturned_Pout at PC1 with medd
         show J 2YHappy_Smile at PCR1 with move
 
         j"\"Arsehole!\""
@@ -5992,7 +5997,7 @@ label start:
         #
         "Her high-pitched growl extracts a laugh from me."
 
-        show J 3YUpturned_AngryPout with slowd
+        show J 3YUpturned_Pout with slowd
 
         j"\"What're you laughin' at?\""
 
@@ -6259,11 +6264,11 @@ label start:
         #back to room
         scene room_boy16_day with longf
 
-        "I signed up and Jennifer said she had to go. I can't help but think it's who she was messaging."
+        "I signed up and Jennifer said she had to go. I can't help but think about her looking at her phone."
 
-        "Who was she messaging? Or whose message was she waiting for?"
+        "Her expression was grim. Who was she messaging? Or whose message was she waiting for?"
 
-        "I wonder why I'm curious."
+        "I wonder why I'm curious?"
 
         "Beats me. But it beats where my mind would stray."
 
@@ -7480,15 +7485,71 @@ label start:
         "Her innuendo delivered with a wink."
 
         "I resign to practice and vow to get her back..."
-
+        
+        scene school15_day with longf
+        
+        "We've finished for the morning." 
+        
+        "Honestly, I didn't expect to feel some sense of achievement for getting up early and working on our moves."
+        
+        "We head in and get changed."
+        
+        scene school12_day 
+        show J 2YHappy_Smile at PCM1
+        with slowf
+        
+        j"\"See, Peter! You're getting much better. You might even make it.\""
+        
+        p"\"God forbid.\""
+        
+        show J 2YUpturned_Grin with fastd
+        
+        j"\"You love spending time with me!\""
+        
+        p"\"I just {i}love{/i} getting pushed in the pool at 6am.\""
+        
+        show J 2YUpturned_Pout with fastd
+        
+        j"\"You deserved it for calling a lady fat!\""
+        
+        p"\"I mean... you're hardly a lady.\""
+        
+        show J 3YAnnoyed_Pout with fastd
+        
+        "This earns me a dig on the arm."
+        
+        j"\"You need to beefen up those scrawny arms!\""
+        
+        show J 2YAnnoyed_Pout with fastd
+        
+        "Her comment makes me feel a little self-conscious."
+        
+        p"\"Hey, I was in the hospital for a few months!\""
+        
+        "I fail to mention doing this with her is my first real exercise since."
+        
+        p"\"And this is also why I need the weight training.\""
+        
+        #"She scowls for a moment and breaks into a smile."
+        
+        show J 2YUpturned_Tongue with fastd
+        
+        j"\"I'll let you off!\""
+        
+        show J 2YHappy_Smile with fastd
+        
+        j"\"Now hurry and rest your shorts and towel to dry. I'll see you in class.\""
+        
+        p"\"Will do, later.\""
+        
+        
         #Timeskip (next lesson)
-
-
-
-
+        
         scene school15_day with longf
 
-        "We're a little late but the coach just ushers us to get started."
+        #"We're a little late but the coach just ushers us to get started."
+        
+        "We arrive late to the lesson. I don't know why Jennifer insists on arriving together."
 
         "Jennifer turns to face me with her back to the pool."
 
@@ -7761,7 +7822,7 @@ label start:
 
         #"Her pensive tone leaves me in thought."
 
-        "It takes a moment to realise its not an insult."
+        "It takes a moment to realise it's not an insult."
 
         p"\"Good. Do my T-shirts instead.\""
 
@@ -7887,7 +7948,7 @@ label start:
         show C YSad_Smile at PM1 #with slowd
         show J 2YHappy_Flat at PCR2 #with move
         show De 2YDisappointed_Frown at PML1 #with slowd
-        with slowd
+        with slowf
 
 
         #show c mnorma at Position (xpos = 0.5, xanchor=0.1, ypos=1.3, yanchor=1.3)
@@ -9045,6 +9106,8 @@ label start:
         "She pulls her phone from her bag and stares into it."
 
         j"\"She was supposed to be there...\""
+        
+        j"\"I would've made it if she was there.\""
 
         j"\"But I don't care anymore, she might as well be dead.\""
 
@@ -9090,8 +9153,12 @@ label start:
 
         "They seemed so close in class, but that tear a symbol of how far they've drifted."
 
-        j"\"I miss her... I miss the times we shared growing up.\"" #best friends become strangers
-
+        j"\"I miss her... I miss when we were kids growing up.\"" #best friends become strangers
+        
+        "A wry chuckle escapes her lips."
+        
+        j"\"Things were just so simple back then.\""
+        
         #"Her wistful words stab my heart for my own reasons."
 
         "Her wistful words stab my heart. I don't want to be lonely, either."
