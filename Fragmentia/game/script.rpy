@@ -5411,6 +5411,8 @@ label start:
         "Male-female duos are scattered across the pool, performing out-of-sync choreography."
 
         "The few on the sidelines are huddled around the instructor."
+        
+        "I count twelve girls and seven guys in total."
 
         scene Jennifer CG at JCG
         show J1 YHappy_Sad at JCG
@@ -5446,11 +5448,11 @@ label start:
 
         "They share a lifted brow at my deflated introduction."
 
-        j"\"Don't worry! You'll be working with me.\""
+        j"\"Don't worry! You'll be working with us.\""
 
-        j"\"We might have to do extra practise, but you don't have much to learn.\""
+        j"\"We might have to do extra practise on the side, but you don't have much to learn.\""
 
-        p"\"I never agreed to water dance.\""
+        p"\"Hold on, I never agreed to water dance.\""
 
         j"\"It's not water dancing, it's synchronised swimming!\""
 
@@ -5482,19 +5484,17 @@ label start:
 
         "Casey, amused by our interaction speaks up."
 
-        cc"\"Later, guys.\""
+        cc"\"Don't worry, we won't bite.\""
+        
+        "Despite it all, I could certainly find myself in worse circumstances."
 
-        j"\"I'll see you later!\""
-
-        p"\"Bye.\""
-
-        scene Jennifer CG at JCG
-        show J1 YHappy_Smile at JCG
-        with slowd
+        #scene Jennifer CG at JCG
+        #show J1 YHappy_Smile at JCG
+        #with slowd
 
         #teacher
 
-        "After address the other students, the teacher sets his sights on me."
+        "After addressing the other students, the teacher sets his sights on me."
 
         q"\"It's nice to see a new face. Are you joining the team?\""
 
@@ -5506,7 +5506,7 @@ label start:
 
         mp"\"I see. I'm Mr Palmer, welcome.\""
 
-        "He looks to Jennifer."
+        "He looks to them."
 
         #You're late
 
@@ -5532,13 +5532,21 @@ label start:
 
         "She shoves me with her shoulder."
 
-        j"\"You won't have much to learn. You'll be helping me perform a few moves.\""
-
-
+        j"\"You won't have much to learn. You'll be helping us perform a few moves.\""
+        
         #"We slide into the pool."
-
-
-        p"\"At least the pool isn't as cold today.\""
+        
+        "She turns over to Casey."
+        
+        j"\"So it starts with the cradle lift, then we double ballet leg, crane, and then...\""
+        
+        "I start to zone out as they speak some swim dancer jargon."
+        
+        cc"\"Yeah, that's it.\""
+        
+        j"\"Ready?\""
+        
+        p"\"Oh, yeah. I'm just glad the pool isn't as cold today.\""
 
         "She turns away and presses her back against me. Her warmth tingles on my skin." #body against mine - tingling
 
@@ -5550,10 +5558,12 @@ label start:
 
         "Her fingers wrap aroud my wrists and guide my hands to her body." #pull my hands into position."
 
-        j"\"You just need to hold me up.\""
+        j"\"You just need to hold me up and then push me off when I say.\""
 
-        "I lift her by her thigh and her abdomen, they tense in my palms." #They're taut in my palms."
-
+        "I lift her by her thighs and upper back, they tense in my palms." #They're taut in my palms."
+        
+        p"\"Gotcha.\""
+        
         "Her weight tenfolds as her body emerges from the water."
 
         "She keeps wriggling, trying to get into the right position."
@@ -5565,23 +5575,43 @@ label start:
         j"\"Hold it.\""
 
         "My arms begin to shake under the weight. {i}It's embarrassing.{/i}"
-
+        
         j"\"Release.\""
 
-        "I lower her back into the water in relief."
+        #j"\"Release.\""
 
+        #"I lower her back into the water in relief."
+        
+        play sound "audio/sfx/Splash.mp3"
+        
+        scene Pool CG at JCG with slowd
+        
+        t "She dives under with my push, Casey in tow; their legs standing tall before opening at a right angle." with slowd
+        
+        t "They pivet in perfect ninety degree angles away from each other, and then their legs dance in the air."
+        
+        t"They perform three twists amd then roll over to  the surface."
+        
+        t"How they do all that holding their breath amazes me."
+        
+        scene Jennifer Casey CG at JCGJ with slowd
+        
+        j"\"See, that wasn't so bad.\"" with slowd
 
-        j"\"See, that wasn't so bad.\""
-
-        p"\"I... guess not. But I can't hold you long out of the water.\""
+        p"\"I... guess not. But wow, that's pretty impressive.\""
+        
+        j"\"That's only the first section of the routine.\""
+        
+        
+        "But next time get in position before I lift you." #I can't hold you long out of the water.\""
 
         "Her brow lifts."
 
-        j"\"Why not?\""
+        j"\"Why?\""
 
         p"\"You're heavy.\""
 
-        show J1 YUpturned_AngryPout
+        show J1 YUpturned_AngryPout at JCGJ
         with slowd
 
         "This earns me a swat on the shoulder."
@@ -5601,8 +5631,21 @@ label start:
         with slowd
 
         j"\"Good. You better not be!\""
-
-
+        
+        scene Jennifer Casey CG at JCG2 
+        show J1 YUpturned_Smile at JCG2
+        with slowd
+        
+        "Casey approaches me."
+        
+        cc"\"Don't worry, I'm not quite that heavy.\""
+        
+        "I laught and turn to Jennifer, who takes no interst in her comment."
+        
+        "Casey's certainly lighter, she also readies herself in position before surfacing." 
+        
+        "This isn't so bad."
+        
         "We rinse and repeat for the remainder of the lesson..."
 
         stop music fadeout 3.0
@@ -5638,7 +5681,7 @@ label start:
 
         "She shoots a pout at me."
         
-        "It's hard to resist, but do I want to get dragged into their circle?"
+        "It's hard to resist, but do I want to get dragged into this?"
 
         #Jennifer arc choice
     menu:
@@ -6089,7 +6132,7 @@ label start:
 
         play sound "audio/sfx/short vibrate.mp3"
 
-        "\"arsehole! follow my lead.\""
+        "\"Follow my lead.\""
 
         "This gives me a bad feeling."
 
@@ -6858,7 +6901,7 @@ label start:
 
         "The waiter returns and places down our drinks."
 
-        "I choke back some of the bitter brew."
+        #"I choke back some of the bitter brew."
         #managing to stop my face from contorting.
 
         #"I peer around. It feels wrong for me to be drinking."
@@ -7046,6 +7089,8 @@ label start:
         "Why did she invite me out yesterday?"
 
         "Was it just for her plans to get Casey and Dean to spend time together?"
+        
+        "And get me to train with her at the same time...?"
 
         "My stomach sinks and I flop back onto my bed."
 
@@ -7055,13 +7100,13 @@ label start:
 
         play environment "audio/sfx/ring vibrate.mp3"
 
-        "{i}...Speak of the devil.{/i}"
+        "{i}...Speak of the devil.{/i} She's ringing."
 
         stop environment fadeout 1.0
 
         j"\"What's your room number?!\""
 
-        "{i}Hello to you too.{/i}"
+        "{i}Hello to you, too.{/i}"
 
         p"\"It's one-one-seven.\""
 
@@ -7077,7 +7122,7 @@ label start:
 
         "Despite the mess, it looks so bare..."
 
-        "I take my pots to the kitchen and opt to wait outside to intercept her."
+        "I take my used pots to the kitchen and opt to wait outside to intercept her."
 
         scene school_out002_day
 
@@ -7105,7 +7150,7 @@ label start:
 
         show J 2YHappy_Smile at PCM1 with slowd
 
-        j"\"Liar! Let's go!\""
+        j"\"Liar! Let's go.\""
 
         "I cut my losses and follow."
 
@@ -7149,7 +7194,7 @@ label start:
 
         scene shop01_day with slowf
 
-        "How have {i}I{/i} ended up paying for chickety?"
+        "How have {b}I{/b} ended up paying for chickety?" #{i}I{/i}
 
         "{i}Chicken!{/i} This girl..."
 
@@ -7239,8 +7284,14 @@ label start:
         "She meets me with a smug smile."
 
         #p"\"I know...\""
+        
+        j"\"{i}{b}I{/b}{/i} have a loicense!\""
+        
+        p"\"...\""
+        
+        "I just accept my defeat. She does have the personality to pull it off." #I... do not."
 
-        "..."
+
 
         p"\"Why does it take so long?\""
 
@@ -7469,8 +7520,8 @@ label start:
         play environment "audio/background/underwater.ogg" fadein 4.0
         scene underwater with longd
         stop environment fadeout 2.5
-        scene Jennifer CG at JCG
-        show J1 YHappy_Smile at JCG
+        scene Jennifer CG at JCGJ
+        show J1 YHappy_Smile at JCGJ
         with longd
 
         "I cannonball into the water beside her and rush to the surface with a smile."
@@ -7486,11 +7537,13 @@ label start:
 
         "I resign to practice and vow to get her back..."
         
+        #she tries to get him to try?
+        
         scene school15_day with longf
         
         "We've finished for the morning." 
         
-        "Honestly, I didn't expect to feel some sense of achievement for getting up early and working on our moves."
+        "Honestly, I didn't expect to feel some sense of achievement for getting up early and working on her routine."
         
         "We head in and get changed."
         
@@ -7499,6 +7552,8 @@ label start:
         with slowf
         
         j"\"See, Peter! You're getting much better. You might even make it.\""
+        
+        "She delivers it with a wink."
         
         p"\"God forbid.\""
         
@@ -7526,7 +7581,7 @@ label start:
         
         p"\"Hey, I was in the hospital for a few months!\""
         
-        "I fail to mention doing this with her is my first real exercise since."
+        "I fail to mention doing this with her is my first real exercise since. If you could call it that."
         
         p"\"And this is also why I need the weight training.\""
         
@@ -7626,27 +7681,27 @@ label start:
         j"\"Have you convinced Dean to join yet?\""
 
         show C1 YGentle_Sad at JCG
-        with slowd
+        with fastd
 
-        cc"\"No... I'm doing fine with Matthew.\""
+        cc"\"No...\""
 
         "She focuses on her hand trailing through the water."
 
         show C1 SAwkward_Sad at JCG
-        with slowd
+        with fastd
 
-        cc"\"I don't think he'd ever join anyway...\""
+        cc"\"I don't think he'd even join for...\""
 
         "Her voice sinks into an indescernible mumble."
 
         show J1 YHappy_OpenSmile at JCG
-        with slowd
+        with fastd
 
         j"\"Don't say that! You just need to pester him!\""
 
         show J1 YHappy_Smile at JCG
         show C1 YGentle_Sad at JCG
-        with slowd
+        with fastd
 
         "Casey shrugs."
 
@@ -7665,7 +7720,9 @@ label start:
 
         "The whole thing just gives me mixed feelings."
 
-        "I enoy spending time with Jennifer, but it only seems to confirm my doubt when she says something like that."
+        #"I enoy spending time with Jennifer, but it only seems to confirm my doubt when she says something like that."
+        
+        "I enjoy spending time with Jennifer, but I am starting to feel a bit used for this training."
 
         show J1 YHappy_Smile at JCG
         with slowd
@@ -7882,7 +7939,7 @@ label start:
 
         j"\"I thought we could get some grilled chicken from Pepper's. It's amazing~!\""
 
-        "I release a grin and shrug. {i}How can I say no?{/i}"
+        "I release a grin and shrug." #{i}How can I say no?{/i}"
 
         p"\"Sounds good.\""
 
@@ -8034,7 +8091,7 @@ label start:
 
         "A gasp escapes my lips as his hand crashes into my back." #gasp?????
 
-        D"\"It's just here.\""
+        D"\"It's just 'ere.\""
 
         # Bar scene
 
@@ -8513,7 +8570,6 @@ label start:
 
         j"\"A freshly cooked chicken fillet, coated in a home-made Mediterranean marinade—accompanied by fresh red onion, lettuce, tomato, and mayonnaise, on a perfectly grilled bun.\""
 
-
         "She points to the bag she placed on the table."
 
         j"\"Along with a side of fries and a drink. All for just four ninety-five!\""
@@ -8547,7 +8603,7 @@ label start:
 
         "She wipes her chin and glares!"
 
-        j"\"Arsehole! Now you have to make sure we make it!\""
+        j"\"Don't laugh! Now you have to make sure I make it!\""
 
         p"\"I'll do my best.\""
 
@@ -8629,15 +8685,15 @@ label start:
 
         "Why did she hug me? I can almost feel her warmth as it flashes back through my mind."
 
-        "Can we really make it?"
+        #"Can we really make it?"
 
-        "{i}No.{/i}"
+        #"{i}No.{/i}"
 
-        "{i}At least not me.{/I} I flop back onto my bed."
+        #"{i}At least not me.{/I} I flop back onto my bed."
 
-        t"If she makes it without me, would she leave me behind?" with slowd
+        t"If she makes it, would she leave me behind?" with slowd
 
-        t"Even if she didn't, {i}I'd only hold her back.{/i}"
+        t"Even if she didn't,  {i}I'd only hold her back.{/i}"
 
         #t"Would she forget me as gleefully as she met me?"
 
@@ -8661,12 +8717,11 @@ label start:
 
         "I sit up and rest my head in my palms." with slowd
 
-        "{i}I'm still... paralysed by my own venom.{/i}"
+        #"{i}I'm still... paralysed by my own venom.{/i}"
 
         "I will make sure she makes these trials."
 
-        "...Maybe I'll make it too."
-
+        #"...Maybe I'll make it too."
 
         #I'd never make it. But with Jennifer? I think we can.
 
@@ -8686,6 +8741,87 @@ label start:
         #I'm still... paralysed by my own venom.
 
         #I can help. I will help her train. I... might even get through too.
+        
+        
+        
+        scene Jennifer CG at JCGJ
+        show J1 YHappy_Smile at JCGJ
+        with longf
+        
+        "We have been training every morning this week. It's a relief that Friday is now here."
+        
+        p"\"How're you feeling? The names are picked tomorrow, right?\""
+        
+        j"\"Yeah! I think I'm good with the extra help!\""
+        
+        j"\"Thank you! I really appreciate  it.\""
+        
+        p"\"You're welcome.\""
+        
+        p"\"When's the official trial?\""
+        
+        j"\"That's next Satuday... I'm so nervous.\""
+        
+        p"\"Ah, well, if you need anymore help, you know where to find me.\""
+        
+        j"\"Thanks, Peter. But I will need to work with my partner this week.\""
+        
+        "It somehow feels like a rejection. Even though I know I'm not good enough."
+        
+        #"{i}Someone who actually knows what they're doing...{/i} Yeah, not me."
+        
+        j"\"They even let you take the week off from school if you make it!\""
+        
+        p"\"Really? Lucky you.\""
+        
+        "{i}And lucky him.{/i}"
+        
+        j"\"I haven't made it yet!\""
+        
+        p"\"You will.\""
+        
+        "I'm pretty confident in her, she's really finetuned the routine beyond those that I saw in the lessons."
+        
+        j"\"Thank Peter, I hope so!\""
+        
+        "I smile."
+        
+        p"\"Don't worry!\""
+        
+        "She laughs at my imitation of her."
+        
+        j"\"We really have spent quite a lot of time together haven't we?\""
+        
+        j"\"I wish you could water dance.\""
+        
+        "I'm surprised by the lack of a chuckle after her imitation."
+        
+        p"\"Yeah, me too.\""
+        
+        j"\"Oh really? Mr 'I don't wanna water dance'?\""
+        
+        #"Not really, I just wish I could come with you."
+        
+        p"\"Er... I mean, like I'd wanna help you do the best you could.\""
+        
+        j"\"You can watch, y'know!\""
+        
+        p"\"I just might.\""
+        
+        j"\"Of course you are!\""
+        
+        p"\"Well, I wanna see you nail it. I haven't put all this work in for nothing!\""
+        
+        j"\"Exactly!\""
+        
+        p"\"We better get ready for class.\""
+        
+        
+        
+        
+        
+        
+        
 
         play sound "audio/sfx/Mp3-alarm-clock.mp3"
         scene room_boy16_evening with longf
@@ -8712,7 +8848,7 @@ label start:
 
         "Nervousness is wedged in my stomach."
 
-        "We've trained every day for two weeks, but it just doesn't feel enough."
+        "We've trained every day for two weeks, but it seems like it all ends here."
 
         #stop sound fadeout 0.7
 
@@ -8772,15 +8908,23 @@ label start:
 
         j"\"We did it!\""
 
-        "As he finishes with names, my heart drops at the lack of my own."
+        "As he finishes with names, my heart still drops at the lack of my own."
 
         p"\"You did it...\""
+        
+        #j"\"I'm sorry...\""
+        
+        #p"\"It's fine, I don't think water dancing is for me.\""
 
         j"\"Thank you so much...\""
 
         "It's not something I wanted to do, but I wanted to go with her."
 
         "But as long as she's happy..."
+        
+        #j"\"You'll have to meet me for a drink after, win or lose!\""
+        
+        
 
         p"\"Good luck this weekend.\""
 
@@ -8798,8 +8942,10 @@ label start:
 
         scene room_boy16_night_dark with longf
 
-        "I feel deflated after failing to make it. It was naive to think I could..."
-
+        #"I feel deflated after failing to make it. It was naive to think I could..."
+        
+        "I feel deflated knowing I'm going a full week in school without our morning swims, without her in class..."
+        
         "Sleep doesn't come easy..."
 
         #Dream:
@@ -8818,7 +8964,9 @@ label start:
         show ghost angel scream with slowd
 
         t"I crawl towards her and she looks toward the pans on the stove." with slowd
-        t"{i}Dinner will be ready soon.{/i}"
+        
+        t"She doesn't speak a word, but I know {i}dinner will be ready soon.{/i}"
+        
         #t"She lifts me up and holds me in her arms, rattling a toy."
 
         t"She calls me toward her, rattling a toy."
@@ -8830,19 +8978,23 @@ label start:
         t"As I near her, she lays it down and exits."
 
         t"{i}Don't leave me alone.{/i}"
+        
+        t"The doors and windows merge into wooden panels."
 
         window hide
         nvl clear
 
-        "The doors and windows merge into wooden panels." with slowd
+        #"The doors and windows merge into wooden panels." with slowd
 
         centered "{i}I'm trapped.{/i}" with slowd
+        
+        centered "Flames overflow from the pans and spill to the floor." with slowd
 
         #"The pans overflow and flames spill down to the floor."
 
         play environment "audio/sfx/Flames.ogg" fadein 5.0
 
-        show text "Flames overflow from the pans and spill to the floor." at truecenter with dissolve
+        show text "Flames consume the shack, screams rings out in the distance." at truecenter with dissolve
         pause 0.5
         #hide text with dissolve
 
@@ -8887,19 +9039,371 @@ label start:
 
         "The thoughts that I'm only holding her back..."
 
-        "Will I lose Jennifer too?" #Will I... forget her...?"
+        #"Will I lose Jennifer too?" #Will I... forget her...?"
+        
+        "{i}My head is in pieces.{/i}"
+        
+        "I get myself together for class."
+        
+        scene school02_day with slowf
+        
+        "The room feels empty without Jennifer."
+        
+        "Danielle's absent today too."
+        
+        "As is my mind."
+        
+        scene school02_day with slowf
+        
+        "It's lunch. I feel as lost as I did on my first day..."
+        
+        "This time I don't have Jennifer, or even Danielle..."
+        
+        "I decide to head back to my dorm for some food."
+        
+        scene school02_day with slowf
+        
+        "As the day comes to an end, I almost expect her to tell me she'll see me tomorrow."
+        
+        
+        
+        scene room_boy16_day with slowf
+        
+        "I keep hitting my alarm until it turns off."
+        
+        "I get ready for another day..."
+        
+        scene school02_day with slowf
+        
+        "No Jennifer." 
+        
+        "Danielle is back today, but she doesn't spare me a glance."
+        
+        "I wonder how Jennifer is doing."  #I hope she is doing well."
+        
+        "I hope she's doing well. I'm sure she is with a skilled partner."
+        
+        "I do wonder how well they'll do."
+        
+        "I'm not sure why, it just irritates me that she's performing with someone else."
+        
+        "But I'd never be good enough. Nevermind within that timefame."
+        
+        "I still don't even know who she's with..."
+        
+        "Weekend feels forever away..."
+        
+        
+        
+        scene room_boy16_cloud with slowf
+        
+        "I shut off my alarm and reach for my phone."
+        
+        "I text her last night, still no response."
+        
+        "I feel as downcast as the weather."
+        
+        "She's probably been training for an hour by now, too."
+        
+        "I shrug it off and get ready for the day."
+        
+        stop music fadeout 3.0
+        
+        scene school05_cloud with slowf
+        
+        "I catch Danielle in the hallway."
+        
+        p"\"Hey Daneille, you heard anything from Jennifer?\""
+        
+        d"\"She's training for the trial, isn't she?\""
+        
+        #wtf is it called? lol trial?
+        
+        p"\"Yeah.\""
+        
+        d"\"Don't expect to hear much from her.\""
+        
+        p"\"She that serious?\""
+        
+        d"\"Wouldn't you be if that was something you loved?\""
+        
+        "I don't think I've ever been serious."
+        
+        "It's almost funny to think of Jenifer as serious. But she's almost a different person when she performs."
+        
+        p"\"Yeah, I suppose.\""
+        
+        d"\"Anything else? Or are you just going to daydream?\""
+        
+        p"\"Nah, that's it.\""
+        
+        "She makes her way in and I follow."
+        
+        scene school02_cloud with slowf
+        
+        "I feel better with the comfirmation she's determined and not flat out ignoring me."
+        
+        "Class doesn't seem as much of a chore today."
+        
+        scene room_boy16_evening with longf
+        
+        "I pick up my phone and think about texting her again."
+        
+        "I don't want to push it. But I thought I'd see her at some point."
+        
+        
+        #Call or knock?
+        
+        #My phone shakes to life in my hand. Jennifer.
+        
+        #A knock rips me form my thoughts. Jennifer?
+        
+        play environment "audio/sfx/ring vibrate.mp3" fadein 2.0
+        
+        
+        "My phone shakes to life in my hand. {i}Jennifer.{/i}"
+        
+        stop environment fadeout 1.0
+        
+        p"\"Hey! How's it going?\""
+        
+        j"\"I'll be over in a minute!\""
+        
+        "I hear running down the corridor and then pulling on my handle."
+        
+        j"\"Open up!\""
+        
+        "I click the lock and open the door."
+        
+        p"\"Give me chance!\""
+        
+        "She wraps me in a hug, but by the time my surprise hits me, she pulls away."
+        
+        j"\"It feels like ages!\""
+        
+        p"\"Can't live without me for a few days?\""
+        
+        "I stand back raising my palms to the ceiling."
+        
+        j"\"Idiot!\""
+        
+        j"\"Don't act like you didn't wanna see me.\""
+        
+        p"\"I did.\""
+        
+        "I sit down on my bed and she sits across on my desk."
+        
+        p"\"So, who're you partnered with?\""
+        
+        j"\"Jealous?\""
+        
+        p"\"More for the time out of class, yeah.\""
+        
+        j"\"I'm with Matthew.\""
+        
+        p"\"You managed to get everything down?\""
+        
+        j"\"Yeah, we're doing well. He's really good!\""
+        
+        p"\"Glad to hear.\""
+        
+        "I can feel my smile faltering on my lips."
+        
+        j"\"But he's so boring! Too serious.\""
+        
+        p"\"You should be serious with this, too.\""
+        
+        j"\"I am!\""
+        
+        p"\"I know.\""
+        
+        "I flash a smile and her smile widens."
+        
+        j"\"Are you gonna come and watch me?!\""
+        
+        p"\"I'll be there.\""
+        
+        j"\"You sure? The coach leaves at seven.\""
+        
+        p"\"I'm sure.\""
+        
+        j"\"After, I'll meet you for a drink!\""
+        
+        p"\"Should you really drink while doing this?\""
+        
+        j"\"Who are you, my dad?\""
+        
+        p"\"Well, I'm sure professional athletes don't drink much.\""
+        
+        j"\"Then isn't that a better reason to drink now? I've gotta make it up before then!\""
+        
+        p"\"Alright, I'll be there.\""
+        
+        j"\"I knew I could count on you!\""
+        
+        "She slides off my desk and kisses me on the cheek." #and jump on me, arms wrapped around me
+        
+        j"\"Don't let me down!\""
+        
+        "I sit back in amazement, realising she's holding her pinkie out."
+        
+        p"\"I promise.\""
+        
+        "She latches onto my pinkie."
+        
+        j"\"Remember what will happen if you don't!\""
+        
+        p"\"Pinkie. Off.\""
+        
+        "I scissor my pinkie with my fingers."
+        
+        j"\"I'll see you Saturday.\""
+        
+        p"\"See you then.\""
+        
+        "She opens my door."
+        
+        j"\"Oh, by the way, you need a shave!\""
+        
+        "And she's gone."
+        
+        
+        
+        "I thrust my arm into the air."
+        
+        p"\"Yes!\""
+        
+        "The word seeps through my clenched teeth."
+        
+        "My world's just turned upsidedown."
+        
+        #Peter's stubble gets shaved lol
+        
+        
+        #Custard
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        #pick it back up?
+        
+        ###################################
+        
+        
+        scene room_boy16_cloud with longf
 
-        "The trials are today. And all I can do is contemplate my selfishness."
-
-        "She told me to meet her at that bar at 6pm."
+        "The trials are today."
+                                                                                 
+        #"She told me to meet her at that bar at 6pm."
+        
+        "I wake up just before my 6:30am alarm. 6:24am shimmers into focus."
+        
+        "I peel myself out of bed, bleary-eyed."
+        
+        "I need to catch the bus by 7am."
+        
+        #"Two hours on the coach..."
+        
+        "It begins at 9am..."
 
         stop music fadeout 2.0
+        
+        #What about driving? He's OK on the coach? 
 
-        "Whether win or lose, she would need a drink. {i}I think I do, too.{/i}"
-
-
-
-
+        scene pool02_cloud with longf
+        
+        "You'd almost think it was Rome but for the weather."
+        
+        "The teams step out and I applaud with the crowd."
+        
+        "I can only focus on Jennifer, she looks preoccupied."
+        
+        "She keeps scanning through the crowd. {i}Is she looking for me?{/i}"
+        
+        "As her gaze passes, I stand and wave out to her."
+        
+        "She smiles and waves over, but then continues to scan."
+        
+        "When I look through the crowd, I can't see Danielle."
+        
+        "Is that who she's looking for?"
+        
+        scene pool02_day with slowf
+        
+        "By 10am, the sky clears up."
+        
+        "But only a few schools have performed."
+        
+        "I didn't expect this to take so long."
+        
+        "Jennifer isn't scheduled for another seven routines."
+        
+        "I stretch and yawn. I've had a week off early mornings and I'm already not used to it."
+        
+        "Almost wish I did sleep in now."
+        
+        "A lie-in would've been welcome."
+        
+        #"I don't think Jennifer would agree though."
+        
+        "But letting Jennifer down was out of the question."
+        
+        "That kiss on my cheek..."
+        
+        "And she seemed eager for me to come."
+        
+        
+        
+        #"She seemed insistant."
+        
+        scene pool02_day with slowf
+        
+        "Finally, Jennifer enters with our team."
+        
+        "I applaud again with the crowd as they take their positions in the pool."
+        
+        "He holds her up well."
+        
+        "But again she scans through the crowd."
+        
+        "The whistle blows to begin and she looks surprised as she's thrusted forward into her dive."
+        
+        #"She seems to be a fraction behind the other dancers."
+        
+        "There's a subtle gasp from the crowd."
+        
+        "It's bad... she's the only one clearly out of sync..."
+        
+        "As they return to begin the second phase of the routine, she manages to leap off of his shoulders in sync and makes it up."
+        
+        "I look down to the judges who are conversing among themselves."
+        
+        "Their discussions are quick between another and unsure."
+        
+        "I can only hope for Jennifer."
+        
+        "What was she doing? She had it down to a tee when we trained..."
+        
+        scene pool02_cloud with slowf
+        
+        "The weather today was forecast to be clear."
+        
+        "But it's gloomy as it was this morning as the event finishes."
+        
+        "I want to hope for Jennifer, but I hadn't seen anybody else that out of sync today..."
+        
+        "She'll be taking a coach with the team. I'll be on the bus back for the audience..."
+        
+        "She said we'd meet at the bar for a drink, win or lose..."
+        
+        
+        
         #"I head out to greet them."
 
         #p"\"Where's Jennifer?\""
@@ -8949,7 +9453,7 @@ label start:
 
         "I arrive and smile when I see her."
 
-        p"\"Celebrating?\""
+        p"\"Did you make it?\""
 
         "She necks back her cocktail and orders another."
 
@@ -8980,7 +9484,7 @@ label start:
 
         "She hands me a drink and is about to neck back another. I block her with my hand."
 
-        p"\"Calm down, we've got class tomorrow.\""
+        p"\"Calm down.\""
 
         show J 2YSad_Sad at PCM1 with slowd
 
@@ -8988,17 +9492,17 @@ label start:
 
         "Her confession comes with a sigh."
 
-        "I could already tell from the scene."
+        "I could already tell from the scene. I don't have the heart to bring up her performance."
 
         #"But to hear her say it stabs me with a pang of relief, and then guilt for feeling relieved."
 
         #"But to hear her say it stabs me with a pang guilt for my thoughts earlier." #earlier thoughts
 
-        "As low as I feel seeing her like this, there's a part of me that's glad she didn't make it without me." #glad she didn't* #Incase she moved out of reach.
-
+        "But as low as I feel seeing her like this, there's a part of me that's glad she didn't make it without me." #glad she didn't* #Incase she moved out of reach.
+        
         #"I can't stand to see her like this; a pang of guilt stings the part of me that's glad she didn't make it."
 
-        p"\"What about the other competitions?\""
+        p"\"What about other competitions?\""
 
         j"\"What's the point?\""
 
@@ -9107,9 +9611,19 @@ label start:
 
         j"\"She was supposed to be there...\""
         
-        j"\"I would've made it if she was there.\""
+        "Something hits me."
+        
+        p"\"It was your mum who was texting you when we first went out?\""
+        
+        j"\"Yeah, she even left me a nice text today after it finished.\""
+        
+        "She holds out the screen towards my face."
+        
+        "\"I'm really sorry I couldn't make it. I'll be there next time! x\""
+        
+        j"\"There won't be a next time.\""
 
-        j"\"But I don't care anymore, she might as well be dead.\""
+        j"\"I don't care anymore, she might as well be dead.\""
 
         "It irks me that she'd discard her mother like that..."
 
@@ -9127,17 +9641,23 @@ label start:
 
         j"\"It's just something else I fucked up.\""
 
-        "It's unnerving to hear her say something like that."
+        "It's unnerving to hear her say something like that after today."
 
         p"\"What do you mean?\""
-
-        j"\"My relationships never seem to last, friends or family.\""
+        
+        j"\"Look at today. I fucked up because all I cared about was if she was there...\""
+        
+        j"\"I would've made it if I didn't...\""
+        
+        "Her voice trails off and her hands clasp onto her thighs."
+        
+        j"\"And my relationships... never seem to last, friends or family.\""
 
         p"\"Your friends?\""
 
         j"\"Dean and Casey must hate me for my antics—Danielle already does.\""
 
-        p"\"Danielle?\""
+        p"\"Danielle does?\""
 
         show JN 2YSad_Grin at PCM1 with slowd
 
@@ -9201,6 +9721,8 @@ label start:
         "{i}I never grew up.{/i}"
 
         show JN 2YHappy_Smile at PC1 with slowd
+        
+        j"\"That's it!\""
 
         j"\"We're gonna play a game!\""
 
@@ -9995,7 +10517,7 @@ label start:
 
         show J 2YUpturned_Smile at PCM1 with slowd
 
-        j"\"Arsehole! You don't even like 'em.\""
+        j"\"You don't even like 'em.\""
 
         p"\"You could put them back.\""
 

@@ -325,6 +325,12 @@ image school15_night_light_rain = "bgs/school2/school15_night_light_rain by fuka
 image underwater = "bgs/clipartfox--underwater.jpeg"
 
 
+
+
+#Trial pool
+image pool02_cloud = "bgs/pool02_cloud by El Caganer.jpg"
+image pool02_day = "bgs/pool02_day by El Caganer.jpg"
+
 #bgs/street/
 #shop:
 
@@ -742,10 +748,21 @@ image church11_night_dark = "bgs/graveyard/church11_night_dark by vestman.jpg"
 
 # NVL cofig:
 
+
+#Jennifer CG
 transform JCG:
     zoom 0.5
     xalign 0.0 yalign 0.0
 
+transform JCG2:
+    zoom 0.67
+    xalign 0.45 yalign 0.0
+    
+transform JCGJ:
+    zoom 0.67
+    xalign 0.0 yalign 0.0
+    
+#sprites    
 transform PM1:
     zoom 0.25
     xalign 0.5 yalign 1.0
