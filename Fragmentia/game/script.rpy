@@ -9175,9 +9175,15 @@ label start:
         
         "I click the lock and open the door."
         
+        show J 2YHappy_Smile at PM1 with slowd
+        
         p"\"Give me chance!\""
         
+        show J 2CHappy_Smile at PCM1 with slowd
+        
         "She wraps me in a hug, but by the time my surprise hits me, she pulls away."
+        
+        show J 2YHappy_Smile with slowd
         
         j"\"It feels like ages!\""
         
@@ -9185,49 +9191,75 @@ label start:
         
         "I stand back raising my palms to the ceiling."
         
+        show J 2YUpturned_Tongue with fastd
+        
         j"\"Idiot!\""
+        
+        show J 2YUpturned_Grin with fastd
         
         j"\"Don't act like you didn't wanna see me.\""
         
         p"\"I did.\""
         
+        show J 2YHappy_Smile at PC1 with slowd
+        
         "I sit down on my bed and she sits across on my desk."
         
         p"\"So, who're you partnered with?\""
         
-        j"\"Jealous?\""
+        show J 2YUpturned_Grin with fastd
+        
+        j"\"Jealous, Peter?\""
         
         p"\"More for the time out of class, yeah.\""
+        
+        show J 2YHappy_Smile with fastd
         
         j"\"I'm with Matthew.\""
         
         p"\"You managed to get everything down?\""
         
-        j"\"Yeah, we're doing well. He's really good!\""
+        show J 3YHappy_OpenSmile with fastd
+        
+        j"\"Yeah, we're doing so well. He's really good!\""
+        
+        show J 2YHappy_Smile with fastd
         
         p"\"Glad to hear.\""
         
         "I can feel my smile faltering on my lips."
         
+        show J 2DMellow_Flat with fastd
+        
         j"\"But he's so boring! Too serious.\""
         
         p"\"You should be serious with this, too.\""
+        
+        show J 2YHappy_Flat with fastd
         
         j"\"I am!\""
         
         p"\"I know.\""
         
-        "I flash a smile and her smile widens."
+        show J 2YHappy_Smile with fastd
+        
+        "I flash a smile and her smile returns."
+        
+        show J 3YHappy_OpenSmile with fastd
         
         j"\"Are you gonna come and watch me?!\""
         
         p"\"I'll be there.\""
         
+        show J 2YUpturned_Smile with fastd
+        
         j"\"You sure? The coach leaves at seven.\""
         
         p"\"I'm sure.\""
         
-        j"\"After, I'll meet you for a drink!\""
+        show J 2YHappy_Smile with fastd
+        
+        j"\"And after, I'll meet you for a drink!\""
         
         p"\"Should you really drink while doing this?\""
         
@@ -9235,13 +9267,23 @@ label start:
         
         p"\"Well, I'm sure professional athletes don't drink much.\""
         
+        show J 2YUpturned_Tongue with fastd
+        
         j"\"Then isn't that a better reason to drink now? I've gotta make it up before then!\""
+        
+        show J 2YHappy_Smile with fastd
         
         p"\"Alright, I'll be there.\""
         
+        show J 2YHappy_OpenSmile with fastd
+        
         j"\"I knew I could count on you!\""
         
-        "She slides off my desk and kisses me on the cheek." #and jump on me, arms wrapped around me
+        show J 2CHappy_Flat at PCM1 with slowd
+        
+        "She slides off the desk and lands a kiss on my cheek." #and jump on me, arms wrapped around me
+        
+        show J 2YHappy_Smile with fastd
         
         j"\"Don't let me down!\""
         
@@ -9257,13 +9299,25 @@ label start:
         
         "I scissor my pinkie with my fingers."
         
+        show J 2YUpturned_Smile with fastd
+        
+        j"\"Good.\""
+        
+        show J 2YHappy_Smile with fastd
+        
         j"\"I'll see you Saturday.\""
         
         p"\"See you then.\""
         
+        show J 2YHappy_Smile at PM1 with slowd
+        
         "She opens my door."
         
+        show J 2YUpturned_Grin at PM1 with fastd
+        
         j"\"Oh, by the way, you need a shave!\""
+        
+        hide J 2YHappy_Smile at PM1 with slowd
         
         "And she's gone."
         
