@@ -846,6 +846,8 @@ image D 1DManic_Smirk = "sprite/danielle/D 1DManic_Smirk.png"
 
 image D 1YAngry_Flat = "sprite/danielle/D 1YAngry_Flat.png"
 
+image D 1YAngry_Gnash = "sprite/danielle/D 1YAngry_Gnash.png"
+
 image D 1YAngry_Frown = "sprite/danielle/D 1YAngry_Frown.png"
 
 image D 1YAngry_Gnash = "sprite/danielle/D 1YAngry_Gnash.png"
@@ -934,7 +936,7 @@ image D 1YSerious_Smile = "sprite/danielle/D 1YSerious_Smile.png"
 
 image D 1YSerious_Smirk = "sprite/danielle/D 1YSerious_Smirk.png"
 
-
+image D 1YGentle_Relaxed = "sprite/danielle/D 1YGentle_Relaxed.png"
 
 #Danielle pose2
 
@@ -1063,6 +1065,7 @@ image D 2YSerious_Shout = "sprite/danielle/D 2YSerious_Shout.png"
 image D 2YSerious_Smile = "sprite/danielle/D 2YSerious_Smile.png"
 
 image D 2YSerious_Smirk = "sprite/danielle/D 2YSerious_Smirk.png"
+
 
 #Danielle SX
 

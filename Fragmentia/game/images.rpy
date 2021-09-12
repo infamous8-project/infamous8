@@ -162,6 +162,7 @@ image school_out001_night_dark_rain = "bgs/school/school_out001_night_dark_rain.
 image school_out001_night_light_rain = "bgs/school/school_out001_night_light_rain.jpg"
 image school_out001_rain = "bgs/school/school_out001_rain.jpg"
 
+#Peter and Sarah dorms
 image school_out002_cloud = "bgs/school/school_out002_cloud.jpg"
 image school_out002_day = "bgs/school/school_out002_day.jpg"
 image school_out002_evening = "bgs/school/school_out002_evening.jpg"
@@ -170,6 +171,19 @@ image school_out002_night_light = "bgs/school/school_out002_night_light.jpg"
 image school_out002_night_dark_rain = "bgs/school/school_out002_night_dark_rain.jpg"
 image school_out002_night_light_rain = "bgs/school/school_out002_night_light_rain.jpg"
 image school_out002_rain = "bgs/school/school_out002_rain.jpg"
+
+#Jennifer and Danielle dorms
+
+image school01_cloud = "bgs/school/school01_cloud.jpg"
+image school01_day = "bgs/school/school01_day.jpg"
+image school01_evening = "bgs/school/school01_evening.jpg"
+image school01_night_dark = "bgs/school/school01_night_dark.jpg"
+image school01_night_light = "bgs/school/school01_night_light.jpg"
+image school01_night_dark_rain = "bgs/school/school01_night_dark_rain.jpg"
+image school01_night_light_rain = "bgs/school/school01_night_light_rain.jpg"
+image school01_rain = "bgs/school/school01_rain.jpg"
+
+
 
 image school_out003_cloud = "bgs/school/school_out003_cloud.jpg"
 image school_out003_day = "bgs/school/school_out003_day.jpg"
@@ -483,6 +497,12 @@ image room_boy16_night_light2 = "bgs/room/room_boy16_night_light by University o
 image room_boy16_night_dark blur = "bgs/room/room_boy16_night_dark by University of Exeter blur.jpg"
 
 
+
+
+#Danielle official
+image room_boy15_day = "bgs/room/room_boy15_day by norfolkdistrict.jpg"
+
+
 image european_in04_cloud = "bgs/room/european_in04_cloud by vastateparksstaff.jpg"
 image european_in04_day  = "bgs/room/european_in04_day by vastateparksstaff.jpg"
 image european_in04_evening = "bgs/room/european_in04_evening by vastateparksstaff.jpg"
@@ -778,6 +798,15 @@ transform PCC1:
 transform PCM1:
     zoom 0.37
     xalign 0.5 yalign 0.2
+    
+transform PCML1:
+    zoom 0.37
+    xalign -2.0 yalign 0.2
+    
+transform PCMR1:
+    zoom 0.37
+    xalign 3.0 yalign 0.2
+    
 
 transform PML1:
     zoom 0.25

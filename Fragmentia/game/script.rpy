@@ -5590,7 +5590,7 @@ label start:
         
         t "They pivet in perfect ninety degree angles away from each other, and then their legs dance in the air."
         
-        t"They perform three twists amd then roll over to  the surface."
+        t"They perform three twists and then roll over to  the surface."
         
         t"How they do all that holding their breath amazes me."
         
@@ -9400,13 +9400,15 @@ label start:
         
         "I stretch and yawn. I've had a week off early mornings and I'm already not used to it."
         
-        "Almost wish I did sleep in now."
-        
-        "A lie-in would've been welcome."
+        "Almost wish I did sleep in now. A lie-in would've been welcome."
         
         #"I don't think Jennifer would agree though."
         
-        "But letting Jennifer down was out of the question."
+        "But an angry Jennifer is out of the question."
+        
+        "And I can't deny I wanted to come."
+        
+        #"But letting Jennifer down was out of the question."
         
         "That kiss on my cheek..."
         
@@ -11077,7 +11079,7 @@ label start:
 
         "I scan over my room, knowing I won't get shit done." #But it buys me a little time from my wondering mind"
 
-        "Inevitably, my mind wanders to my parents... {w}Sarah's picture."
+        "Inevitably, my mind wanders to my parents... {w}{i}Sarah's picture.{/i}"
 
         "I wonder what Sarah's doing."
 
@@ -15503,8 +15505,8 @@ label start:
         t"L0stc4us3: What's the catch?"
 
         t"x-Destiny-x: My friend will be online, so you'll have to buy an account."
-
-
+        
+        with fastd
 
 
 
@@ -16063,21 +16065,21 @@ label start:
         #linear 5 zoom 5.0
 
 
-        "I've gained quite a few levels, but I felt left out being too low to join her clan..."
-
-
-
-
-
-
-
-
-
+        "I've gained quite a few levels, but I felt left out being too low to join her clan events..."
+        
+        
+        
+        
+        
+        
+        
+        
+        
         #Danielle Act One Custard
 
         scene Internet_Cafe with longf
 
-        t"Everyday after class I've been heading down to this internet cafe I found to train my account." with slowd
+        t"Everyday after class, I've been heading down to this internet cafe I found to train my account." with slowd
 
         t"I've found that 4-5pm of Danielle's afterschool schedule consists of raiding with her clanmates."
 
@@ -16096,7 +16098,7 @@ label start:
 
         t"x-Destiny-x: I'm heading into town."
 
-        t"L0stc4us3: Just so happens I'm in the Internet_Cafe on Long Rd."
+        t"L0stc4us3: Just so happens I'm in the internet cafe on Long Rd."
 
         t"x-Destiny-x: I'm going to Pot Kettle Black."
 
@@ -16104,8 +16106,12 @@ label start:
 
         window hide
         nvl clear
-
-        "..." with slowd
+        
+        "Was that an invite?" with slowd
+        
+        "..." 
+        
+        
 
         #"She's logged out..." with slowd
 
@@ -16450,7 +16456,17 @@ label start:
         "After an energy drink, Danielle's focus suggestion at the Bragens is noticeably faster."
         
         "Their random stomp attacks mean I have to pay attention and move from the cracking floor but the experience is much better." 
-
+        
+        scene Internet_Cafe with slowf
+        
+        "My phone buzzes in my pocket."
+        
+        "It's 4pm already."
+        
+        "It's from Danielle, I feel too guilty to reply."
+        
+        "I have my private off in game. But I'm sure she'll check my rankings..."
+        
         scene room_boy16_evening with longf
 
         "I open my eyes and hover my finger over the call button."
@@ -16643,7 +16659,7 @@ label start:
 
         p"\"I was ill.\""
 
-        d"\"You don't look ill now.\""
+        d"\"You don't look ill.\""
 
         #"{i}I wasn't...{/i}"
         "Her probing questions evoke a pang of guilt."
@@ -16717,17 +16733,28 @@ label start:
         window hide
         nvl clear
 
-        "L0stC4us3: Doesn't he remember me?" with slowd
+        p"\"Doesn't he remember me?\"" with slowd
 
-        "x-Destiny-x: Apparently not."
+        d"\"Apparently not.\""
 
-        "L0stC4us3: Doesn't your clan know I'm your friend IRL?"
+        p"\"Doesn't your clan know I'm your real friend?\""
 
-        "I take a glance. But she continues in text."
+        "I take a glance. But she replies in text."
 
         "x-Destiny-x: I'll speak to you later."
 
         "..."
+        
+        
+        #"L0stC4us3: Doesn't he remember me?" with slowd
+
+        #"x-Destiny-x: Apparently not."
+
+        #"L0stC4us3: Doesn't your clan know I'm your friend IRL?"
+
+        #"I take a glance. But she continues in text."
+
+        #"x-Destiny-x: I'll speak to you later."
 
         #p"\"\""
 
@@ -16805,8 +16832,8 @@ label start:
         "A few minutes pass and I'm certain that's all she's going to say."
 
         "I just can't leave it at that."
-
-        t"L0stC4us3: Be ready, noob."
+        
+        t"L0stC4us3: Be ready, noon."
 
         t"x-Destiny-x: Pfft. You better be ready to fight me with talk like that."
 
@@ -16814,12 +16841,37 @@ label start:
 
         t"L0stC4us3: Give me a week..."
 
-        t"x-Destiny-x: Hurry up!"
+        t"x-Destiny-x: I'll see you at noon."
+        
+        window hide
+        nvl clear
+        
+        "Confused, I look back and realise my autocorrect typo."
+        
+        #t"L0stC4us3: Noob*"
+        
+        
+        
+        
+        
+        
+
+        #t"L0stC4us3: Be ready, noob."
+
+        #t"x-Destiny-x: Pfft. You better be ready to fight me with talk like that."
+
+        #"We both know I'm not ready."
+
+        #t"L0stC4us3: Give me a week..."
+
+        #t"x-Destiny-x: Hurry up!"
 
         window hide
         nvl clear
 
-        t"x-Destiny-x: Good night."
+        t"x-Destiny-x: Goodnight."
+        
+        "With her abrupt message, I leave it be."
 
         t"L0stC4us3: 'Night."
 
@@ -16827,11 +16879,13 @@ label start:
         nvl clear
 
         "I wasn't expecting her to say goodnight. Maybe in some roundabout way, we're becoming friends." with slowd
-
+        
+        "As for, {i}\"see you at noon,\"{/i} I can't see us playing at lunch.{w} Right?"
+        
         window hide
         nvl clear
 
-        "Well, I'd better get an early night, rested for a grind after school tomorrow..."
+        "Well, I'd better get an early night, rested for another homework grind after school tomorrow..." #???????????????????????????
 
         scene black with longf
 
@@ -17297,6 +17351,8 @@ label start:
         #show D cnormal with slowd
 
         d"\"I played with him online a few years back and we got close.\""
+        
+        d"\"I started streaming, and had some creepers; he helped me out with them.\""
 
         d"\"But when we started drifting apart, he got controlling; so I said goodbye.\""
 
@@ -17312,11 +17368,15 @@ label start:
 
         show D 1Closed_Flat with slowd
 
-        #rape?
+        "She looks ashamed of herself for it."
+        
+        p"\"What happened?\""
+        
+        d"\"I screamed. My dad and brother came and restrained him until the police arrived.\""
+        
+        "She delivers it without emotion."
 
-        "She looks ashamed in herself for it."
-
-        p"\"You couldn't have known. But that doesn't mean that you have to suspect Luke.\""
+        p"\"You couldn't have known it was him. But that doesn't mean that you have to suspect Luke.\""
 
         "My mind shoots to her threatening to ring the police when I told her I was here."
 
@@ -17362,7 +17422,7 @@ label start:
 
         show D 1YSerious_Frown at PC1 with slowd
 
-        d"\"No, thanks. I'll see you Monday.\""
+        d"\"No, thanks.\"" #I'll see you Monday.\""
 
         hide D 1YSerious_Frown with slowd
 
@@ -17403,6 +17463,8 @@ label start:
         t"She doesn't even trust Jennifer enough to tell her about her gaming."
 
         t"Maybe I'm just looking too much into everything."
+        
+        t"She did tell me about her stalker after all..."
 
         window hide
         nvl clear
@@ -17411,13 +17473,676 @@ label start:
 
         "Someone's actually trying to track her. And I'm here doubting her."
 
-        "I talk about friendship and trust, yet I don't trust her with this."
+        "I talk about friendship and trust, yet what trust am I giving?"
 
         "And even with how calculated she is, she's seriously concerned."
-
-
-
-
+        
+        "It wasn't something I ever thought I'd see of her."
+        
+        
+        
+        scene school02_day with longf
+        
+        "I arrive early. A few classmates loiter the hall, talking among themselves."
+        
+        "Danielle isn't here. Nor is Jennifer."
+        
+        "I take my seat and wait..."
+        
+        scene school02_day with slowf
+        
+        "Mrs Brown begins the lesson, still no sign of either." #of them."
+        
+        "A pang of guilt leaves me preoccupied."
+        
+        "Has it affected her enough to not attend class?"
+        
+        "I haven't received any messages from her since. Not like I've sent any...."
+        
+        "I have no idea where her dorm is...."
+        
+        #"I haven't spoken to her since..."
+        
+        
+        
+        
+        #Go to Danielle's after school? No idea where she lives.
+        scene room_boy16_day with slowf
+        
+        #He'll text her and then wait... She'll tell him where she's staying and confirms her trust beyond doubt.
+        
+        "I don't know what to say to her. I don't know how to word it."
+        
+        "{i}Hey Danielle, why weren't you in school today?{/i}"
+        
+        "It might come across the wrong way. And she's got ammo on me..."
+        
+        "{i}Hey Danielle, are you OK?{/i}"
+        
+        "It just feels... wrong."
+        
+        t"L0stC4us3: Hey." with slowd
+        
+        "I settle for the simple. At least I've messaged her."
+        
+        "It's only 4:30pm. Today is dragging."
+        
+        "And at this point, I want a reply {i}now.{/i}"
+        
+        scene room_boy16_day with slowf
+        
+        "I waste some time playing random phone games. It's only 5:12pm."
+        
+        play sound "audio/sfx/short vibrate.mp3"
+        
+        "I quickly open the message."
+        
+        t"x-Destiny-x: Hey."
+        
+        "After deliberating, and her blunt answer, I decide to just be blunt."
+        
+        t"L0stC4us3: Where were you today?"
+        
+        "She's seen my message. It takes a few minutes for a response."
+        
+        t"x-Destiny-x: I was attending a workshop for the Video Game Development Club."
+        
+        "I sigh a breath of relief."
+        
+        "At least she hasn't just taken a day off after what happened on Saturday."
+        
+        t"L0stC4us3: Can I come and see you?"
+        
+        "I enter it in the moment and wait on her reply."
+        
+        t"x-Destiny-x: what for?"
+        
+        window hide
+        nvl clear
+        
+        "I still feel so awkward with how to word what I want."
+        
+        t"L0stC4us3: I just want to talk?"
+        
+        t"x-Destiny-x: We can chat here."
+        
+        #"I still feel so awkward with how to word what I want."
+        
+        t"L0stC4us3: I want to see you."
+        
+        "She leaves me no opther option but to outright say it."
+        
+        #
+        t"x-Destiny-x: Fine, meet me at the gate to the dorms across the school from yours."
+        
+        window hide
+        nvl clear
+        
+        "I put my shoes on and I'm off."
+        
+        scene school01_day with slowf
+        
+        "I've heard these dorms have bigger rooms from classmates in the halls."
+        
+        "It certainly looks the part compared to mine."
+        
+        show D 1YGentle_Relaxed at PCM1 with slowd
+        
+        
+        
+        
+        d"\"Hey, what's up?\""
+        
+        p"\"Hey. I was just a bit worried after the other day.\""
+        
+        d"\"I was being stupid. It's fine.\""
+        
+        p"\"You have every right to take precautions if something's happened before...\""
+        
+        d"\"I let my emotions get the better of me for a moment.\""
+        
+        d"\"I'm fine.\""
+        
+        "She's keen to dismiss it..."
+        
+        "And she says it in a calm tone that makes me want to believe she is OK."
+        
+        #"But I never thought I'd see a side like that of her since we met. I know she didn't mean to show it."
+        
+        p"\"I'm glad to hear it.\""
+        
+        d"\"C'mon, I'm not standing here all day.\""
+        
+        hide D 1YGentle_Relaxed at PCM1 with slowd
+        
+        "She gestures for me to follow."
+        
+        scene black with slowd
+        
+        "She leads me through additional card security, to room 216."
+        
+        scene room_boy15_day 
+        show D 1YGentle_Relaxed at PC1
+        with slowd
+        
+        "she sits down at her laptop."
+        
+        p"\"Wow, this is so much better than mine.\""
+        
+        d"\"It's one of the most expensive rooms.\""
+        
+        show D 1YGentle_Relaxed at PCM1 with slowd
+        
+        "She states it matter-of-factly, and I sit down beside her."
+        
+        "The screen filled with lists and sprite images."
+        
+        p"\"You're working on your game?\""
+        
+        d"\"Yeah, I usually start at five every day after playing Magnum Dilon.\""
+        
+        d"\"But I'm excited today after the workshop.\""
+        
+        "I find myself smiling at her excitement, and that subtle smile that hasn't left her lips."
+        
+        p"\"That's a good idea.\""
+        
+        "She begins browsing down the menus and changing numbers."
+        
+        p"\"What are you doing?\""
+        
+        d"\"I'm trying to balance the enemies and experience.\"" 
+        
+        d"\"I want people to have to train or use a strategy when reaching the first boss.\""
+        
+        p"\"What strategies do you have in mind?\""
+        
+        d"\"I'm thinking of adding some low damage moves as his weakness, so people will choose the higher damage moves instead.\""
+        
+        p"\"But if they beat him at a lower level with low damage moves, how will they fair against the next enemies?\""
+        
+        p"\"Won't someone who grinds and uses the higher moves have a much higher advantage?\""
+        
+        d"\"I could make the next enemies weaker to it as they gather experience for more moves.\""
+        
+        p"\"I think that could work...\""
+        
+        #Go into narrative for the game here?
+        
+        p"\"What's the story?\""
+        
+        d"\"Well... I'm struggling with that.\""
+        
+        d"\"I've even thought about joining a club for literature or short stories.\""
+        
+        p"\"What ideas do you have?\""
+        
+        show D 1Closed_Flat
+        #show DX Shadow at PCM1
+        with slowd
+        
+        d"\"I'm honestly pretty stumped...\""
+        
+        d"\"I've been thinking as having an average hero narrative.\""
+        
+        p"\"Nothing wrong with that, do you have any ieas to make it stand out?\""
+        
+        show D 1YSerious_Flat 
+        #hide DX Shadow at PCM1
+        with slowd
+        
+        d"\"I've mainly just focused on the development skills.\""
+        
+        show D 1YSerious_Relaxed at PCM1 with slowd
+        
+        p"\"What about a hero who has lost his memories? He has to unravel his past?\""
+        
+        #"She looks at me as if I just 
+        
+        d"\"Amnesia trope's been used recently.\""
+        
+        "So that's my life? {i}A trope.{/i}"
+        
+        p"\"Well, I'm here to bounce ideas with it.\""
+        
+        "Her brow raises."
+        
+        d"\"Just for that trope?\""
+        
+        p"\"No, for anything.\""
+        
+        "Why do I feel like I've been caught out?"
+        
+        d"\"You seem pretty set on that idea.\""
+        
+        p"\"You got another?\""
+        
+        d"\"Fine, you start. Sell it to me.\""
+        
+        p"\"A young hero, whose parent's died, begins to piece together the mystery of his past?\""
+        
+        #A lone hero, setting out to find out 
+        
+        d"\"Too wishy washy.\""
+        
+        p"\"Isn't life?\""
+        
+        d"\"But this is a game, we have to hit on a clear narrative.\""
+        
+        p"\"A young hero with amnesia, whose parent's died, discovers lost heritige?\""
+        
+        d"\"It could be workable.\""
+        
+        show D 1YGentle_Relaxed at PCM1 with slowd
+        
+        "She dismisses it and focuses back on the screen."
+        
+        d"\"What do you think of these monsters?\""
+        
+        p"\"I've seen them in games before.\""
+        
+        d"\"I've had to use stock assets, but I mean what do you think of their stats?\""
+        
+        p"\"I think I would need to play it.\""
+        
+        show D 1Closed_Flat with slowd
+        
+        d"\"Hmm...\""
+        
+        show D 1YSerious_Relaxed at PCM1 with slowd
+        
+        d"\"I will make you a playable build for Friday.\""
+        
+        p"\"Really?\""
+        
+        d"\"Yes. It would be a good opportunity to test what I have so far.\""
+        
+        p"\"I'm down for that.\""
+        
+        d"\"Please excuse me now. I need to work on it.\""
+        
+        "It takes me a few moments to process."
+        
+        p"\"Oh, yeah, sure.\""
+        
+        "She doesn't even look away from the screen as I leave."
+        
+        scene room_boy16_day with slowf
+        
+        "I flop onto my bed."
+        
+        t"It was nice to actually get invited into her room, after everything that happened." with slowd
+        
+        t"But she seemed to want to ignore it..."
+        
+        t"She really does seem happy and committed to her game though."
+        
+        window hide 
+        nvl clear
+        
+        "I'll have to ask her what it's called..." with slowd
+        
+        "And think of something to do now..."
+        
+        "I wanted to spend more time with her..."
+        
+        
+        
+        scene school02_day with longf
+        
+        "I arrive early, and there she is."
+        
+        p"\"Mornin'.\""
+        
+        d"\"Hi.\""
+        
+        "Even though she had me in her room last night, it just feels awkward."
+        
+        p"\"Jennifer's been off since yesterday.\""
+        
+        d"\"She's got her swimming trials.\""
+        
+        p"\"Oh, goodluck to her.\""
+        
+        "Danielle gives no response and it's awkward again."
+        
+        p"\"Did you get much done last night?\""
+        
+        d"\"Not as much as I wanted to.\""
+        
+        p"\"Be ready for Friday?\""
+        
+        d"\"Of course.\""
+        
+        p"\"What's your game called?\""
+        
+        #"She looks a little embarrassed."
+        
+        d"\"Danielle's project 100.\""
+        
+        "She finally offers a smile and I chuckle."
+        
+        p"\"Have you really tried that many times?\""
+        
+        d"\"It feels like it at this point.\""
+        
+        p"\"You got it this time.\""
+        
+        d"\"Damn right I have.\""
+        
+        p"\"But I'm still going to call it project noon until you name it.\""
+        
+        "She smirks."
+        
+        #d"\"You fuckin' noon.\""
+        
+        #"I check around for Mrs Brown, thankful she wasn't privy to that."
+        
+        d"\"Noob.\""
+        
+        d"\"Don't think I won't make two player on it and beat your ass.\""
+        
+        p"\"I'm waiting on it.\""
+        
+        d"\"After Friday. You need to be my guinea pig first.\""
+        
+        d"\"You never know, I might even stop calling you noon after it.\""
+        
+        p"\"You never called me noon!\""
+        
+        d"\"I will from now on.\""
+        
+        d"\"Best go, noon. Mrs Brown is here.\""
+        
+        p"\"This isn't over.\""
+        
+        "I make my way back to my seat like a defeated antagonist."
+        
+        scene school02_day with slowf
+        
+        "Danielle goes back to her room for lunch."
+        
+        #"Jennifer's not even here at the minute."
+        
+        "I spend lunch alone."
+        
+        scene Internet_Cafe with slowf
+        
+        "It's 4pm and she's not on here either."
+        
+        "She must really have a bit to do."
+        
+        "She seems so committed with it, but her project seems a way off complete."
+        
+        "I'll find out how true that is on Friday, I suppose."
+        
+        
+        #skip to Friday?
+        
+        scene school01_day with longf
+        
+        "Friday's arrived. She rushed off after class, and I went back to my dorms for a shower."
+        
+        #"I'm excited to play Danielle's game, and spend some time with her."
+        
+        "I'm excited to see Danielle, and I'm eager to play her game."
+        
+        #"As I make it to the front of the building, I notice her room number on the intercom."
+        
+        "I approach the building and press her number on the intercom."
+        
+        p"\"It's Peter.\""
+        
+        d"\"Come in.\""
+        
+        "The lock clicks and I make my way inside."
+        
+        scene room_boy15_day 
+        show D 1YGentle_Flat at PCM1
+        with slowf
+        
+        p"\"So your phone's the intercom, do you get room service here, too?\""
+        
+        d"\"No, but takeouts deliver outside.\""
+        
+        "She seems oblivious to my jab. And she's happy enough to take her seat by her computer."
+        
+        d"\"I've started it up for you.\""
+        
+        hide D 1YGentle_Flat at PCM1
+        with slowd
+        
+        "She rises and I take the seat."
+        
+        "There's a slight pressure knowing she's going to watch me play it."
+        
+        "\"Destiny\" flashes on the screen."
+        
+        #"There's a basic introduction to the controls, a basic top-down RPG."
+        
+        "There's a basic introduction to the game, making it clear it's a top-down RPG."
+        
+        #what music?
+        
+        t"The main character wakes up in a dark cell." with slowd
+        
+        t"\"Ugh, my head.\""
+        
+        t"Torch light pours in through the cell bars and stops at the gate."
+        
+        t"\"Ed, are you OK?\""
+        
+        t"\"Who are you?\""
+        
+        t"\"It's Sadie, I'm here to get you out!\""
+        
+        window hide
+        nvl clear 
+        
+        t"The lock clicks and she rushes over to me."
+        
+        t"\"Come with me, we need to go!\""
+        
+        t"\"Just who are you, where are we going?\""
+        
+        t"\"You told me you'd never forget...\""
+        
+        t"\"I told told your stupid ass not to face her alone.\""
+        
+        t"Two guards jump from behind the next wall."
+        
+        window hide
+        nvl clear 
+        
+        t"\"The prisoners are escaping!\""
+        
+        t"The game gives a breakdown of the combat, pretty standard for the type of game." 
+        
+        t"I go through my moves, and check out the enemies stats."
+        
+        window hide
+        nvl clear
+        
+        "Her phone ringing pulls me out of the moment." with slowd
+        
+        "Danielle sighs and shushes me to be quiet."
+        
+        #"I try to continue on the game, but I can't help but listen in."
+        
+        "As much as I try to concentrate on the game, I can't help listen."
+        
+        d"\"Hi, Daddy.\""
+        
+        "I can't believe she calls her dad, daddy. It's oddly cute."
+        
+        d"\"But--\""
+        
+        "She begins but is interrupted."
+        
+        d"\"--But I thought you offered him a position.\""
+        
+        d"\"Why would he refuse?\""
+        
+        #"Her (statements) rapidfire."
+        
+        d"\"That's not fair! You told me that I could follow my own path if I got a scholarship.\""
+        
+        "By now, I have to turn and face her. She thrusts her finger towards her door."
+        
+        "I heed her gesture and leave."
+        
+        scene black with slowd
+        
+        "On my way out, I can hear her saying that she can do what she wants once she leaves school."
+        
+        scene room_boy16_day with slowf
+        
+        #Thoughts?
+        
+        r"All I can make of situation is that someone's supposed to have come into her place, and now she needs to fill that role instead of games design." with slowd
+        
+        
+        
+        scene school02_day 
+        with longf
+        
+        "I haven't heard from her all weekend."
+        
+        "I approach her."
+        
+        show D 2YGentle_Flat at PCM1 with slowd
+        
+        d"\"I'm not in the mood.\""
+        
+        p"\"To talk?\""
+        
+        d"\"For anything--\""
+        
+        show D 2YGentle_Flat at PCML1
+        
+        show J 1YHappy_Smile at PCMR1
+        
+        with slowd
+        
+        j"\"Hey, guys!\""
+        
+        show J 2YHappy_Smile with slowd
+        
+        d"\"Did you make it?\""
+        
+        j"\"No...\""
+        
+        "Jennifer looks ashamed for a moment I'd have missed if I'd blinked."
+        
+        d"\"You been out drinking?\""
+        
+        j"\"Went out for a few afterwards.\""
+        
+        show D 2YSerious_Flat with slowd
+        
+        d"\"I told you to stop.\""
+        
+        "Even I can feel her condescension."#patronising tone
+        
+        show J 2YSad_Flat with slowd
+        
+        j"\"You did. I was just never as good as Casey.\""
+        
+        d"\"You drank, you failed. I've done everything I can and I wasn't even allowed to try.\""
+        
+        show J 2YAnnoyed_Flat with slowd
+        
+        j"\"Is it not bad enough that I've failed? Do you need to twist the knife, too?\""
+        
+        d"\"Like you said, Casey was better. You had already settled to lose.\""
+        
+        j"\"And you didn't? You short-arse daddy's girl.\"" 
+        
+        show D 1YAngry_Flat with slowd
+        
+        "This isn't how I expected them to to share defeat..."
+        
+        p"\"What are you two arguing for? You're best friends who have just lost something...\""
+        
+        "They both give me a look as if dismissing a child."
+        
+        show D 1YAngry_Gnash with slowd
+        
+        d"\"Fuck off, both of you.\""
+        
+        hide J 2YAnnoyed_Flat
+        hide D 1YAngry_Gnash
+        with slowd
+        
+        "We oblige. Even the other students seem tofeel the tension in the room."
+        
+        scene black 
+        
+        centered "Act 2"
+        
+        scene school02_day 
+        
+        "It's been over a week and I've still not spoken to either of them."
+        
+        "Danielle hasn't been online at all."
+        
+        
+        #Get sent down to the office?
+        
+        
+        
+        
+        #Jennifer? Arguemnt?
+        
+        
+        
+        
+        
+        #p"\"Once I beat you in two player, I'm going to call you noon.\""
+        
+        
+        
+        #When he beats her. 
+        
+        #Good afternoon, good evening, and goodnight. *bow*
+        
+        
+        
+        #Ccould also do an internet cafe scene and she's not on between 4-5pm 
+        
+        
+        
+        #then he can go to her room Friday and ask about the phone, joking it's like a hotel room
+        
+        
+        
+        
+        
+        #"Danielle 
+        
+        #It's like loading someone else's save
+        
+        #A spell was used on them just as the antagonist died?
+        
+        #People are out looking for them. 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        #d"\"That's ridiculous.\""
+        
+        #"As is my life."
+        
+        #That small smile hasn't left her lips.
+        
+        
         #"When I look at the situation logically,
 
         #Mr brent can come along during this and Danielle will downplay it, Peter will say, though.
@@ -17483,7 +18208,7 @@ label start:
 
         #"I'm poor, OK?"
 
-        #You noob, you should buy a few potiuons too. #save "nice save" for now?
+        #You noob, you should buy a few potions too. #save "nice save" for now?
 
         #You didn't tell me how to gear. How do you expect me to know?
 
