@@ -17535,11 +17535,15 @@ label start:
         
         play sound "audio/sfx/short vibrate.mp3"
         
+        "My phone vibrates."
+        
         "I quickly open the message."
         
         t"x-Destiny-x: Hey."
         
-        "After deliberating, and her blunt answer, I decide to just be blunt."
+        #"After deliberating, and her blunt answer, I decide to just be blunt."
+        
+        "After deliberating on her blunt answer, I decide to be blunt."
         
         t"L0stC4us3: Where were you today?"
         
@@ -17570,7 +17574,7 @@ label start:
         
         t"L0stC4us3: I want to see you."
         
-        "She leaves me no opther option but to outright say it."
+        "She leaves me no other option but to say it outright."
         
         #
         t"x-Destiny-x: Fine, meet me at the gate to the dorms across the school from yours."
@@ -17723,13 +17727,13 @@ label start:
         
         #A lone hero, setting out to find out 
         
-        d"\"Too wishy washy.\""
+        d"\"Too wishy-washy.\""
         
         p"\"Isn't life?\""
         
         d"\"But this is a game, we have to hit on a clear narrative.\""
         
-        p"\"A young hero with amnesia, whose parent's died, discovers lost heritige?\""
+        p"\"A young hero with amnesia, whose parent's died, discovers lost heritage?\""
         
         d"\"It could be workable.\""
         
@@ -17947,7 +17951,7 @@ label start:
         
         t"\"You told me you'd never forget...\""
         
-        t"\"I told told your stupid ass not to face her alone.\""
+        t"\"I told your stupid ass not to face her alone.\""
         
         t"Two guards jump from behind the next wall."
         
@@ -18044,43 +18048,56 @@ label start:
         
         "Even I can feel her condescension."#patronising tone
         
-        show J 2YSad_Flat with slowd
+        j"\"Sorry, Dad.\""
         
-        j"\"You did. I was just never as good as Casey.\""
+        hide J 2YHappy_Smile 
         
-        d"\"You drank, you failed. I've done everything I can and I wasn't even allowed to try.\""
+        show D 2YSerious_Flat at PCM1
         
-        show J 2YAnnoyed_Flat with slowd
-        
-        j"\"Is it not bad enough that I've failed? Do you need to twist the knife, too?\""
-        
-        d"\"Like you said, Casey was better. You had already settled to lose.\""
-        
-        j"\"And you didn't? You short-arse daddy's girl.\"" 
-        
-        show D 1YAngry_Flat with slowd
-        
-        "This isn't how I expected them to to share defeat..."
-        
-        p"\"What are you two arguing for? You're best friends who have just lost something...\""
-        
-        "They both give me a look as if dismissing a child."
-        
-        show D 1YAngry_Gnash with slowd
-        
-        d"\"Fuck off, both of you.\""
-        
-        hide J 2YAnnoyed_Flat
-        hide D 1YAngry_Gnash
         with slowd
         
-        "We oblige. Even the other students seem tofeel the tension in the room."
+        "Jennifer takes her seat and ignores us."
         
-        scene black 
+        "Danielle stares at me and I decide to do the same."
+        
+        
+        #show J 2YSad_Flat with slowd
+        
+        #j"\"You did. I was just never as good as Casey.\""
+        
+        #d"\"You drank, you failed. I've done everything I can and I wasn't even allowed to try.\""
+        
+        #show J 2YAnnoyed_Flat with slowd
+        
+        #j"\"Is it not bad enough that I've failed? Do you need to twist the knife, too?\""
+        
+        #d"\"Like you said, Casey was better. You had already settled to lose.\""
+        
+        #j"\"And you didn't? You short-arse daddy's girl.\"" 
+        
+        #show D 1YAngry_Flat with slowd
+        
+        #"This isn't how I expected them to to share defeat..."
+        
+        #p"\"What are you two arguing for? You're best friends who have just lost something...\""
+        
+        #"They both give me a look as if dismissing a child."
+        
+        #show D 1YAngry_Gnash with slowd
+        
+        #d"\"Fuck off, both of you.\""
+        
+        #hide J 2YAnnoyed_Flat
+        #hide D 1YAngry_Gnash
+        #with slowd
+        
+        #"We oblige. Even the other students seem tofeel the tension in the room."
+        
+        scene black with longd
         
         centered "Act 2"
         
-        scene school02_day 
+        scene school02_day with longd
         
         "It's been over a week and I've still not spoken to either of them."
         
