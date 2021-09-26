@@ -17479,7 +17479,7 @@ label start:
         
         "It wasn't something I ever thought I'd see of her."
         
-        
+        stop music fadeout 3.0
         
         scene school02_day with longf
         
@@ -17624,6 +17624,8 @@ label start:
         scene black with slowd
         
         "She leads me through additional card security, to room 216."
+        
+        play music "audio/music/bensound-tenderness.mp3" fadein 3.0
         
         scene room_boy15_day 
         show D 1YGentle_Relaxed at PC1
@@ -17770,6 +17772,8 @@ label start:
         p"\"Oh, yeah, sure.\""
         
         "She doesn't even look away from the screen as I leave."
+        
+        stop music fadeout 3.0
         
         scene room_boy16_day with slowf
         
@@ -18020,7 +18024,7 @@ label start:
         
         p"\"To talk?\""
         
-        d"\"For anything--\""
+        d"\"For anything—\""
         
         show D 2YGentle_Flat at PCML1
         
@@ -18030,7 +18034,13 @@ label start:
         
         j"\"Hey, guys!\""
         
-        show J 2YHappy_Smile with slowd
+        show D 2YSerious_Flat
+        
+        show J 2YHappy_Smile 
+        
+        with slowd
+        
+        "Danielle stares at Jennifer for a moment, with that same deconstructing look she gave me on the roof."
         
         d"\"Did you make it?\""
         
@@ -18042,11 +18052,11 @@ label start:
         
         j"\"Went out for a few afterwards.\""
         
-        show D 2YSerious_Flat with slowd
+        #show D 2YSerious_Flat with slowd
         
         d"\"I told you to stop.\""
         
-        "Even I can feel her condescension."#patronising tone
+        "Jennifer rolls her eyes in exasperation, even I can feel her condescension."#patronising tone
         
         j"\"Sorry, Dad.\""
         
@@ -18058,8 +18068,15 @@ label start:
         
         "Jennifer takes her seat and ignores us."
         
-        "Danielle stares at me and I decide to do the same."
+        "Danielle grits her teeth, seeming to swallow the words she wanted to say."
         
+        "She looks to me, and I decide to take my own seat with the tense mood."
+        
+        "The weekend has been a disaster. And now I feel I been pushed back to step one."
+        
+        "Her father has clearly blocked her from her opportunity..."
+        
+        "In the end, none of us talk with each other for the rest of the day, and the heavy atmosphere just continues..."
         
         #show J 2YSad_Flat with slowd
         
@@ -18102,6 +18119,8 @@ label start:
         "It's been over a week and I've still not spoken to either of them."
         
         "Danielle hasn't been online at all."
+        
+        
         
         
         #Get sent down to the office?
