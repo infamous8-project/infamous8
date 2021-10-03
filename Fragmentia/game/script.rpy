@@ -10,7 +10,7 @@ label start:
     nvl clear
 
     #Do an ear ringing sound that fades out as the screen goes from white to the room?
-    
+
     stop music fadeout 3.0
 
     scene black with slowf
@@ -103,7 +103,7 @@ label start:
     stop environment fadeout 2.0
     stop sound fadeout 2.0
     play music "audio/music/Awkward Meeting.mp3" fadein 2.5
-    
+
     window hide
 
     "Blinding light stings my eyes."
@@ -1082,9 +1082,9 @@ label start:
 
 
     #"I rise to my racing thoughts. Flicking the lamp on and pacing my room in an attempt to calm them."
-    
-    #window hide 
-    
+
+    #window hide
+
     "I rise and flick the lamp on, pacing to tame my racing thoughts."
 
 
@@ -1449,7 +1449,7 @@ label start:
     #"I realise the girl next to her is her friend."
 
     j"\"Nice to meet you! I'm Jennifer and this is Danielle.\""
-    
+
     show J 2CHappy_OpenSmile with fastd
 
 
@@ -2486,7 +2486,7 @@ label start:
     show S 1DSad_Flat with slowd
 
     "I tap the pad, achieving the opposite of my desired effect—relieving tension."
-    
+
     #reaction, evoking
     s"\"It's... it's just my art work.\""
 
@@ -3719,92 +3719,92 @@ label start:
     "Content with my conclusion, I rinse my dish and rest it to dry."
 
     scene hospital03_day with slowd
-    
+
     "As I pass the doors, I wonder which is Sarah's. Some directions would be welcome."
-    
+
     "But I shrug the thought off, I'm not knocking on random doors."
-    
-    
+
+
 
     play environment "audio/background/city2.mp3" fadein 3.0
     scene street001_day with slowd
-    
+
     t"There's something still intimidating to me about the city." with slowd
-    
+
     t"About watching people..."
-    
+
     t"They all seem to have a sense of purpose."
-    
+
     t"And the groups of friends laughing and joking makes me feel like I'm missing out."
-    
+
     window hide
     nvl clear
-    
+
     "In my reverie I've walked half way down the long street." with slowd
-    
+
     "I turn and head back. A few people give me awkward glances, and it makes me feel self-conscious."
-    
+
     "What idiot turns around in the middle of the street after walking so far?"
-    
+
     "...What idiot doesn't look up directions while they had wi-fi...?"
-    
+
     "I get my phone out and tap at the screen as if it's something important I've forgotten."
-    
+
     "As I look up, a familiar person walking towards me takes me off guard."
-    
+
     show S 2DSad_Flat at PM1 with slowd
-    
+
     "She's staring at the floor. I imagine she finds it as intimidating as I do in town."
-    
+
     "I wave my hand to get her attention but she doesn't react."
-    
+
     show S 2DSad_Flat at PC1 with slowd
-    
+
     p"\"Hey, Sarah. What are you up to?\""
-    
+
     show S 2YAnxious_Open at PC1 with slowd
-    
+
     "Shock and then realisation play out on her features."
-    
+
     show S 2YAnxious_Flat at PC1 with slowd
-    
+
     s"\"I need some art supplies...\""
-    
+
     p"\"Ah, that's cool.\""
-    
+
     "She looks like she's ready to leave."
-    
+
     p"\"Erm... I'm just wondering if you can show me to the nearest supermarket?\""
-    
+
     "It's a bit much to ask, but it's maybe my chance to make some ground with her."
-    
+
     p"\"I'm just new in the area and I'm not sure...\""
-    
+
     s"\"O-OK. It's just up the road here.\""
-    
+
     "I'm surprised how easily she accepted."
-    
+
     "We begin in silence, so I try to break it."
-    
+
     p"\"So... are you in the art club?\""
-    
+
     show S 1AAnxious_Smile with slowd
 
     s"\"N-no, I just like to... draw.\""
-    
+
     "Her reluctance palpable. Maybe she wants to join but she's too shy?"
 
     "Damn, I can't think of anything to say."
 
     "It makes me feel bad, for what feels like {i}using{/i} her as a guide."
-    
+
     #Why wouldn't he have just duudled it?
-    
-    
-    
+
+
+
     #is she already going to the shop?
     #maybe looking for some art supplies but finds them in the supermarket?
-    
+
     stop environment fadeout 2.0
     #play environment2 "audio/background/shopping.ogg" fadein 2.0
     scene shop01_day with slowf
@@ -3812,7 +3812,7 @@ label start:
 
     #sprite
     s"\"Here we are.\""
-    
+
     "She avoids eye contact with me and everybody around."
 
     p"\"Thanks. What're you getting?\"" #Are you getting anything in particular
@@ -3825,7 +3825,7 @@ label start:
     #play music "audio/music/Kevin_MacLeod_-_Dream_Culture.mp3" fadein 3.0
     show S 1YAnxious_Smile with slowd
     s"\"It's OK. Maybe I can find some art supplies here.\""
-    
+
     "Her smile and tone genuine enough to put me at ease."
 
     "Still, I wonder: does she feel a responsibility to help me or does she feel inclined because she's afraid to say no?"
@@ -3936,7 +3936,7 @@ label start:
     "These bags are reawakening the ache in my arms, too..."
 
     stop environment fadeout 2.0
-    
+
     scene school_out003_day with slowf
 
 
@@ -3951,9 +3951,9 @@ label start:
     "She's always uneasy, yet unassuming."
 
     "It's conflicting, I don't know whether to be anxious or relaxed myself."
-    
+
     "But our silence is now deafening without the sound of the city."
-    
+
     scene school_out009_day with slowd
 
     #show S cnormal at left with move
@@ -3963,8 +3963,8 @@ label start:
     show S 2ACalm_Flat at PCL1
     show J 1YHappy_OpenSmile at PMR1
     with slowd
-    
-    
+
+
     "Speaking of deafening..."
 
     j"\"Hey, Peter! Cara!\""
@@ -4009,9 +4009,9 @@ label start:
     #"One option comes to mind: bail."
 
     p"\"We need to get going. Right, Sarah?\""
-    
+
     "I swing my bags to emphasize."
-    
+
     "Sarah's gaze fixes on the dorm gates. I've made the right choice."
 
     show J 1YHappy_OpenSmile with slowd
@@ -4039,17 +4039,17 @@ label start:
     #"I watch her shoulders relax when we make it back."
     #"Her shoulders ease when we make it back."
     "Her shoulders fall slack when we make it back."
-    
+
     p"\"I'm in room one-one-nine by the way.\""
-    
+
     "I say it without thinking. But I am curious to know which room she's in."
-    
+
     "She offers a stilted smile."
-    
+
     s"\"I'm just across the way.\""
-    
+
     "She nods at door 119."
-    
+
     "We head into the kitchen to deposit our goods."
 
     scene room_kitchen06_evening with slowd
@@ -4258,15 +4258,15 @@ label start:
     t"Humanity has consumed the majority of the world's resources. People left to starve throughout kingdoms across the world, not deemed worthy of survival. Every country fought for a stake in the resouces, until four remained." with slowd
 
     t"The four remaining races each developed technologies to form super soldiers. Each faction with a part to play in what the people rumour to be \"the end times of Earth.\""
-    
+
     window hide
     nvl clear
-    
+
     "My eyes come to rest on the price tag. I could afford it and its subscription fee, but it would be a dent in my funds." #with slowd
-    
-    
+
+
     p"\"Damn, this game isn't cheap.\""
-    
+
 
     show D 1YSerious_Flat at PC1 with slowd
 
@@ -4397,7 +4397,7 @@ label start:
     #scene reset
 
     #"She plucks me out of the air with her sword and slams me into the ground. Dead.{w} Again."
-    
+
     "She impales me midair with her sword and slams me into the ground. Dead.{w} Again."
 
     "I'm sure it's 11-0 to her."
@@ -4548,7 +4548,7 @@ label start:
     centered"That's odd..." with slowd
 
     play music "audio/music/Wounded Strings.ogg" fadein 2.3
-    
+
     window hide
     #t"The smell of burning rubber invades my nostrils." with slowd #The feeling shifts into nervous curiosity."
     t"The scents of hot iron and burning rubber coil in my nostrils." with slowd
@@ -5411,7 +5411,7 @@ label start:
         "Male-female duos are scattered across the pool, performing out-of-sync choreography."
 
         "The few on the sidelines are huddled around the instructor."
-        
+
         "I count twelve girls and seven guys in total."
 
         scene Jennifer CG at JCG
@@ -5485,7 +5485,7 @@ label start:
         "Casey, amused by our interaction speaks up."
 
         cc"\"Don't worry, we won't bite.\""
-        
+
         "Despite it all, I could certainly find myself in worse circumstances."
 
         #scene Jennifer CG at JCG
@@ -5533,19 +5533,19 @@ label start:
         "She shoves me with her shoulder."
 
         j"\"You won't have much to learn. You'll be helping us perform a few moves.\""
-        
+
         #"We slide into the pool."
-        
+
         "She turns over to Casey."
-        
+
         j"\"So it starts with the cradle lift, then we double ballet leg, crane, and then...\""
-        
+
         "I start to zone out as they speak some swim dancer jargon."
-        
+
         cc"\"Yeah, that's it.\""
-        
+
         j"\"Ready?\""
-        
+
         p"\"Oh, yeah. I'm just glad the pool isn't as cold today.\""
 
         "She turns away and presses her back against me. Her warmth tingles on my skin." #body against mine - tingling
@@ -5561,9 +5561,9 @@ label start:
         j"\"You just need to hold me up and then push me off when I say.\""
 
         "I lift her by her thighs and upper back, they tense in my palms." #They're taut in my palms."
-        
+
         p"\"Gotcha.\""
-        
+
         "Her weight tenfolds as her body emerges from the water."
 
         "She keeps wriggling, trying to get into the right position."
@@ -5575,34 +5575,34 @@ label start:
         j"\"Hold it.\""
 
         "My arms begin to shake under the weight. {i}It's embarrassing.{/i}"
-        
+
         j"\"Release.\""
 
         #j"\"Release.\""
 
         #"I lower her back into the water in relief."
-        
+
         play sound "audio/sfx/Splash.mp3"
-        
+
         scene Pool CG at JCG with slowd
-        
+
         t "She dives under with my push, Casey in tow; their legs standing tall before opening at a right angle." with slowd
-        
+
         t "They pivet in perfect ninety degree angles away from each other, and then their legs dance in the air."
-        
+
         t"They perform three twists and then roll over to  the surface."
-        
+
         t"How they do all that holding their breath amazes me."
-        
+
         scene Jennifer Casey CG at JCGJ with slowd
-        
+
         j"\"See, that wasn't so bad.\"" with slowd
 
         p"\"I... guess not. But wow, that's pretty impressive.\""
-        
+
         j"\"That's only the first section of the routine.\""
-        
-        
+
+
         "But next time get in position before I lift you." #I can't hold you long out of the water.\""
 
         "Her brow lifts."
@@ -5631,21 +5631,21 @@ label start:
         with slowd
 
         j"\"Good. You better not be!\""
-        
-        scene Jennifer Casey CG at JCG2 
+
+        scene Jennifer Casey CG at JCG2
         show J1 YUpturned_Smile at JCG2
         with slowd
-        
+
         "Casey approaches me."
-        
+
         cc"\"Don't worry, I'm not quite that heavy.\""
-        
+
         "I laught and turn to Jennifer, who takes no interst in her comment."
-        
-        "Casey's certainly lighter, she also readies herself in position before surfacing." 
-        
+
+        "Casey's certainly lighter, she also readies herself in position before surfacing."
+
         "This isn't so bad."
-        
+
         "We rinse and repeat for the remainder of the lesson..."
 
         stop music fadeout 3.0
@@ -5680,7 +5680,7 @@ label start:
         show J 2YSad_Pout at PCM1 with slowd
 
         "She shoots a pout at me."
-        
+
         "It's hard to resist, but do I want to get dragged into this?"
 
         #Jennifer arc choice
@@ -5821,7 +5821,7 @@ label start:
         hide J 2YUpturned_Grin with moveoutright
 
         #"My words were hollow, but she seems to have taken it as a challenge or something."
-        
+
         "She sees right through my hollow words."
 
         #classroom
@@ -5873,7 +5873,7 @@ label start:
         #t"Peter: Does that mean I get to chop yours off if I do?"
 
         #Mrs Brown
-        
+
         t"She watches me read her message and roll my eyes."
 
         t"Jenjen: dont tell n e 1, ok?"
@@ -6941,7 +6941,7 @@ label start:
         j"\"Is that why you have those scars on your leg?\""
 
         #"{i}I knew she'd seen them.{/i} I can't deny it at this point."
-        
+
         "{i}I knew she'd seen them.{/i} I can't deny it at this point."
 
         p"\"Yep.\""
@@ -7089,7 +7089,7 @@ label start:
         "Why did she invite me out yesterday?"
 
         "Was it just for her plans to get Casey and Dean to spend time together?"
-        
+
         "And get me to train with her at the same time...?"
 
         "My stomach sinks and I flop back onto my bed."
@@ -7284,11 +7284,11 @@ label start:
         "She meets me with a smug smile."
 
         #p"\"I know...\""
-        
+
         j"\"{i}{b}I{/b}{/i} have a loicense!\""
-        
+
         p"\"...\""
-        
+
         "I just accept my defeat. She does have the personality to pull it off." #I... do not."
 
 
@@ -7536,74 +7536,74 @@ label start:
         "Her innuendo delivered with a wink."
 
         "I resign to practice and vow to get her back..."
-        
+
         #she tries to get him to try?
-        
+
         scene school15_day with longf
-        
-        "We've finished for the morning." 
-        
+
+        "We've finished for the morning."
+
         "Honestly, I didn't expect to feel some sense of achievement for getting up early and working on her routine."
-        
+
         "We head in and get changed."
-        
-        scene school12_day 
+
+        scene school12_day
         show J 2YHappy_Smile at PCM1
         with slowf
-        
+
         j"\"See, Peter! You're getting much better. You might even make it.\""
-        
+
         "She delivers it with a wink."
-        
+
         p"\"God forbid.\""
-        
+
         show J 2YUpturned_Grin with fastd
-        
+
         j"\"You love spending time with me!\""
-        
+
         p"\"I just {i}love{/i} getting pushed in the pool at 6am.\""
-        
+
         show J 2YUpturned_Pout with fastd
-        
+
         j"\"You deserved it for calling a lady fat!\""
-        
+
         p"\"I mean... you're hardly a lady.\""
-        
+
         show J 3YAnnoyed_Pout with fastd
-        
+
         "This earns me a dig on the arm."
-        
+
         j"\"You need to beefen up those scrawny arms!\""
-        
+
         show J 2YAnnoyed_Pout with fastd
-        
+
         "Her comment makes me feel a little self-conscious."
-        
+
         p"\"Hey, I was in the hospital for a few months!\""
-        
+
         "I fail to mention doing this with her is my first real exercise since. If you could call it that."
-        
+
         p"\"And this is also why I need the weight training.\""
-        
+
         #"She scowls for a moment and breaks into a smile."
-        
+
         show J 2YUpturned_Tongue with fastd
-        
+
         j"\"I'll let you off!\""
-        
+
         show J 2YHappy_Smile with fastd
-        
+
         j"\"Now hurry and rest your shorts and towel to dry. I'll see you in class.\""
-        
+
         p"\"Will do, later.\""
-        
-        
+
+
         #Timeskip (next lesson)
-        
+
         scene school15_day with longf
 
         #"We're a little late but the coach just ushers us to get started."
-        
+
         "We arrive late to the lesson. I don't know why Jennifer insists on arriving together."
 
         "Jennifer turns to face me with her back to the pool."
@@ -7721,7 +7721,7 @@ label start:
         "The whole thing just gives me mixed feelings."
 
         #"I enoy spending time with Jennifer, but it only seems to confirm my doubt when she says something like that."
-        
+
         "I enjoy spending time with Jennifer, but I am starting to feel a bit used for this training."
 
         show J1 YHappy_Smile at JCG
@@ -8741,87 +8741,87 @@ label start:
         #I'm still... paralysed by my own venom.
 
         #I can help. I will help her train. I... might even get through too.
-        
-        
-        
+
+
+
         scene Jennifer CG at JCGJ
         show J1 YHappy_Smile at JCGJ
         with longf
-        
+
         "We have been training every morning this week. It's a relief that Friday is now here."
-        
+
         p"\"How're you feeling? The names are picked tomorrow, right?\""
-        
+
         j"\"Yeah! I think I'm good with the extra help!\""
-        
+
         j"\"Thank you! I really appreciate  it.\""
-        
+
         p"\"You're welcome.\""
-        
+
         p"\"When's the official trial?\""
-        
+
         j"\"That's next Satuday... I'm so nervous.\""
-        
+
         p"\"Ah, well, if you need anymore help, you know where to find me.\""
-        
+
         j"\"Thanks, Peter. But I will need to work with my partner this week.\""
-        
+
         "It somehow feels like a rejection. Even though I know I'm not good enough."
-        
+
         #"{i}Someone who actually knows what they're doing...{/i} Yeah, not me."
-        
+
         j"\"They even let you take the week off from school if you make it!\""
-        
+
         p"\"Really? Lucky you.\""
-        
+
         "{i}And lucky him.{/i}"
-        
+
         j"\"I haven't made it yet!\""
-        
+
         p"\"You will.\""
-        
+
         "I'm pretty confident in her, she's really finetuned the routine beyond those that I saw in the lessons."
-        
+
         j"\"Thank Peter, I hope so!\""
-        
+
         "I smile."
-        
+
         p"\"Don't worry!\""
-        
+
         "She laughs at my imitation of her."
-        
+
         j"\"We really have spent quite a lot of time together haven't we?\""
-        
+
         j"\"I wish you could water dance.\""
-        
+
         "I'm surprised by the lack of a chuckle after her imitation."
-        
+
         p"\"Yeah, me too.\""
-        
+
         j"\"Oh really? Mr 'I don't wanna water dance'?\""
-        
+
         #"Not really, I just wish I could come with you."
-        
+
         p"\"Er... I mean, like I'd wanna help you do the best you could.\""
-        
+
         j"\"You can watch, y'know!\""
-        
+
         p"\"I just might.\""
-        
+
         j"\"Of course you are!\""
-        
+
         p"\"Well, I wanna see you nail it. I haven't put all this work in for nothing!\""
-        
+
         j"\"Exactly!\""
-        
+
         p"\"We better get ready for class.\""
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
 
         play sound "audio/sfx/Mp3-alarm-clock.mp3"
         scene room_boy16_evening with longf
@@ -8911,9 +8911,9 @@ label start:
         "As he finishes with names, my heart still drops at the lack of my own."
 
         p"\"You did it...\""
-        
+
         #j"\"I'm sorry...\""
-        
+
         #p"\"It's fine, I don't think water dancing is for me.\""
 
         j"\"Thank you so much...\""
@@ -8921,10 +8921,10 @@ label start:
         "It's not something I wanted to do, but I wanted to go with her."
 
         "But as long as she's happy..."
-        
+
         #j"\"You'll have to meet me for a drink after, win or lose!\""
-        
-        
+
+
 
         p"\"Good luck this weekend.\""
 
@@ -8943,9 +8943,9 @@ label start:
         scene room_boy16_night_dark with longf
 
         #"I feel deflated after failing to make it. It was naive to think I could..."
-        
+
         "I feel deflated knowing I'm going a full week in school without our morning swims, without her in class..."
-        
+
         "Sleep doesn't come easy..."
 
         #Dream:
@@ -8964,9 +8964,9 @@ label start:
         show ghost angel scream with slowd
 
         t"I crawl towards her and she looks toward the pans on the stove." with slowd
-        
+
         t"She doesn't speak a word, but I know {i}dinner will be ready soon.{/i}"
-        
+
         #t"She lifts me up and holds me in her arms, rattling a toy."
 
         t"She calls me toward her, rattling a toy."
@@ -8978,7 +8978,7 @@ label start:
         t"As I near her, she lays it down and exits."
 
         t"{i}Don't leave me alone.{/i}"
-        
+
         t"The doors and windows merge into wooden panels."
 
         window hide
@@ -8987,7 +8987,7 @@ label start:
         #"The doors and windows merge into wooden panels." with slowd
 
         centered "{i}I'm trapped.{/i}" with slowd
-        
+
         centered "Flames overflow from the pans and spill to the floor." with slowd
 
         #"The pans overflow and flames spill down to the floor."
@@ -9040,426 +9040,426 @@ label start:
         "The thoughts that I'm only holding her back..."
 
         #"Will I lose Jennifer too?" #Will I... forget her...?"
-        
+
         "{i}My head is in pieces.{/i}"
-        
+
         "I get myself together for class."
-        
+
         scene school02_day with slowf
-        
+
         "The room feels empty without Jennifer."
-        
+
         "Danielle's absent today too."
-        
+
         "As is my mind."
-        
+
         scene school02_day with slowf
-        
+
         "It's lunch. I feel as lost as I did on my first day..."
-        
+
         "This time I don't have Jennifer, or even Danielle..."
-        
+
         "I decide to head back to my dorm for some food."
-        
+
         scene school02_day with slowf
-        
+
         "As the day comes to an end, I almost expect her to tell me she'll see me tomorrow."
-        
-        
-        
+
+
+
         scene room_boy16_day with slowf
-        
+
         "I keep hitting my alarm until it turns off."
-        
+
         "I get ready for another day..."
-        
+
         scene school02_day with slowf
-        
-        "No Jennifer." 
-        
+
+        "No Jennifer."
+
         "Danielle is back today, but she doesn't spare me a glance."
-        
+
         "I wonder how Jennifer is doing."  #I hope she is doing well."
-        
+
         "I hope she's doing well. I'm sure she is with a skilled partner."
-        
+
         "I do wonder how well they'll do."
-        
+
         "I'm not sure why, it just irritates me that she's performing with someone else."
-        
+
         "But I'd never be good enough. Nevermind within that timefame."
-        
+
         "I still don't even know who she's with..."
-        
+
         "Weekend feels forever away..."
-        
-        
-        
+
+
+
         scene room_boy16_cloud with slowf
-        
+
         "I shut off my alarm and reach for my phone."
-        
+
         "I text her last night, still no response."
-        
+
         "I feel as downcast as the weather."
-        
+
         "She's probably been training for an hour by now, too."
-        
+
         "I shrug it off and get ready for the day."
-        
+
         stop music fadeout 3.0
-        
+
         scene school05_cloud with slowf
-        
+
         "I catch Danielle in the hallway."
-        
+
         p"\"Hey Daneille, you heard anything from Jennifer?\""
-        
+
         d"\"She's training for the trial, isn't she?\""
-        
+
         #wtf is it called? lol trial?
-        
+
         p"\"Yeah.\""
-        
+
         d"\"Don't expect to hear much from her.\""
-        
+
         p"\"She that serious?\""
-        
+
         d"\"Wouldn't you be if that was something you loved?\""
-        
+
         "I don't think I've ever been serious."
-        
+
         "It's almost funny to think of Jenifer as serious. But she's almost a different person when she performs."
-        
+
         p"\"Yeah, I suppose.\""
-        
+
         d"\"Anything else? Or are you just going to daydream?\""
-        
+
         p"\"Nah, that's it.\""
-        
+
         "She makes her way in and I follow."
-        
+
         scene school02_cloud with slowf
-        
+
         "I feel better with the comfirmation she's determined and not flat out ignoring me."
-        
+
         "Class doesn't seem as much of a chore today."
-        
+
         scene room_boy16_evening with longf
-        
+
         "I pick up my phone and think about texting her again."
-        
+
         "I don't want to push it. But I thought I'd see her at some point."
-        
-        
+
+
         #Call or knock?
-        
+
         #My phone shakes to life in my hand. Jennifer.
-        
+
         #A knock rips me form my thoughts. Jennifer?
-        
+
         play environment "audio/sfx/ring vibrate.mp3" fadein 2.0
-        
-        
+
+
         "My phone shakes to life in my hand. {i}Jennifer.{/i}"
-        
+
         stop environment fadeout 1.0
-        
+
         p"\"Hey! How's it going?\""
-        
+
         j"\"I'll be over in a minute!\""
-        
+
         "I hear running down the corridor and then pulling on my handle."
-        
+
         j"\"Open up!\""
-        
+
         "I click the lock and open the door."
-        
+
         show J 2YHappy_Smile at PM1 with slowd
-        
+
         p"\"Give me chance!\""
-        
+
         show J 2CHappy_Smile at PCM1 with slowd
-        
+
         "She wraps me in a hug, but by the time my surprise hits me, she pulls away."
-        
+
         show J 2YHappy_Smile with slowd
-        
+
         j"\"It feels like ages!\""
-        
+
         p"\"Can't live without me for a few days?\""
-        
+
         "I stand back raising my palms to the ceiling."
-        
+
         show J 2YUpturned_Tongue with fastd
-        
+
         j"\"Idiot!\""
-        
+
         show J 2YUpturned_Grin with fastd
-        
+
         j"\"Don't act like you didn't wanna see me.\""
-        
+
         p"\"I did.\""
-        
+
         show J 2YHappy_Smile at PC1 with slowd
-        
+
         "I sit down on my bed and she sits across on my desk."
-        
+
         p"\"So, who're you partnered with?\""
-        
+
         show J 2YUpturned_Grin with fastd
-        
+
         j"\"Jealous, Peter?\""
-        
+
         p"\"More for the time out of class, yeah.\""
-        
+
         show J 2YHappy_Smile with fastd
-        
+
         j"\"I'm with Matthew.\""
-        
+
         p"\"You managed to get everything down?\""
-        
+
         show J 3YHappy_OpenSmile with fastd
-        
+
         j"\"Yeah, we're doing so well. He's really good!\""
-        
+
         show J 2YHappy_Smile with fastd
-        
+
         p"\"Glad to hear.\""
-        
+
         "I can feel my smile faltering on my lips."
-        
+
         show J 2DMellow_Flat with fastd
-        
+
         j"\"But he's so boring! Too serious.\""
-        
+
         p"\"You should be serious with this, too.\""
-        
+
         show J 2YHappy_Flat with fastd
-        
+
         j"\"I am!\""
-        
+
         p"\"I know.\""
-        
+
         show J 2YHappy_Smile with fastd
-        
+
         "I flash a smile and her smile returns."
-        
+
         show J 3YHappy_OpenSmile with fastd
-        
+
         j"\"Are you gonna come and watch me?!\""
-        
+
         p"\"I'll be there.\""
-        
+
         show J 2YUpturned_Smile with fastd
-        
+
         j"\"You sure? The coach leaves at seven.\""
-        
+
         p"\"I'm sure.\""
-        
+
         show J 2YHappy_Smile with fastd
-        
+
         j"\"And after, I'll meet you for a drink!\""
-        
+
         p"\"Should you really drink while doing this?\""
-        
+
         j"\"Who are you, my dad?\""
-        
+
         p"\"Well, I'm sure professional athletes don't drink much.\""
-        
+
         show J 2YUpturned_Tongue with fastd
-        
+
         j"\"Then isn't that a better reason to drink now? I've gotta make it up before then!\""
-        
+
         show J 2YHappy_Smile with fastd
-        
+
         p"\"Alright, I'll be there.\""
-        
+
         show J 2YHappy_OpenSmile with fastd
-        
+
         j"\"I knew I could count on you!\""
-        
+
         show J 2CHappy_Flat at PCM1 with slowd
-        
+
         "She slides off the desk and lands a kiss on my cheek." #and jump on me, arms wrapped around me
-        
+
         show J 2YHappy_Smile with fastd
-        
+
         j"\"Don't let me down!\""
-        
+
         "I sit back in amazement, realising she's holding her pinkie out."
-        
+
         p"\"I promise.\""
-        
+
         "She latches onto my pinkie."
-        
+
         j"\"Remember what will happen if you don't!\""
-        
+
         p"\"Pinkie. Off.\""
-        
+
         "I scissor my pinkie with my fingers."
-        
+
         show J 2YUpturned_Smile with fastd
-        
+
         j"\"Good.\""
-        
+
         show J 2YHappy_Smile with fastd
-        
+
         j"\"I'll see you Saturday.\""
-        
+
         p"\"See you then.\""
-        
+
         show J 2YHappy_Smile at PM1 with slowd
-        
+
         "She opens my door."
-        
+
         show J 2YUpturned_Grin at PM1 with fastd
-        
+
         j"\"Oh, by the way, you need a shave!\""
-        
+
         hide J 2YHappy_Smile at PM1 with slowd
-        
+
         "And she's gone."
-        
-        
-        
+
+
+
         "I thrust my arm into the air."
-        
+
         p"\"Yes!\""
-        
+
         "The word seeps through my clenched teeth."
-        
+
         "My world's just turned upsidedown."
-        
+
         #Peter's stubble gets shaved lol
-        
-        
+
+
         #Custard
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
+
         #pick it back up?
-        
+
         ###################################
-        
-        
+
+
         scene room_boy16_cloud with longf
 
         "The trials are today."
-                                                                                 
+
         #"She told me to meet her at that bar at 6pm."
-        
+
         "I wake up just before my 6:30am alarm. 6:24am shimmers into focus."
-        
+
         "I peel myself out of bed, bleary-eyed."
-        
+
         "I need to catch the bus by 7am."
-        
+
         #"Two hours on the coach..."
-        
+
         "It begins at 9am..."
 
         stop music fadeout 2.0
-        
-        #What about driving? He's OK on the coach? 
+
+        #What about driving? He's OK on the coach?
 
         scene pool02_cloud with longf
-        
+
         "You'd almost think it was Rome but for the weather."
-        
+
         "The teams step out and I applaud with the crowd."
-        
+
         "I can only focus on Jennifer, she looks preoccupied."
-        
+
         "She keeps scanning through the crowd. {i}Is she looking for me?{/i}"
-        
+
         "As her gaze passes, I stand and wave out to her."
-        
+
         "She smiles and waves over, but then continues to scan."
-        
+
         "When I look through the crowd, I can't see Danielle."
-        
+
         "Is that who she's looking for?"
-        
+
         scene pool02_day with slowf
-        
+
         "By 10am, the sky clears up."
-        
+
         "But only a few schools have performed."
-        
+
         "I didn't expect this to take so long."
-        
+
         "Jennifer isn't scheduled for another seven routines."
-        
+
         "I stretch and yawn. I've had a week off early mornings and I'm already not used to it."
-        
+
         "Almost wish I did sleep in now. A lie-in would've been welcome."
-        
+
         #"I don't think Jennifer would agree though."
-        
+
         "But an angry Jennifer is out of the question."
-        
+
         "And I can't deny I wanted to come."
-        
+
         #"But letting Jennifer down was out of the question."
-        
+
         "That kiss on my cheek..."
-        
+
         "And she seemed eager for me to come."
-        
-        
-        
+
+
+
         #"She seemed insistant."
-        
+
         scene pool02_day with slowf
-        
+
         "Finally, Jennifer enters with our team."
-        
+
         "I applaud again with the crowd as they take their positions in the pool."
-        
+
         "He holds her up well."
-        
+
         "But again she scans through the crowd."
-        
+
         "The whistle blows to begin and she looks surprised as she's thrusted forward into her dive."
-        
+
         #"She seems to be a fraction behind the other dancers."
-        
+
         "There's a subtle gasp from the crowd."
-        
+
         "It's bad... she's the only one clearly out of sync..."
-        
+
         "As they return to begin the second phase of the routine, she manages to leap off of his shoulders in sync and makes it up."
-        
+
         "I look down to the judges who are conversing among themselves."
-        
+
         "Their discussions are quick between another and unsure."
-        
+
         "I can only hope for Jennifer."
-        
+
         "What was she doing? She had it down to a tee when we trained..."
-        
+
         scene pool02_cloud with slowf
-        
+
         "The weather today was forecast to be clear."
-        
+
         "But it's gloomy as it was this morning as the event finishes."
-        
+
         "I want to hope for Jennifer, but I hadn't seen anybody else that out of sync today..."
-        
+
         "She'll be taking a coach with the team. I'll be on the bus back for the audience..."
-        
+
         "She said we'd meet at the bar for a drink, win or lose..."
-        
-        
-        
+
+
+
         #"I head out to greet them."
 
         #p"\"Where's Jennifer?\""
@@ -9555,7 +9555,7 @@ label start:
         #"But to hear her say it stabs me with a pang guilt for my thoughts earlier." #earlier thoughts
 
         "But as low as I feel seeing her like this, there's a part of me that's glad she didn't make it without me." #glad she didn't* #Incase she moved out of reach.
-        
+
         #"I can't stand to see her like this; a pang of guilt stings the part of me that's glad she didn't make it."
 
         p"\"What about other competitions?\""
@@ -9666,17 +9666,17 @@ label start:
         "She pulls her phone from her bag and stares into it."
 
         j"\"She was supposed to be there...\""
-        
+
         "Something hits me."
-        
+
         p"\"It was your mum who was texting you when we first went out?\""
-        
+
         j"\"Yeah, she even left me a nice text today after it finished.\""
-        
+
         "She holds out the screen towards my face."
-        
+
         "\"I'm really sorry I couldn't make it. I'll be there next time! x\""
-        
+
         j"\"There won't be a next time.\""
 
         j"\"I don't care anymore, she might as well be dead.\""
@@ -9700,13 +9700,13 @@ label start:
         "It's unnerving to hear her say something like that after today."
 
         p"\"What do you mean?\""
-        
+
         j"\"Look at today. I fucked up because all I cared about was if she was there...\""
-        
+
         j"\"I would've made it if I didn't...\""
-        
+
         "Her voice trails off and her hands clasp onto her thighs."
-        
+
         j"\"And my relationships... never seem to last, friends or family.\""
 
         p"\"Your friends?\""
@@ -9730,11 +9730,11 @@ label start:
         "They seemed so close in class, but that tear a symbol of how far they've drifted."
 
         j"\"I miss her... I miss when we were kids growing up.\"" #best friends become strangers
-        
+
         "A wry chuckle escapes her lips."
-        
+
         j"\"Things were just so simple back then.\""
-        
+
         #"Her wistful words stab my heart for my own reasons."
 
         "Her wistful words stab my heart. I don't want to be lonely, either."
@@ -9777,7 +9777,7 @@ label start:
         "{i}I never grew up.{/i}"
 
         show JN 2YHappy_Smile at PC1 with slowd
-        
+
         j"\"That's it!\""
 
         j"\"We're gonna play a game!\""
@@ -9960,7 +9960,7 @@ label start:
         "And my resistance is left a token."
 
         #scene change
-        
+
         stop music fadeout 4.0
 
         scene park002_night_light with slowf
@@ -9968,7 +9968,7 @@ label start:
         "We neck back the remainder of our bottles and put them in a bin on the way out."
 
         #scene change
-        
+
         play environment "audio/background/city2.mp3"
 
         scene street001_night_light with slowf
@@ -9999,10 +9999,10 @@ label start:
         "My thoughts are stopped by the bouncer asking to check our IDs."
 
         #cold funk
-        
+
 
         play music "audio/music/Cold Funk.mp3" fadein 3.0
-        
+
         stop environment
 
         scene Bar with slowf
@@ -10945,8 +10945,8 @@ label start:
 
         #show J mflatc with slowd
         show J 2YSad_Sad with slowd
-        
-        
+
+
 
         #Her bottom lip pulls up into a smile that wavers on her lips."
 
@@ -11593,10 +11593,10 @@ label start:
 
         #another thing she's done when I asked. I think she really is afraid to say no.
         #fade into another scene? :p
-        
-        
+
+
         stop environment fadeout 2.5
-        
+
         scene black with longf
         centered "Sarah Act 1"
 
@@ -12279,8 +12279,8 @@ label start:
         scene park008_night_dark
 
         show SN 2AAnxious_Smile at PM1
-        
-        
+
+
         #show SN 2AAnxious_Smile at PMR1
         #show S 2AAnxious_Smile at PML1
 
@@ -14428,7 +14428,7 @@ label start:
         s"\"People have told me I'm... unnatural.\""
 
         p"\"Because of Emma?\""
-        
+
         show S 1AAnxious_Smile at PCM1 with slowd
 
         s"\"Yeah.\""
@@ -14541,7 +14541,7 @@ label start:
 
         t"One of thousands scattered under a bleak sky. The clouds merge from grey to black above one grave." with slowd
 
-        t"The grave before me reads, \"Memory.\""                   
+        t"The grave before me reads, \"Memory.\""
 
         t"A spade falls from the air and thumps into the dirt."
 
@@ -15505,7 +15505,7 @@ label start:
         t"L0stc4us3: What's the catch?"
 
         t"x-Destiny-x: My friend will be online, so you'll have to buy an account."
-        
+
         with fastd
 
 
@@ -16037,7 +16037,7 @@ label start:
 
         "We complete another. This time, I didn't die."
 
-        show D 1YSerious_Flat at PCM1 with slowd
+        show D 1YSerious_Relaxed at PCM1 with slowd
 
         d"\"Good job, noob. You're improving.\""
 
@@ -16047,13 +16047,15 @@ label start:
 
         "But it's nice to actually receive some praise from her."
 
+        show D 1YSerious_Smile at PCM1
+
         d"\"I can't deny it was fun, either.\""
 
         d"\"I need to go to a clan event, though.\""
 
         p"\"Oh, OK. Thanks, it was fun.\""
 
-        hide D 1YSerious_Flat with slowd #save test
+        hide D 1YSerious_Smile with slowd #save test
 
         "We stay in the staffroom until the teachers are ready to leave." #level up as much as I can."
 
@@ -16066,15 +16068,15 @@ label start:
 
 
         "I've gained quite a few levels, but I felt left out being too low to join her clan events..."
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
         #Danielle Act One Custard
 
         scene Internet_Cafe with longf
@@ -16106,12 +16108,12 @@ label start:
 
         window hide
         nvl clear
-        
+
         "Was that an invite?" with slowd
-        
-        "..." 
-        
-        
+
+        "..."
+
+
 
         #"She's logged out..." with slowd
 
@@ -16454,19 +16456,19 @@ label start:
         #"I'm too tired to focus today, but Danielle's AFKable suggestion is noticeably faster..."
 
         "After an energy drink, Danielle's focus suggestion at the Bragens is noticeably faster."
-        
-        "Their random stomp attacks mean I have to pay attention and move from the cracking floor but the experience is much better." 
-        
+
+        "Their random stomp attacks mean I have to pay attention and move from the cracking floor but the experience is much better."
+
         scene Internet_Cafe with slowf
-        
+
         "My phone buzzes in my pocket."
-        
+
         "It's 4pm already."
-        
+
         "It's from Danielle, I feel too guilty to reply."
-        
+
         "I have my private off in game. But I'm sure she'll check my rankings..."
-        
+
         scene room_boy16_evening with longf
 
         "I open my eyes and hover my finger over the call button."
@@ -16569,6 +16571,7 @@ label start:
         "Her eyes flicker in consideration."
 
         #show D cnormal with slowd
+        show D 1YSerious_Open at PC1
 
         d"\"You'd better not laugh.\""
 
@@ -16623,6 +16626,8 @@ label start:
 
         p"\"You wrote that?\""
 
+        show D 1Closed_Open at PC1
+
         d"\"Yeah. But it's not finished.\""
 
         p"\"I {i}really{/i} do like it.\""
@@ -16637,9 +16642,13 @@ label start:
 
         "Her eyes drop for a moment."
 
+        show D 2YGentle_Open
+
         d"\"Yep. This was it. At least she doesn't try to tease me in public for this.\""
 
         p"\"It's not something to be embarrassed about.\""
+
+        show D 2Closed_Flat
 
         d"\"I was just never good enough.\""
 
@@ -16665,6 +16674,8 @@ label start:
         "Her probing questions evoke a pang of guilt."
 
         p"\"I'm feeling quite a lot better today after some sleep.\""
+
+        show D 1YSerious_Smirk at PC1
 
         d"\"Oh, really. Did you get to level twenty-four in your sleep?\""
 
@@ -16744,8 +16755,8 @@ label start:
         "x-Destiny-x: I'll speak to you later."
 
         "..."
-        
-        
+
+
         #"L0stC4us3: Doesn't he remember me?" with slowd
 
         #"x-Destiny-x: Apparently not."
@@ -16832,7 +16843,7 @@ label start:
         "A few minutes pass and I'm certain that's all she's going to say."
 
         "I just can't leave it at that."
-        
+
         t"L0stC4us3: Be ready, noon."
 
         t"x-Destiny-x: Pfft. You better be ready to fight me with talk like that."
@@ -16842,19 +16853,19 @@ label start:
         t"L0stC4us3: Give me a week..."
 
         t"x-Destiny-x: I'll see you at noon."
-        
+
         window hide
         nvl clear
-        
+
         "Confused, I look back and realise my autocorrect typo."
-        
+
         #t"L0stC4us3: Noob*"
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
 
         #t"L0stC4us3: Be ready, noob."
 
@@ -16870,7 +16881,7 @@ label start:
         nvl clear
 
         t"x-Destiny-x: Goodnight."
-        
+
         "With her abrupt message, I leave it be."
 
         t"L0stC4us3: 'Night."
@@ -16879,9 +16890,9 @@ label start:
         nvl clear
 
         "I wasn't expecting her to say goodnight. Maybe in some roundabout way, we're becoming friends." with slowd
-        
+
         "As for, {i}\"see you at noon,\"{/i} I can't see us playing at lunch.{w} Right?"
-        
+
         window hide
         nvl clear
 
@@ -17351,12 +17362,14 @@ label start:
         #show D cnormal with slowd
 
         d"\"I played with him online a few years back and we got close.\""
-        
+
         d"\"I started streaming, and had some creepers; he helped me out with them.\""
 
         d"\"But when we started drifting apart, he got controlling; so I said goodbye.\""
 
         "There's a chink in her voice."
+
+        show D 1DManic_Open
 
         d"\"But he found my adress through my IP and began stalking me.\""
 
@@ -17369,11 +17382,11 @@ label start:
         show D 1Closed_Flat with slowd
 
         "She looks ashamed of herself for it."
-        
+
         p"\"What happened?\""
-        
+
         d"\"I screamed. My dad and brother came and restrained him until the police arrived.\""
-        
+
         "She delivers it without emotion."
 
         p"\"You couldn't have known it was him. But that doesn't mean that you have to suspect Luke.\""
@@ -17383,6 +17396,8 @@ label start:
         p"\"Did you suspect me, too?\""
 
         "Her nostrils flare."
+
+        show D 1Closed_Open
 
         d"\"It's not a bad thing to suspect you.\""
 
@@ -17463,7 +17478,7 @@ label start:
         t"She doesn't even trust Jennifer enough to tell her about her gaming."
 
         t"Maybe I'm just looking too much into everything."
-        
+
         t"She did tell me about her stalker after all..."
 
         window hide
@@ -17476,709 +17491,731 @@ label start:
         "I talk about friendship and trust, yet what trust am I giving?"
 
         "And even with how calculated she is, she's seriously concerned."
-        
+
         "It wasn't something I ever thought I'd see of her."
-        
+
         stop music fadeout 3.0
-        
+
         scene school02_day with longf
-        
+
         "I arrive early. A few classmates loiter the hall, talking among themselves."
-        
+
         "Danielle isn't here. Nor is Jennifer."
-        
+
         "I take my seat and wait..."
-        
+
         scene school02_day with slowf
-        
+
         "Mrs Brown begins the lesson, still no sign of either." #of them."
-        
+
         "A pang of guilt leaves me preoccupied."
-        
+
         "Has it affected her enough to not attend class?"
-        
+
         "I haven't received any messages from her since. Not like I've sent any...."
-        
+
         "I have no idea where her dorm is...."
-        
+
         #"I haven't spoken to her since..."
-        
-        
-        
-        
+
+
+
+
         #Go to Danielle's after school? No idea where she lives.
         scene room_boy16_day with slowf
-        
+
         #He'll text her and then wait... She'll tell him where she's staying and confirms her trust beyond doubt.
-        
+
         "I don't know what to say to her. I don't know how to word it."
-        
+
         "{i}Hey Danielle, why weren't you in school today?{/i}"
-        
+
         "It might come across the wrong way. And she's got ammo on me..."
-        
+
         "{i}Hey Danielle, are you OK?{/i}"
-        
+
         "It just feels... wrong."
-        
+
         t"L0stC4us3: Hey." with slowd
-        
+
         "I settle for the simple. At least I've messaged her."
-        
+
         "It's only 4:30pm. Today is dragging."
-        
+
         "And at this point, I want a reply {i}now.{/i}"
-        
+
         scene room_boy16_day with slowf
-        
+
         "I waste some time playing random phone games. It's only 5:12pm."
-        
+
         play sound "audio/sfx/short vibrate.mp3"
-        
+
         "My phone vibrates."
-        
+
         "I quickly open the message."
-        
+
         t"x-Destiny-x: Hey."
-        
+
         #"After deliberating, and her blunt answer, I decide to just be blunt."
-        
+
         "After deliberating on her blunt answer, I decide to be blunt."
-        
+
         t"L0stC4us3: Where were you today?"
-        
+
         "She's seen my message. It takes a few minutes for a response."
-        
+
         t"x-Destiny-x: I was attending a workshop for the Video Game Development Club."
-        
+
         "I sigh a breath of relief."
-        
+
         "At least she hasn't just taken a day off after what happened on Saturday."
-        
+
         t"L0stC4us3: Can I come and see you?"
-        
+
         "I enter it in the moment and wait on her reply."
-        
+
         t"x-Destiny-x: what for?"
-        
+
         window hide
         nvl clear
-        
+
         "I still feel so awkward with how to word what I want."
-        
+
         t"L0stC4us3: I just want to talk?"
-        
+
         t"x-Destiny-x: We can chat here."
-        
+
         #"I still feel so awkward with how to word what I want."
-        
+
         t"L0stC4us3: I want to see you."
-        
+
         "She leaves me no other option but to say it outright."
-        
+
         #
         t"x-Destiny-x: Fine, meet me at the gate to the dorms across the school from yours."
-        
+
         window hide
         nvl clear
-        
+
         "I put my shoes on and I'm off."
-        
+
         scene school01_day with slowf
-        
+
         "I've heard these dorms have bigger rooms from classmates in the halls."
-        
+
         "It certainly looks the part compared to mine."
-        
+
         show D 1YGentle_Relaxed at PCM1 with slowd
-        
-        
-        
-        
+
         d"\"Hey, what's up?\""
-        
+
         p"\"Hey. I was just a bit worried after the other day.\""
-        
+
         d"\"I was being stupid. It's fine.\""
-        
+
         p"\"You have every right to take precautions if something's happened before...\""
-        
+
         d"\"I let my emotions get the better of me for a moment.\""
-        
+
         d"\"I'm fine.\""
-        
+
         "She's keen to dismiss it..."
-        
+
         "And she says it in a calm tone that makes me want to believe she is OK."
-        
+
         #"But I never thought I'd see a side like that of her since we met. I know she didn't mean to show it."
-        
+
         p"\"I'm glad to hear it.\""
-        
+
+        show D 1YGentle_Open
+
         d"\"C'mon, I'm not standing here all day.\""
-        
-        hide D 1YGentle_Relaxed at PCM1 with slowd
-        
+
+        hide D 1YGentle_Open at PCM1 with slowd
+
         "She gestures for me to follow."
-        
+
         scene black with slowd
-        
+
         "She leads me through additional card security, to room 216."
-        
+
         play music "audio/music/bensound-tenderness.mp3" fadein 3.0
-        
-        scene room_boy15_day 
+
+        scene room_boy15_day
         show D 1YGentle_Relaxed at PC1
         with slowd
-        
-        "she sits down at her laptop."
-        
+
+        "She sits down at her laptop."
+
         p"\"Wow, this is so much better than mine.\""
-        
+
         d"\"It's one of the most expensive rooms.\""
-        
+
         show D 1YGentle_Relaxed at PCM1 with slowd
-        
+
         "She states it matter-of-factly, and I sit down beside her."
-        
+
         "The screen filled with lists and sprite images."
-        
+
+        show D 1Closed_Relaxed
+
         p"\"You're working on your game?\""
-        
+
         d"\"Yeah, I usually start at five every day after playing Magnum Dilon.\""
-        
+
         d"\"But I'm excited today after the workshop.\""
-        
+
         "I find myself smiling at her excitement, and that subtle smile that hasn't left her lips."
-        
+
         p"\"That's a good idea.\""
-        
+
+        show D 2YGentle_Relaxed at PCM1 with slowd
+
         "She begins browsing down the menus and changing numbers."
-        
+
         p"\"What are you doing?\""
-        
-        d"\"I'm trying to balance the enemies and experience.\"" 
-        
+
+        d"\"I'm trying to balance the enemies and experience.\""
+
         d"\"I want people to have to train or use a strategy when reaching the first boss.\""
-        
+
         p"\"What strategies do you have in mind?\""
-        
+
+        show D 2YSerious_Open at PCM1
+
         d"\"I'm thinking of adding some low damage moves as his weakness, so people will choose the higher damage moves instead.\""
-        
+
         p"\"But if they beat him at a lower level with low damage moves, how will they fair against the next enemies?\""
-        
+
         p"\"Won't someone who grinds and uses the higher moves have a much higher advantage?\""
-        
+
+        show D 2YGentle_Flat at PCM1
+
         d"\"I could make the next enemies weaker to it as they gather experience for more moves.\""
-        
+
         p"\"I think that could work...\""
-        
+
         #Go into narrative for the game here?
-        
+
         p"\"What's the story?\""
-        
+
+        show D 2YSerious_Flat at PCM1
+
         d"\"Well... I'm struggling with that.\""
-        
+
         d"\"I've even thought about joining a club for literature or short stories.\""
-        
+
         p"\"What ideas do you have?\""
-        
+
         show D 1Closed_Flat
         #show DX Shadow at PCM1
         with slowd
-        
+
         d"\"I'm honestly pretty stumped...\""
-        
+
         d"\"I've been thinking as having an average hero narrative.\""
-        
+
         p"\"Nothing wrong with that, do you have any ieas to make it stand out?\""
-        
-        show D 1YSerious_Flat 
+
+        show D 1YSerious_Flat
         #hide DX Shadow at PCM1
         with slowd
-        
+
         d"\"I've mainly just focused on the development skills.\""
-        
+
         show D 1YSerious_Relaxed at PCM1 with slowd
-        
+
         p"\"What about a hero who has lost his memories? He has to unravel his past?\""
-        
-        #"She looks at me as if I just 
-        
+
+        #"She looks at me as if I just
+
         d"\"Amnesia trope's been used recently.\""
-        
+
         "So that's my life? {i}A trope.{/i}"
-        
+
         p"\"Well, I'm here to bounce ideas with it.\""
-        
+
         "Her brow raises."
-        
+
         d"\"Just for that trope?\""
-        
+
         p"\"No, for anything.\""
-        
+
         "Why do I feel like I've been caught out?"
-        
+
         d"\"You seem pretty set on that idea.\""
-        
+
         p"\"You got another?\""
-        
+
+        show D 1YSerious_Smile at PCM1
+
         d"\"Fine, you start. Sell it to me.\""
-        
+
         p"\"A young hero, whose parent's died, begins to piece together the mystery of his past?\""
-        
-        #A lone hero, setting out to find out 
-        
+
+        #A lone hero, setting out to find out
+
+        show D 1YSerious_Open at PCM1
+
         d"\"Too wishy-washy.\""
-        
+
         p"\"Isn't life?\""
-        
+
         d"\"But this is a game, we have to hit on a clear narrative.\""
-        
+
         p"\"A young hero with amnesia, whose parent's died, discovers lost heritage?\""
-        
+
+        show D 1Closed_Open at PCM1
+
         d"\"It could be workable.\""
-        
+
         show D 1YGentle_Relaxed at PCM1 with slowd
-        
+
         "She dismisses it and focuses back on the screen."
-        
+
         d"\"What do you think of these monsters?\""
-        
+
         p"\"I've seen them in games before.\""
-        
+
         d"\"I've had to use stock assets, but I mean what do you think of their stats?\""
-        
+
         p"\"I think I would need to play it.\""
-        
+
         show D 1Closed_Flat with slowd
-        
+
         d"\"Hmm...\""
-        
+
         show D 1YSerious_Relaxed at PCM1 with slowd
-        
+
         d"\"I will make you a playable build for Friday.\""
-        
+
         p"\"Really?\""
-        
+
         d"\"Yes. It would be a good opportunity to test what I have so far.\""
-        
+
         p"\"I'm down for that.\""
-        
+
         d"\"Please excuse me now. I need to work on it.\""
-        
+
         "It takes me a few moments to process."
-        
+
         p"\"Oh, yeah, sure.\""
-        
+
         "She doesn't even look away from the screen as I leave."
-        
+
         stop music fadeout 3.0
-        
+
         scene room_boy16_day with slowf
-        
+
         "I flop onto my bed."
-        
+
         t"It was nice to actually get invited into her room, after everything that happened." with slowd
-        
+
         t"But she seemed to want to ignore it..."
-        
+
         t"She really does seem happy and committed to her game though."
-        
-        window hide 
+
+        window hide
         nvl clear
-        
+
         "I'll have to ask her what it's called..." with slowd
-        
+
         "And think of something to do now..."
-        
+
         "I wanted to spend more time with her..."
-        
-        
-        
+
+
+
         scene school02_day with longf
-        
+
         "I arrive early, and there she is."
-        
+
         p"\"Mornin'.\""
-        
+
         d"\"Hi.\""
-        
+
         "Even though she had me in her room last night, it just feels awkward."
-        
+
         p"\"Jennifer's been off since yesterday.\""
-        
+
         d"\"She's got her swimming trials.\""
-        
+
         p"\"Oh, goodluck to her.\""
-        
+
         "Danielle gives no response and it's awkward again."
-        
+
         p"\"Did you get much done last night?\""
-        
+
         d"\"Not as much as I wanted to.\""
-        
+
         p"\"Be ready for Friday?\""
-        
+
         d"\"Of course.\""
-        
+
         p"\"What's your game called?\""
-        
+
         #"She looks a little embarrassed."
-        
+
         d"\"Danielle's project 100.\""
-        
+
         "She finally offers a smile and I chuckle."
-        
+
         p"\"Have you really tried that many times?\""
-        
+
         d"\"It feels like it at this point.\""
-        
+
         p"\"You got it this time.\""
-        
+
         d"\"Damn right I have.\""
-        
+
         p"\"But I'm still going to call it project noon until you name it.\""
-        
+
         "She smirks."
-        
+
         #d"\"You fuckin' noon.\""
-        
+
         #"I check around for Mrs Brown, thankful she wasn't privy to that."
-        
+
         d"\"Noob.\""
-        
+
         d"\"Don't think I won't make two player on it and beat your ass.\""
-        
+
         p"\"I'm waiting on it.\""
-        
+
         d"\"After Friday. You need to be my guinea pig first.\""
-        
+
         d"\"You never know, I might even stop calling you noon after it.\""
-        
+
         p"\"You never called me noon!\""
-        
+
         d"\"I will from now on.\""
-        
+
         d"\"Best go, noon. Mrs Brown is here.\""
-        
+
         p"\"This isn't over.\""
-        
+
         "I make my way back to my seat like a defeated antagonist."
-        
+
         scene school02_day with slowf
-        
+
         "Danielle goes back to her room for lunch."
-        
+
         #"Jennifer's not even here at the minute."
-        
+
         "I spend lunch alone."
-        
+
         scene Internet_Cafe with slowf
-        
+
         "It's 4pm and she's not on here either."
-        
+
         "She must really have a bit to do."
-        
+
         "She seems so committed with it, but her project seems a way off complete."
-        
+
         "I'll find out how true that is on Friday, I suppose."
-        
-        
+
+
         #skip to Friday?
-        
+
         scene school01_day with longf
-        
+
         "Friday's arrived. She rushed off after class, and I went back to my dorms for a shower."
-        
+
         #"I'm excited to play Danielle's game, and spend some time with her."
-        
+
         "I'm excited to see Danielle, and I'm eager to play her game."
-        
+
         #"As I make it to the front of the building, I notice her room number on the intercom."
-        
+
         "I approach the building and press her number on the intercom."
-        
+
         p"\"It's Peter.\""
-        
+
         d"\"Come in.\""
-        
+
         "The lock clicks and I make my way inside."
-        
-        scene room_boy15_day 
+
+        scene room_boy15_day
         show D 1YGentle_Flat at PCM1
         with slowf
-        
+
         p"\"So your phone's the intercom, do you get room service here, too?\""
-        
+
         d"\"No, but takeouts deliver outside.\""
-        
+
         "She seems oblivious to my jab. And she's happy enough to take her seat by her computer."
-        
+
         d"\"I've started it up for you.\""
-        
+
         hide D 1YGentle_Flat at PCM1
         with slowd
-        
+
         "She rises and I take the seat."
-        
+
         "There's a slight pressure knowing she's going to watch me play it."
-        
+
         "\"Destiny\" flashes on the screen."
-        
+
         #"There's a basic introduction to the controls, a basic top-down RPG."
-        
+
         "There's a basic introduction to the game, making it clear it's a top-down RPG."
-        
+
         #what music?
-        
+
         t"The main character wakes up in a dark cell." with slowd
-        
+
         t"\"Ugh, my head.\""
-        
+
         t"Torch light pours in through the cell bars and stops at the gate."
-        
+
         t"\"Ed, are you OK?\""
-        
+
         t"\"Who are you?\""
-        
+
         t"\"It's Sadie, I'm here to get you out!\""
-        
-        window hide
-        nvl clear 
-        
-        t"The lock clicks and she rushes over to me."
-        
-        t"\"Come with me, we need to go!\""
-        
-        t"\"Just who are you, where are we going?\""
-        
-        t"\"You told me you'd never forget...\""
-        
-        t"\"I told your stupid ass not to face her alone.\""
-        
-        t"Two guards jump from behind the next wall."
-        
-        window hide
-        nvl clear 
-        
-        t"\"The prisoners are escaping!\""
-        
-        t"The game gives a breakdown of the combat, pretty standard for the type of game." 
-        
-        t"I go through my moves, and check out the enemies stats."
-        
+
         window hide
         nvl clear
-        
+
+        t"The lock clicks and she rushes over to me."
+
+        t"\"Come with me, we need to go!\""
+
+        t"\"Just who are you, where are we going?\""
+
+        t"\"You told me you'd never forget...\""
+
+        t"\"I told your stupid ass not to face her alone.\""
+
+        t"Two guards jump from behind the next wall."
+
+        window hide
+        nvl clear
+
+        t"\"The prisoners are escaping!\""
+
+        t"The game gives a breakdown of the combat, pretty standard for the type of game."
+
+        t"I go through my moves, and check out the enemies stats."
+
+        window hide
+        nvl clear
+
         "Her phone ringing pulls me out of the moment." with slowd
-        
+
         "Danielle sighs and shushes me to be quiet."
-        
+
         #"I try to continue on the game, but I can't help but listen in."
-        
+
         "As much as I try to concentrate on the game, I can't help listen."
-        
+
         d"\"Hi, Daddy.\""
-        
+
         "I can't believe she calls her dad, daddy. It's oddly cute."
-        
+
         d"\"But--\""
-        
+
         "She begins but is interrupted."
-        
+
         d"\"--But I thought you offered him a position.\""
-        
+
         d"\"Why would he refuse?\""
-        
+
         #"Her (statements) rapidfire."
-        
+
         d"\"That's not fair! You told me that I could follow my own path if I got a scholarship.\""
-        
+
         "By now, I have to turn and face her. She thrusts her finger towards her door."
-        
+
         "I heed her gesture and leave."
-        
+
         scene black with slowd
-        
+
         "On my way out, I can hear her saying that she can do what she wants once she leaves school."
-        
+
         scene room_boy16_day with slowf
-        
+
         #Thoughts?
-        
+
         r"All I can make of situation is that someone's supposed to have come into her place, and now she needs to fill that role instead of games design." with slowd
-        
-        
-        
-        scene school02_day 
+
+
+
+        scene school02_day
         with longf
-        
+
         "I haven't heard from her all weekend."
-        
+
         "I approach her."
-        
-        show D 2YGentle_Flat at PCM1 with slowd
-        
+
+        show D 2YSerious_Flat at PCM1 with slowd
+
         d"\"I'm not in the mood.\""
-        
+
         p"\"To talk?\""
-        
+
+        show D 2Closed_Open at PCM1
+
         d"\"For anything—\""
-        
-        show D 2YGentle_Flat at PCML1
-        
+
+        show D 1YSerious_Flat at PCML1
+
         show J 1YHappy_Smile at PCMR1
-        
+
         with slowd
-        
+
         j"\"Hey, guys!\""
-        
-        show D 2YSerious_Flat
-        
-        show J 2YHappy_Smile 
-        
+
+        show D 1YSerious_Flat
+
+        show J 2YHappy_Smile
+
         with slowd
-        
+
         "Danielle stares at Jennifer for a moment, with that same deconstructing look she gave me on the roof."
-        
+
         d"\"Did you make it?\""
-        
+
         j"\"No...\""
-        
+
         "Jennifer looks ashamed for a moment I'd have missed if I'd blinked."
-        
+
         d"\"You been out drinking?\""
-        
+
         j"\"Went out for a few afterwards.\""
-        
+
         #show D 2YSerious_Flat with slowd
-        
+        show D 1YSerious_Open
+
         d"\"I told you to stop.\""
-        
+
         "Jennifer rolls her eyes in exasperation, even I can feel her condescension."#patronising tone
-        
+
         j"\"Sorry, Dad.\""
-        
-        hide J 2YHappy_Smile 
-        
-        show D 2YSerious_Flat at PCM1
-        
+
+        hide J 2YHappy_Smile
+
+        show D 1YSerious_Open at PCM1
+
         with slowd
-        
+
         "Jennifer takes her seat and ignores us."
-        
+
+        show D 1YSerious_Gnash
+
         "Danielle grits her teeth, seeming to swallow the words she wanted to say."
-        
+
+        show D 1YSerious_Frown
+
         "She looks to me, and I decide to take my own seat with the tense mood."
-        
+
         "The weekend has been a disaster. And now I feel I been pushed back to step one."
-        
+
         "Her father has clearly blocked her from her opportunity..."
-        
+
         "In the end, none of us talk with each other for the rest of the day, and the heavy atmosphere just continues..."
-        
+
         #show J 2YSad_Flat with slowd
-        
+
         #j"\"You did. I was just never as good as Casey.\""
-        
+
         #d"\"You drank, you failed. I've done everything I can and I wasn't even allowed to try.\""
-        
+
         #show J 2YAnnoyed_Flat with slowd
-        
+
         #j"\"Is it not bad enough that I've failed? Do you need to twist the knife, too?\""
-        
+
         #d"\"Like you said, Casey was better. You had already settled to lose.\""
-        
-        #j"\"And you didn't? You short-arse daddy's girl.\"" 
-        
+
+        #j"\"And you didn't? You short-arse daddy's girl.\""
+
         #show D 1YAngry_Flat with slowd
-        
+
         #"This isn't how I expected them to to share defeat..."
-        
+
         #p"\"What are you two arguing for? You're best friends who have just lost something...\""
-        
+
         #"They both give me a look as if dismissing a child."
-        
+
         #show D 1YAngry_Gnash with slowd
-        
+
         #d"\"Fuck off, both of you.\""
-        
+
         #hide J 2YAnnoyed_Flat
         #hide D 1YAngry_Gnash
         #with slowd
-        
+
         #"We oblige. Even the other students seem tofeel the tension in the room."
-        
+
         scene black with longd
-        
+
         centered "Act 2"
-        
+
         scene school02_day with longd
-        
+
         "It's been over a week and I've still not spoken to either of them."
-        
+
         "Danielle hasn't been online at all."
-        
-        
-        
-        
+
+
+
+
         #Get sent down to the office?
-        
-        
-        
-        
+
+
+
+
         #Jennifer? Arguemnt?
-        
-        
-        
-        
-        
+
+
+
+
+
         #p"\"Once I beat you in two player, I'm going to call you noon.\""
-        
-        
-        
-        #When he beats her. 
-        
+
+
+
+        #When he beats her.
+
         #Good afternoon, good evening, and goodnight. *bow*
-        
-        
-        
-        #Ccould also do an internet cafe scene and she's not on between 4-5pm 
-        
-        
-        
+
+
+
+        #Ccould also do an internet cafe scene and she's not on between 4-5pm
+
+
+
         #then he can go to her room Friday and ask about the phone, joking it's like a hotel room
-        
-        
-        
-        
-        
-        #"Danielle 
-        
+
+
+
+
+
+        #"Danielle
+
         #It's like loading someone else's save
-        
+
         #A spell was used on them just as the antagonist died?
-        
-        #People are out looking for them. 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+        #People are out looking for them.
+
+
+
+
+
+
+
+
+
+
+
         #d"\"That's ridiculous.\""
-        
+
         #"As is my life."
-        
+
         #That small smile hasn't left her lips.
-        
-        
+
+
         #"When I look at the situation logically,
 
         #Mr brent can come along during this and Danielle will downplay it, Peter will say, though.
