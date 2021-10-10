@@ -1304,3 +1304,16 @@ define t = Character(None, kind=nvl)
 
 define td = Character('Danielle', color="#FFFF00", kind=nvl)
 define tp = Character('Peter', color="6666FF", kind=nvl)
+
+define te = Character('Ed', color="#F7F3F3", kind=nvl)
+define ts = Character('Sadie', color="#F7F3F3", kind=nvl)
+define tq = Character('???', color="#F7F3F3", kind=nvl)
+define tg = Character('Guard', color="#F7F3F3", kind=nvl)
+
+#define te = Character('Ed', color="373737", kind=nvl)
+#define ts = Character('Sadie', color="373737", kind=nvl)
+#define tq = Character('???', color="373737", kind=nvl)
+#define tg = Character('Guard', color="373737", kind=nvl)
+
+
+
