@@ -8104,7 +8104,7 @@ label start:
         scene Bar with slowd
 
         "The smell of alcohol and perfume sit on the air. It reminds me of my uncle."
-        
+
         "Despite it being almost empty, I feel out of place."
 
         "He pulls up a chair at the bar and I sit beside him."
@@ -9044,15 +9044,9 @@ label start:
         #"Will I lose Jennifer too?" #Will I... forget her...?"
 
         "{i}My head is in pieces.{/i}"
-<<<<<<< HEAD
-        
+
         "I pull myself together for class."
-        
-=======
 
-        "I get myself together for class."
-
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
         scene school02_day with slowf
 
         "The room feels empty without Jennifer."
@@ -9118,23 +9112,15 @@ label start:
         stop music fadeout 3.0
 
         scene school05_cloud with slowf
-<<<<<<< HEAD
-        
+
         "I catch up to Danielle in the hallway."
-        
+
         show D 2YSerious_Flat at PCM1 with slowd
-        
+
         p"\"Hey Daneille, you heard anything from Jennifer?\""
-        
+
         show D 1YSerious_Flat at PCM1 with fastd
-        
-=======
 
-        "I catch Danielle in the hallway."
-
-        p"\"Hey Daneille, you heard anything from Jennifer?\""
-
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
         d"\"She's training for the trial, isn't she?\""
 
         #wtf is it called? lol trial?
@@ -9144,13 +9130,9 @@ label start:
         d"\"Don't expect to hear much from her.\""
 
         p"\"She that serious?\""
-<<<<<<< HEAD
-        
-        show D 1YSerious_Frown with fastd
-        
-=======
 
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
+        show D 1YSerious_Frown with fastd
+
         d"\"Wouldn't you be if that was something you loved?\""
 
         "I don't think I've ever been serious."
@@ -9162,13 +9144,9 @@ label start:
         d"\"Anything else? Or are you just going to daydream?\""
 
         p"\"Nah, that's it.\""
-<<<<<<< HEAD
-        
-        hide D 1YSerious_Frown with moveoutright
-        
-=======
 
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
+        hide D 1YSerious_Frown with moveoutright
+
         "She makes her way in and I follow."
 
         scene school02_cloud with slowf
@@ -9210,13 +9188,9 @@ label start:
         show J 2YHappy_Smile at PM1 with slowd
 
         p"\"Give me chance!\""
-<<<<<<< HEAD
-        
-        play music "audio/music/bensound-memories.mp3" fadein 3.0
-        
-=======
 
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
+        play music "audio/music/bensound-memories.mp3" fadein 3.0
+
         show J 2CHappy_Smile at PCM1 with slowd
 
         "She wraps me in a hug, but by the time my surprise hits me, she pulls away."
@@ -9366,17 +9340,11 @@ label start:
         p"\"Yes!\""
 
         "The word seeps through my clenched teeth."
-<<<<<<< HEAD
-        
+
         #"My world's just turned upsidedown."
-        
+
         "My world's just turned the right way round."
-        
-=======
 
-        "My world's just turned upsidedown."
-
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
         #Peter's stubble gets shaved lol
 
 
@@ -9394,15 +9362,9 @@ label start:
         #pick it back up?
 
         ###################################
-<<<<<<< HEAD
-        
+
         stop music fadeout 3.0
-        
-        
-=======
 
-
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
         scene room_boy16_cloud with longf
 
         "The trials are today."
@@ -9420,15 +9382,10 @@ label start:
         "It begins at 9am..."
 
         stop music fadeout 2.0
-<<<<<<< HEAD
-        
-        #What about driving? He's OK on the coach? 
-        
-        play music "audio/music/On My Way.mp3" fadein 3.5
-=======
 
         #What about driving? He's OK on the coach?
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
+
+        play music "audio/music/On My Way.mp3" fadein 3.5
 
         scene pool02_cloud with longf
 
@@ -9469,22 +9426,12 @@ label start:
         "And I can't deny I wanted to come."
 
         #"But letting Jennifer down was out of the question."
-<<<<<<< HEAD
-        
-        
+
+
         "She seemed eager for me to come."
-        
+
         "And that kiss on my cheek..."
-        
-=======
 
-        "That kiss on my cheek..."
-
-        "And she seemed eager for me to come."
-
-
-
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
         #"She seemed insistant."
 
         scene pool02_day with slowf
@@ -9492,21 +9439,13 @@ label start:
         "Finally, Jennifer enters with our team."
 
         "I applaud again with the crowd as they take their positions in the pool."
-<<<<<<< HEAD
-        
+
         "He holds her up well as they wait to begin."
-        
+
         "But again she scans through the crowd."
-        
+
         stop music fadeout 3.5
-        
-=======
 
-        "He holds her up well."
-
-        "But again she scans through the crowd."
-
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
         "The whistle blows to begin and she looks surprised as she's thrusted forward into her dive."
 
         #"She seems to be a fraction behind the other dancers."
@@ -9634,13 +9573,9 @@ label start:
         #"But to hear her say it stabs me with a pang guilt for my thoughts earlier." #earlier thoughts
 
         "But as low as I feel seeing her like this, there's a part of me that's glad she didn't make it without me." #glad she didn't* #Incase she moved out of reach.
-<<<<<<< HEAD
-        
-        "And I hate myself for it."
-        
-=======
 
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
+        "And I hate myself for it."
+
         #"I can't stand to see her like this; a pang of guilt stings the part of me that's glad she didn't make it."
 
         p"\"What about other competitions?\""
@@ -13034,7 +12969,7 @@ label start:
         "I run away and manage to evade the the bee."
 
         #"As I return, she covers her mouth with the back of her hand, giggling sweetly."
-        
+
         "As I return, she laughs into the back of her hand."
 
         show S 2DSad_Smile at PC1 with slowd
@@ -17916,13 +17851,9 @@ label start:
         scene school02_day with longf
 
         "I arrive early, and there she is."
-<<<<<<< HEAD
-        
-        show D 1YGentle_Flat at PCM1 with slowd
-        
-=======
 
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
+        show D 1YGentle_Flat at PCM1 with slowd
+
         p"\"Mornin'.\""
 
         d"\"Hi.\""
@@ -17948,13 +17879,9 @@ label start:
         p"\"What's your game called?\""
 
         #"She looks a little embarrassed."
-<<<<<<< HEAD
-        
-        show D 1YGentle_Relaxed with fastd
-        
-=======
 
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
+        show D 1YGentle_Relaxed with fastd
+
         d"\"Danielle's project 100.\""
 
         "She finally offers a smile and I chuckle."
@@ -17968,17 +17895,11 @@ label start:
         d"\"Damn right I have.\""
 
         p"\"But I'm still going to call it project noon until you name it.\""
-<<<<<<< HEAD
-        
+
         show D 1YSerious_Smirk with fastd
-        
+
         #"She smirks."
-        
-=======
 
-        "She smirks."
-
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
         #d"\"You fuckin' noon.\""
 
         #"I check around for Mrs Brown, thankful she wasn't privy to that."
@@ -17988,13 +17909,9 @@ label start:
         d"\"Don't think I won't make two player on it and beat your ass.\""
 
         p"\"I'm waiting on it.\""
-<<<<<<< HEAD
-        
-        show D 1YSerious_Smile with fastd
-        
-=======
 
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
+        show D 1YSerious_Smile with fastd
+
         d"\"After Friday. You need to be my guinea pig first.\""
 
         d"\"You never know, I might even stop calling you noon after it.\""
@@ -18006,13 +17923,9 @@ label start:
         d"\"Best go, noon. Mrs Brown is here.\""
 
         p"\"This isn't over.\""
-<<<<<<< HEAD
-        
-        hide D 1YSerious_Smile with slowd
-        
-=======
 
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
+        hide D 1YSerious_Smile with slowd
+
         "I make my way back to my seat like a defeated antagonist."
 
         scene school02_day with slowf
@@ -18082,76 +17995,43 @@ label start:
         #what music?
 
         t"The main character wakes up in a dark cell." with slowd
-<<<<<<< HEAD
-        
+
         tq" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Ugh, my head.\""
-        
+
         t"Torch light pours in through the cell bars and stops at the gate."
-        
+
         tq" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Ed, are you OK?\""
-        
+
         te" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Who are you?\""
-        
+
         ts" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"It's Sadie, I'm here to get you out!\""
-        
+
         #td " \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Mother...\""
-        
-=======
 
-        t"\"Ugh, my head.\""
-
-        t"Torch light pours in through the cell bars and stops at the gate."
-
-        t"\"Ed, are you OK?\""
-
-        t"\"Who are you?\""
-
-        t"\"It's Sadie, I'm here to get you out!\""
-
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
         window hide
         nvl clear
 
         t"The lock clicks and she rushes over to me."
-<<<<<<< HEAD
-        
+
         ts" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Come with me, we need to go!\""
-        
+
         te" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"Just who are you, where are we going?\""
-        
+
         ts" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"You told me you'd never forget...\""
-        
+
         ts" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"I told your stupid ass not to face her alone.\""
-        
-=======
 
-        t"\"Come with me, we need to go!\""
 
-        t"\"Just who are you, where are we going?\""
-
-        t"\"You told me you'd never forget...\""
-
-        t"\"I told your stupid ass not to face her alone.\""
-
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
         t"Two guards jump from behind the next wall."
 
         window hide
-<<<<<<< HEAD
-        nvl clear 
-        
-        tg" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"The prisoners are escaping!\""
-        
-        t"The game gives a breakdown of the combat, pretty standard for the type of game." 
-        
-=======
+
         nvl clear
 
-        t"\"The prisoners are escaping!\""
+        tg" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \"The prisoners are escaping!\""
 
         t"The game gives a breakdown of the combat, pretty standard for the type of game."
 
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
         t"I go through my moves, and check out the enemies stats."
 
         window hide
@@ -18162,15 +18042,9 @@ label start:
         "Danielle sighs and shushes me to be quiet."
 
         #"I try to continue on the game, but I can't help but listen in."
-<<<<<<< HEAD
-        
+
         "As much as I try to concentrate on the game, I can't help but listen."
-        
-=======
 
-        "As much as I try to concentrate on the game, I can't help listen."
-
->>>>>>> 9b2ba079e182104a2642863fc3181ef3faaeec73
         d"\"Hi, Daddy.\""
 
         "I can't believe she calls her dad, daddy. It's oddly cute."
@@ -18484,7 +18358,7 @@ label start:
         scene black with slowd
 
         centered "Thanks for reading! Be sure to check out the other route segments and share if you enjoyed."
-        
+
         #centered "If you enjoyed it so far, please share."
 
         #centered "Feel free to leave feedback at Facebook.com/NamelessNoun"
