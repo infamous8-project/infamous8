@@ -22,7 +22,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "Demo0.1"
+define config.version = "Demo1.0"
 
 
 ## Text that is placed on the game's about screen. To insert a blank line
@@ -144,7 +144,7 @@ define config.save_directory = "Erinnerung-1481677035"
 ## The icon displayed on the taskbar or dock.
 
 #define config.window_icon = "gui/window_icon.png"
-define config.window_icon = "gui/I8 logo.png"
+define config.window_icon = "gui/Sarah Logo.png"
 
 ## Build configuration #########################################################
 ##
@@ -179,8 +179,8 @@ init python:
 
     ## To archive files, classify them as 'archive'.
 
-    # build.classify('game/**.png', 'archive')
-    # build.classify('game/**.jpg', 'archive')
+    build.classify('game/**.png', 'archive')
+    #build.classify('game/**.jpg', 'archive')
 
     ## Files matching documentation patterns are duplicated in a mac app build,
     ## so they appear in both the app and the zip file.

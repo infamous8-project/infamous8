@@ -136,6 +136,13 @@ label start:
 
     "Where am I?!"
 
+    
+    
+    show P 3Closed_Grit at PCP1
+    show black100
+    show black sides
+    with slowd
+    
     #"I rise to a surge of panic, but crippling agony rips a cry from my throat and wrestles me into submission."
     #"I rise to a surge of panic, but the movement rips a scream of agony from my throat and wrestles me into submission."
     "Seized by panic, I rise; the movement rips a groan of agony from my throat and wrestles me into submission."
@@ -158,12 +165,18 @@ label start:
 
     #"I gasp to push down the rising panic, but it tenfolds."
     #"I gasp for air but it gets stuck in my throat."
+    
+    show P 2Panic_Open at PCP1
+    with slowd
+    
     "I gasp for air and choke, reaching out to the doctor with curling fingers; he gestures orders to his colleagues."
 
 
     #"I reach out to the doctor with curling fingers; he gestures orders to his colleagues."
 
     dd"\"He's going into shock!\""
+    
+    scene black with slowd
 
     #"The world around me consumed by dread."
     "Dread consumes the world around me."
@@ -609,7 +622,7 @@ label start:
     #City scene
 
     play environment "audio/background/Rain.ogg" fadein 3.0
-    #play environment2 "audio/background/city.mp3" fadein 3.0
+    #play environment2 "audio/background/city.ogg" fadein 3.0
     #play music "audio/music/bensound-tomorrow.mp3" fadein 3.0
     play music "audio/music/bensound-betterdays.mp3" fadein 3.0
     #play music "audio/music/Aiden track.mp3" fadein 3.0
@@ -674,7 +687,7 @@ label start:
     #"I heave my duffle bag over my shoulder and grip the handle to my suitcase, which begins to noisily protest on its hind wheels."
 
     #"With little else to go off, I shoulder my duffle bag and extend the handle on my suitcase; its hind wheels protesting in my wake."
-    play environment2 "audio/background/city.mp3" fadein 3.0
+    play environment2 "audio/background/city.ogg" fadein 3.0
     scene street003_night_light_rain with longf
 
     #"The city is intimidating, information overload after living like a hermit for the past year."
@@ -916,7 +929,7 @@ label start:
 
     "Chips and scratches blemish the wooden surfaces, testimonial to the character they once adorned." #Showing they were once adorned with character."
 
-    "Now they're stripped and left bearing scars..." #{w}{i}Like me.{/i} "
+    "Now they're stripped and left baring scars..." #{w}{i}Like me.{/i} "
 
     #"{i}Like me.{/i}"
 
@@ -979,7 +992,7 @@ label start:
 
     "Hmm... I wonder if Destiny's online, it's been a while."
 
-    "Damn, that's right. I haven't connected to the wi-fi."
+    "Damn, that's right. I haven't connected to the Wi-Fi."
 
     #"My phone is filled with overplayed games that lack my interest."
 
@@ -1793,7 +1806,7 @@ label start:
 
     p"\"Not really...\""
 
-    p"\"But I need the wi-fi code, do you know where I can get it?\""
+    p"\"But I need the Wi-Fi code, do you know where I can get it?\""
 
     show D 1YSerious_Open
     d"\"I have it saved as a picture.\""
@@ -2099,7 +2112,7 @@ label start:
 
     #"The front building looks renovated, surrounded by older buildings."
 
-    "There's a small court with nets situated between the buildings; a few students are kicking the ball at an unfortunate student's arse."
+    "There's a small court with nets situated between the buildings; \na few students are kicking the ball at an unfortunate student's arse."
     # Where a few students are having a kick about."
 
     "The most appealing part is the view of the distant forest."
@@ -3726,7 +3739,7 @@ label start:
 
 
 
-    play environment "audio/background/city2.mp3" fadein 3.0
+    play environment "audio/background/city2.ogg" fadein 3.0
     scene street001_day with slowd
 
     t"There's something still intimidating to me about the city." with slowd
@@ -3740,13 +3753,13 @@ label start:
     window hide
     nvl clear
 
-    "In my reverie I've walked half way down the long street." with slowd
+    "In my reverie, I've walked half way down the long street." with slowd
 
     "I turn and head back. A few people give me awkward glances, and it makes me feel self-conscious."
 
     "What idiot turns around in the middle of the street after walking so far?"
 
-    "...What idiot doesn't look up directions while they had wi-fi...?"
+    "...What idiot doesn't look up directions while they had Wi-Fi...?"
 
     "I get my phone out and tap at the screen as if it's something important I've forgotten."
 
@@ -3828,7 +3841,7 @@ label start:
 
     "Her smile and tone genuine enough to put me at ease."
 
-    "Still, I wonder: does she feel a responsibility to help me or does she feel inclined because she's afraid to say no?"
+    "Still, I wonder: does she feel a responsibility to help me, or does she feel inclined because she's afraid to say no?"
     hide S cNsmile with slowd
     #"She browses the aisles, her fingers twining in here sleeves."
     t"She leads me down the aisles, twisting her fingers in her sleeves." with slowd
@@ -3841,7 +3854,7 @@ label start:
     #"Though she stares into the shelves, it's as if she's disconnecting herself from her surroundings rather than browsing."
     #than looking for anything in particular."
 
-    t"She just avoids a passing man, offering an apology he doesn't acknowledge."
+    t"She just avoids a man passing by, offering an apology he doesn't acknowledge."
 
     window hide
     nvl clear
@@ -3910,7 +3923,7 @@ label start:
     p"\"Ready? Yeah, let's go.\""
 
     stop music fadeout 3.0
-    play environment "audio/background/city2.mp3" fadein 4.0
+    play environment "audio/background/city2.ogg" fadein 4.0
     scene shop006_evening with slowf
     "The setting sun greets us."
 
@@ -4040,7 +4053,7 @@ label start:
     #"Her shoulders ease when we make it back."
     "Her shoulders fall slack when we make it back."
 
-    p"\"I'm in room one-one-nine by the way.\""
+    p"\"I'm in room one-one-seven, by the way.\""
 
     "I say it without thinking. But I am curious to know which room she's in."
 
@@ -4152,7 +4165,7 @@ label start:
 
     "After visiting the staffroom, they let us in. It seems some of the teachers use the computer room on weekends too."
 
-    "The teachers give greetings to Danielle, who only nods in return."
+    "The teachers greet Danielle, who only nods in return."
 
     T"\"So, are you going to introduce us?\""
 
@@ -4199,7 +4212,9 @@ label start:
     "Well, that was weird."
 
     #"I follow Danielle to the far computers."
-    "I follow Danielle to the far computers who meets me with a lifted brow."
+    #"I follow Danielle to the far computers who meets me with a lifted brow."
+    
+    "I follow Danielle to the far computers. She meets me with a lifted brow."
 
     show D 1YSerious_Flat at PC1 with slowd
 
@@ -4262,7 +4277,7 @@ label start:
     window hide
     nvl clear
 
-    "My eyes come to rest on the price tag. I could afford it and its subscription fee, but it would be a dent in my funds." #with slowd
+    "My eyes come to rest on the price tag. Although I could afford the game and its subscription fee, it would be a dent in my funds." #with slowd
 
 
     p"\"Damn, this game isn't cheap.\""
@@ -4496,7 +4511,10 @@ label start:
 
     t"I slip into another world.{w} {i}I've been here before.{/i}" with slowd
 
-    t"A watchtower looms on the hill next to a quaint village, lifeless streets and desolate buildings veiled by the gloom of its shadow."
+    #t"A watchtower looms on the hill next to a quaint village, lifeless streets and desolate buildings veiled by the gloom of its shadow."
+    
+    t"A watchtower looms on the hill next to a quaint village, lifeless streets and desolate buildings veiled by its gloomy shadow."
+    
     # casts a shadow over a quaint village."
     #t"The watchtower casts its shadow over the lifeless streets and desolate buildings a quaint village."
 
@@ -4799,7 +4817,7 @@ label start:
 
     "He observes my brooding. It's subtle, almost... non-intrusive."
 
-    a"\"Can I ask the nature of your uncle's reference?\""
+    a"\"Can I ask about the nature of your uncle's reference?\""
 
     p"\"I... I don't want to talk about it.\""
 
@@ -5142,7 +5160,7 @@ label start:
     #window hide
     nvl clear
 
-    "My uncle's right about one thing: I can't keep living—no, existing like this." with slowd
+    "My uncle's right about one thing: I can't keep living—no, {i}existing{/i} like this." with slowd
 
     t"I have a fresh start. I can be whoever I want to be.{w} Or remain {i}nobody...{/i}" with slowd #at all
 
@@ -5482,7 +5500,7 @@ label start:
         #Have Casey ask about the scars in front of Jennifer?
         #Jennifer is uneasy around negative emotions. She tries to push them away.
 
-        "Casey, amused by our interaction speaks up."
+        "Casey, amused by our interaction, speaks up."
 
         cc"\"Don't worry, we won't bite.\""
 
@@ -5593,6 +5611,9 @@ label start:
         t"They perform three twists and then roll over to  the surface."
 
         t"How they do all that holding their breath amazes me."
+        
+        window hide
+        nvl clear
 
         scene Jennifer Casey CG at JCGJ with slowd
 
@@ -5603,7 +5624,7 @@ label start:
         j"\"That's only the first section of the routine.\""
 
 
-        "But next time get in position before I lift you." #I can't hold you long out of the water.\""
+        p "\"But next time get in position before I lift you.\"" #I can't hold you long out of the water.\""
 
         "Her brow lifts."
 
@@ -5640,7 +5661,7 @@ label start:
 
         cc"\"Don't worry, I'm not quite that heavy.\""
 
-        "I laught and turn to Jennifer, who takes no interst in her comment."
+        "I laugh and turn to Jennifer, who takes no interest in her comment."
 
         "Casey's certainly lighter, she also readies herself in position before surfacing."
 
@@ -6086,7 +6107,7 @@ label start:
 
         ##in town
 
-        play environment "audio/background/city2.mp3"
+        play environment "audio/background/city2.ogg"
 
         scene street001_day with slowf
 
@@ -6178,7 +6199,7 @@ label start:
 
         #"She pulls me around a secluded corner and peeks around the wall."
 
-        "When we're out of view she lets go and peeks around the corner."
+        "When we're out of view, she lets go and peeks around the corner."
 
         p"\"What's this about?\""
 
@@ -6495,12 +6516,12 @@ label start:
         "She claps her hands and sets off."
 
 
-        play environment "audio/background/city2.mp3" fadein 4.0
+        play environment "audio/background/city2.ogg" fadein 4.0
         scene street001_evening with slowf
 
         t"The city glows with a vibrant tint. The sun departs, leaving maroon in its wake." with slowd
 
-        t"A mixture of pleasant fragrances ride on the breeze, foods from the restaurants and perfumes of passing people."
+        t"A mixture of pleasant fragrances ride on the breeze, foods from the restaurants and perfumes of passersby."
 
         t"The streets sing with the buzz of chatter and laughter as groups of people pull off into the bars and restaurants."
 
@@ -6982,7 +7003,7 @@ label start:
 
         stop music fadeout 3.0
 
-        play environment "audio/background/city2.mp3" fadein 3.0
+        play environment "audio/background/city2.ogg" fadein 3.0
 
         scene shop006_night_light with slowf
 
@@ -7997,7 +8018,7 @@ label start:
 
         #Long Rd
 
-        play environment "audio/background/city2.mp3" fadein 3.0
+        play environment "audio/background/city2.ogg" fadein 3.0
 
         scene street001_evening
 
@@ -8618,7 +8639,7 @@ label start:
         #time skip
         #long st
 
-        play environment "audio/background/city2.mp3" fadein 2.0
+        play environment "audio/background/city2.ogg" fadein 2.0
 
         scene street001_night_light with slowf
 
@@ -9989,7 +10010,7 @@ label start:
 
         #scene change
 
-        play environment "audio/background/city2.mp3"
+        play environment "audio/background/city2.ogg"
 
         scene street001_night_light with slowf
 
@@ -11654,7 +11675,7 @@ label start:
         "There's a sense of determination about her strides, but the worried look on her face makes me uneasy."
 
         #"Sarah stops outside the room and my momentum pushes her inside."
-        "Sarah stops outside the room and my momentum sends us tumbling inside."
+        "Sarah stops outside the art room and my momentum sends us tumbling inside."
 
         scene school08_day
 
@@ -11701,21 +11722,25 @@ label start:
 
         "The girl leans over and whispers in her friend's ear."
 
-        "Is this why she was evasive at the mention?"
+        "Is this why she didn't seem sure when I asked her to join again?"
 
         "Come to think of it, she shut off when I mentioned it on our walk to the shops too."
-
+        
+        #"Is this why she was evasive when I mentioned it on the walk back from the shops?
+        
+        
+        
         "I had mistaken it as shyness."
 
         "She slumps over the desk and buries her face in her arms. I trudge through knee deep guilt and sit beside her. "
 
-        "The people sat across from us keep shooting glances, as do the rest of the class."
+        "The people sitting across from us keep shooting glances, as do the rest of the class."
 
         "But the din falls into silence."
 
         "My question's answered when I turn to the doorway, where a lanky, ageing man with dark, shaggy hair observes the room."
 
-        "His gaze comes to a stop on me and Sarah." #before pin pointing on us."
+        "He gazes across the room and stalls on me and Sarah." #before pin pointing on us."
 
         q "\"I see we have new faces in the class. Are you here to join up, or are you here for a taster?\""
 
@@ -11754,15 +11779,15 @@ label start:
         mrt "\"Right then, class. Today we are going to be doing an imaginative exercise.\""
 
 
-        mrt "\"I want you to all draw something that you think represents yourself.\""
+        mrt "\"I want you all to draw something that you think represents yourself.\""
 
         mrt "\"This can be something you like, or something that is important to you. Abstract or concrete.\""
 
-        mrt "\"You can use any equipment and style that you like, as this adds to the representation of yourself.\""
+        mrt "\"You can use any equipment and style that you like, as this adds to your self-representation.\""
 
         mrt "\"We'll be starting our projects soon. So take the opportunity to practice now and in the coming weeks.\""
 
-        "With that said, he sits down and picks out a large stack of paper from his drawer, holding them at different angles and distances as he examines each one."
+        "With that said, he sits down and picks out a large stack of papers from his drawer, holding them at different angles and distances as he examines each one."
 
         "We wait for the class to get up and take their desired equipment, before picking out a few pencils."
 
@@ -11775,7 +11800,7 @@ label start:
 
         "A tactical manoeuvre I imagine, to hide her work from prying eyes such as mine."
 
-        "I notice that every now and then she glances over to the door, it gives me the impression that she wants to escape."
+        "I notice that every now and then she glances over to the door, giving me the impression that she wants to escape."
 
         "I feel lost as I stare down at the piece of paper, it already represents me as it is."
 
@@ -11799,7 +11824,7 @@ label start:
 
         "I'm enjoying this more than I thought I would. It's therapeutic."
 
-        "I carry on trying to refine it, but it never seems to turn out right. Most of the time it turns out worse than before, which is frustrating."
+        "I carry on trying to refine it, but it never seems to turn out right. \nMost of the time it turns out worse than before, which is frustrating."
 
         "Mr Thatcher stands in front of his desk and clears his throat."
 
@@ -12307,6 +12332,23 @@ label start:
         with slowf
 
         #"When it comes down to it, the only subject we've had is art."
+        
+        
+        
+        
+        
+        #Hanako -
+        
+        #scene park008_night_dark
+        
+        #show hanako_emb_downsmile_cas at H
+        #show S 1AAnxious_Smilesmall at S
+        
+        #s"\"W-would you like to... stargaze with me?\""
+        
+        #
+        
+        
 
         "I carry our drinks on a cardboard drink holder."
 
@@ -14584,9 +14626,9 @@ label start:
 
         t"The door swings open, scattering dirt through the air."
 
-        t"A corpse rises into the air enshrouded in a dark mist."
+        t"A corpse rises,  enshrouded in a dark mist."
 
-        t"I try to rise but my limbs sink into the mud. It floats forward and lifts its head."
+        t"I try to rise, but my limbs sink into the mud. It floats forward and lifts its head."
 
         window hide
         nvl clear
@@ -18429,7 +18471,7 @@ label start:
 
         "I hand him a ten and leave with my bags."
 
-        play environment "audio/background/city2.mp3" fadein 4.0
+        play environment "audio/background/city2.ogg" fadein 4.0
         scene shop006_night_light with slowd
 
         "The evening's cold air embraces me. {i}The only thing that will{/i}."
@@ -18653,7 +18695,7 @@ init:
     #leave something behind dialogue?l
     #also speak
 
-    #mention wi-fi and maybe she gives you her number? This will be at dinner?
+    #mention Wi-Fi and maybe she gives you her number? This will be at dinner?
     #I've... got a girls number. On my first day in class. She's cute, too.
     #judging from my knowledge of film, doesn't that mean...
     #Did I just make... a friend?

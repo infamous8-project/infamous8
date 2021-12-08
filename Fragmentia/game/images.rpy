@@ -42,8 +42,8 @@ image sky003_evening Blur 2= "bgs/blurs/sky003_evening Blur 2.jpg"
 #dream
 #beach
 
-image beach02_day = "bgs/dream/beach02_day.jpg."
-image beach02_day_sepia = "bgs/dream/beach02_day_sepia.jpg."
+image beach02_day = "bgs/beach02_day.jpg."
+image beach02_day_sepia = "bgs/beach02_day_sepia.jpg."
 
 
 image Computer_Room = "bgs/Computer_Room.jpeg"
@@ -769,6 +769,21 @@ image church11_night_dark = "bgs/graveyard/church11_night_dark by vestman.jpg"
 # NVL cofig:
 
 
+
+image hanako_emb_downsmile_cas = "hanako_emb_downsmile_cas.png"
+image S 1AAnxious_Smilesmall = "S 1AAnxious_Smilesmall.png"
+
+transform H:
+    xalign 0.7 yalign 1.0
+
+transform S:
+    zoom 0.95
+    xalign 0.25 yalign 1.0
+    
+
+    
+    
+    
 #Jennifer CG
 transform JCG:
     zoom 0.5
@@ -781,6 +796,10 @@ transform JCG2:
 transform JCGJ:
     zoom 0.67
     xalign 0.0 yalign 0.0
+    
+    
+    
+    
     
 #sprites    
 transform PM1:
@@ -836,6 +855,10 @@ transform PCR2:
     
     
     
+    #peter sprite
+transform PCP1:
+    zoom 0.29
+    xalign 0.5 yalign 0.0
 
     
 init python:

@@ -1218,6 +1218,23 @@ image De 2YStern_Smirk = "sprite/dean/De 2YStern_Smirk.png"
 image De 2YStern_WideGrin = "sprite/dean/De 2YStern_WideGrin.png"
 
 
+#peter black sides
+
+image black sides = "gui/black sides.png"
+
+image black20 = "gui/Black 20.png"
+image black50 = "gui/Black 50.png"
+image black100 = "gui/Black 100.png"
+
+#Peter sprites
+
+image P 1Blank_Flat = "sprite/peter/P 1Blank_Flat.png"
+
+image P 2Panic_Open = "sprite/peter/P 2Panic_Open.png"
+
+image P 3Closed_Grit = "sprite/peter/P 3Closed_Grit.png"
+
+
 
 #ghost angel
 image ghost angels = "sprite/ghost angels.png"
@@ -1226,7 +1243,9 @@ image ghost angel scream2 = "sprite/ghost angel scream2.png"
 
 
 
+#Peter test xd
 
+image Peter = "sprite/Peter sprite.png"
 
 
 
